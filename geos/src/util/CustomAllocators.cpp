@@ -45,14 +45,14 @@ setFreer(GEOSFreer nf)
 }
 }
 
-void*
-operator new (std::size_t size, const std::nothrow_t&) throw () {
-        //std::cout << "...new(" << size << ") called" << std::endl;
-        return geos::util::CustomAllocators::geos_alloc(size);
-}
-
-void operator delete (void *ptr) throw () {
-        //std::cout << "...delete(" << ptr << ") called" << std::endl;
-        if ( ptr ) geos::util::CustomAllocators::geos_free(ptr);
-}
+//void*
+//operator new (std::size_t size, const std::nothrow_t&) throw () {
+//        //std::cout << "...new(" << size << ") called" << std::endl;
+//        return geos::util::CustomAllocators::geos_alloc(size);
+//}
+//
+//void operator delete (void *ptr) throw () {
+//        //std::cout << "...delete(" << ptr << ") called" << std::endl;
+//        if ( ptr ) geos::util::CustomAllocators::geos_free(ptr);
+//}
 
