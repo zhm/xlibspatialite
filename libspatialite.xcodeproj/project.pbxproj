@@ -7,6 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33CF4BF216785ECB009A6830 /* gg_sqlaux.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B4D16785ECB009A6830 /* gg_sqlaux.c */; };
+		33CF4BF316785ECB009A6830 /* gg_utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B4E16785ECB009A6830 /* gg_utf8.c */; };
+		33CF4BF416785ECB009A6830 /* gaia_exif.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B5216785ECB009A6830 /* gaia_exif.c */; };
+		33CF4BFE16785ECB009A6830 /* gg_advanced.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B6316785ECB009A6830 /* gg_advanced.c */; };
+		33CF4BFF16785ECB009A6830 /* gg_endian.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B6416785ECB009A6830 /* gg_endian.c */; };
+		33CF4C0016785ECB009A6830 /* gg_ewkt.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B6516785ECB009A6830 /* gg_ewkt.c */; };
+		33CF4C0116785ECB009A6830 /* gg_extras.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B6616785ECB009A6830 /* gg_extras.c */; };
+		33CF4C0216785ECB009A6830 /* gg_geodesic.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B6716785ECB009A6830 /* gg_geodesic.c */; };
+		33CF4C0316785ECB009A6830 /* gg_geoJSON.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B6816785ECB009A6830 /* gg_geoJSON.c */; };
+		33CF4C0416785ECB009A6830 /* gg_geometries.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B6916785ECB009A6830 /* gg_geometries.c */; };
+		33CF4C0516785ECB009A6830 /* gg_geoscvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B6A16785ECB009A6830 /* gg_geoscvt.c */; };
+		33CF4C0616785ECB009A6830 /* gg_gml.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B6B16785ECB009A6830 /* gg_gml.c */; };
+		33CF4C0716785ECB009A6830 /* gg_kml.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B6C16785ECB009A6830 /* gg_kml.c */; };
+		33CF4C0816785ECB009A6830 /* gg_lwgeom.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B6D16785ECB009A6830 /* gg_lwgeom.c */; };
+		33CF4C0916785ECB009A6830 /* gg_relations.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B6E16785ECB009A6830 /* gg_relations.c */; };
+		33CF4C0A16785ECB009A6830 /* gg_shape.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B6F16785ECB009A6830 /* gg_shape.c */; };
+		33CF4C0B16785ECB009A6830 /* gg_transform.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B7016785ECB009A6830 /* gg_transform.c */; };
+		33CF4C0C16785ECB009A6830 /* gg_vanuatu.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B7116785ECB009A6830 /* gg_vanuatu.c */; };
+		33CF4C0D16785ECB009A6830 /* gg_voronoj.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B7216785ECB009A6830 /* gg_voronoj.c */; };
+		33CF4C0E16785ECB009A6830 /* gg_wkb.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B7316785ECB009A6830 /* gg_wkb.c */; };
+		33CF4C0F16785ECB009A6830 /* gg_wkt.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B7416785ECB009A6830 /* gg_wkt.c */; };
+		33CF4C3116785ECB009A6830 /* shapefiles.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BA816785ECB009A6830 /* shapefiles.c */; };
+		33CF4C3216785ECB009A6830 /* mbrcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BAC16785ECB009A6830 /* mbrcache.c */; };
+		33CF4C3316785ECB009A6830 /* metatables.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BAD16785ECB009A6830 /* metatables.c */; };
+		33CF4C3416785ECB009A6830 /* spatialite.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BAE16785ECB009A6830 /* spatialite.c */; };
+		33CF4C3516785ECB009A6830 /* statistics.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BAF16785ECB009A6830 /* statistics.c */; };
+		33CF4C3616785ECB009A6830 /* virtualdbf.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BB016785ECB009A6830 /* virtualdbf.c */; };
+		33CF4C3716785ECB009A6830 /* virtualfdo.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BB116785ECB009A6830 /* virtualfdo.c */; };
+		33CF4C3816785ECB009A6830 /* virtualnetwork.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BB216785ECB009A6830 /* virtualnetwork.c */; };
+		33CF4C3916785ECB009A6830 /* virtualshape.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BB316785ECB009A6830 /* virtualshape.c */; };
+		33CF4C3A16785ECB009A6830 /* virtualspatialindex.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BB416785ECB009A6830 /* virtualspatialindex.c */; };
+		33CF4C3B16785ECB009A6830 /* virtualXL.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BB516785ECB009A6830 /* virtualXL.c */; };
+		33CF4C3C16785ECB009A6830 /* epsg_inlined_00.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BB716785ECB009A6830 /* epsg_inlined_00.c */; };
+		33CF4C3D16785ECB009A6830 /* epsg_inlined_01.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BB816785ECB009A6830 /* epsg_inlined_01.c */; };
+		33CF4C3E16785ECB009A6830 /* epsg_inlined_02.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BB916785ECB009A6830 /* epsg_inlined_02.c */; };
+		33CF4C3F16785ECB009A6830 /* epsg_inlined_03.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BBA16785ECB009A6830 /* epsg_inlined_03.c */; };
+		33CF4C4016785ECB009A6830 /* epsg_inlined_04.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BBB16785ECB009A6830 /* epsg_inlined_04.c */; };
+		33CF4C4116785ECB009A6830 /* epsg_inlined_05.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BBC16785ECB009A6830 /* epsg_inlined_05.c */; };
+		33CF4C4216785ECB009A6830 /* epsg_inlined_06.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BBD16785ECB009A6830 /* epsg_inlined_06.c */; };
+		33CF4C4316785ECB009A6830 /* epsg_inlined_07.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BBE16785ECB009A6830 /* epsg_inlined_07.c */; };
+		33CF4C4416785ECB009A6830 /* epsg_inlined_08.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BBF16785ECB009A6830 /* epsg_inlined_08.c */; };
+		33CF4C4516785ECB009A6830 /* epsg_inlined_09.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BC016785ECB009A6830 /* epsg_inlined_09.c */; };
+		33CF4C4616785ECB009A6830 /* epsg_inlined_10.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BC116785ECB009A6830 /* epsg_inlined_10.c */; };
+		33CF4C4716785ECB009A6830 /* epsg_inlined_11.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BC216785ECB009A6830 /* epsg_inlined_11.c */; };
+		33CF4C4816785ECB009A6830 /* epsg_inlined_12.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BC316785ECB009A6830 /* epsg_inlined_12.c */; };
+		33CF4C4916785ECB009A6830 /* epsg_inlined_13.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BC416785ECB009A6830 /* epsg_inlined_13.c */; };
+		33CF4C4A16785ECB009A6830 /* epsg_inlined_14.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BC516785ECB009A6830 /* epsg_inlined_14.c */; };
+		33CF4C4B16785ECB009A6830 /* epsg_inlined_15.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BC616785ECB009A6830 /* epsg_inlined_15.c */; };
+		33CF4C4C16785ECB009A6830 /* epsg_inlined_16.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BC716785ECB009A6830 /* epsg_inlined_16.c */; };
+		33CF4C4D16785ECB009A6830 /* epsg_inlined_17.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BC816785ECB009A6830 /* epsg_inlined_17.c */; };
+		33CF4C4E16785ECB009A6830 /* epsg_inlined_18.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BC916785ECB009A6830 /* epsg_inlined_18.c */; };
+		33CF4C4F16785ECB009A6830 /* epsg_inlined_19.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BCA16785ECB009A6830 /* epsg_inlined_19.c */; };
+		33CF4C5016785ECB009A6830 /* epsg_inlined_20.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BCB16785ECB009A6830 /* epsg_inlined_20.c */; };
+		33CF4C5116785ECB009A6830 /* epsg_inlined_21.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BCC16785ECB009A6830 /* epsg_inlined_21.c */; };
+		33CF4C5216785ECB009A6830 /* epsg_inlined_22.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BCD16785ECB009A6830 /* epsg_inlined_22.c */; };
+		33CF4C5316785ECB009A6830 /* epsg_inlined_23.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BCE16785ECB009A6830 /* epsg_inlined_23.c */; };
+		33CF4C5416785ECB009A6830 /* epsg_inlined_24.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BCF16785ECB009A6830 /* epsg_inlined_24.c */; };
+		33CF4C5516785ECB009A6830 /* epsg_inlined_25.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BD016785ECB009A6830 /* epsg_inlined_25.c */; };
+		33CF4C5616785ECB009A6830 /* epsg_inlined_26.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BD116785ECB009A6830 /* epsg_inlined_26.c */; };
+		33CF4C5716785ECB009A6830 /* epsg_inlined_27.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BD216785ECB009A6830 /* epsg_inlined_27.c */; };
+		33CF4C5816785ECB009A6830 /* epsg_inlined_28.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BD316785ECB009A6830 /* epsg_inlined_28.c */; };
+		33CF4C5916785ECB009A6830 /* epsg_inlined_29.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BD416785ECB009A6830 /* epsg_inlined_29.c */; };
+		33CF4C5A16785ECB009A6830 /* epsg_inlined_30.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BD516785ECB009A6830 /* epsg_inlined_30.c */; };
+		33CF4C5B16785ECB009A6830 /* epsg_inlined_31.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BD616785ECB009A6830 /* epsg_inlined_31.c */; };
+		33CF4C5C16785ECB009A6830 /* epsg_inlined_32.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BD716785ECB009A6830 /* epsg_inlined_32.c */; };
+		33CF4C5D16785ECB009A6830 /* epsg_inlined_33.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BD816785ECB009A6830 /* epsg_inlined_33.c */; };
+		33CF4C5E16785ECB009A6830 /* epsg_inlined_34.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BD916785ECB009A6830 /* epsg_inlined_34.c */; };
+		33CF4C5F16785ECB009A6830 /* epsg_inlined_35.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BDA16785ECB009A6830 /* epsg_inlined_35.c */; };
+		33CF4C6016785ECB009A6830 /* epsg_inlined_36.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BDB16785ECB009A6830 /* epsg_inlined_36.c */; };
+		33CF4C6116785ECB009A6830 /* epsg_inlined_37.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BDC16785ECB009A6830 /* epsg_inlined_37.c */; };
+		33CF4C6216785ECB009A6830 /* epsg_inlined_38.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BDD16785ECB009A6830 /* epsg_inlined_38.c */; };
+		33CF4C6316785ECB009A6830 /* epsg_inlined_39.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BDE16785ECB009A6830 /* epsg_inlined_39.c */; };
+		33CF4C6416785ECB009A6830 /* epsg_inlined_40.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BDF16785ECB009A6830 /* epsg_inlined_40.c */; };
+		33CF4C6516785ECB009A6830 /* epsg_inlined_extra.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BE016785ECB009A6830 /* epsg_inlined_extra.c */; };
+		33CF4C6616785ECB009A6830 /* epsg_inlined_prussian.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BE116785ECB009A6830 /* epsg_inlined_prussian.c */; };
+		33CF4C6716785ECB009A6830 /* epsg_inlined_wgs84_00.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BE216785ECB009A6830 /* epsg_inlined_wgs84_00.c */; };
+		33CF4C6816785ECB009A6830 /* epsg_inlined_wgs84_01.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BE316785ECB009A6830 /* epsg_inlined_wgs84_01.c */; };
+		33CF4C6916785ECB009A6830 /* auto_epsg.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BE516785ECB009A6830 /* auto_epsg.c */; };
+		33CF4C6A16785ECB009A6830 /* srs_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BEB16785ECB009A6830 /* srs_init.c */; };
+		33CF4C6B16785ECB009A6830 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BED16785ECB009A6830 /* version.c */; };
+		33CF4C6C16785ECB009A6830 /* virtualtext.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4BF116785ECB009A6830 /* virtualtext.c */; };
+		33CF4C72167868AD009A6830 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4C71167868AD009A6830 /* config.h */; };
+		33CF4EF616786C03009A6830 /* box2d.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4E9116786C03009A6830 /* box2d.c */; };
+		33CF4F1316786C03009A6830 /* g_box.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EB116786C03009A6830 /* g_box.c */; };
+		33CF4F1416786C03009A6830 /* g_serialized.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EB216786C03009A6830 /* g_serialized.c */; };
+		33CF4F1516786C03009A6830 /* g_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EB416786C03009A6830 /* g_util.c */; };
+		33CF4F1616786C03009A6830 /* liblwgeom_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EB616786C03009A6830 /* liblwgeom_internal.h */; };
+		33CF4F1716786C03009A6830 /* libtgeom.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EB716786C03009A6830 /* libtgeom.c */; };
+		33CF4F1816786C03009A6830 /* libtgeom.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EB816786C03009A6830 /* libtgeom.h */; };
+		33CF4F1916786C03009A6830 /* lwalgorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EB916786C03009A6830 /* lwalgorithm.c */; };
+		33CF4F1A16786C03009A6830 /* lwcircstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EBA16786C03009A6830 /* lwcircstring.c */; };
+		33CF4F1B16786C03009A6830 /* lwcollection.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EBB16786C03009A6830 /* lwcollection.c */; };
+		33CF4F1C16786C03009A6830 /* lwcompound.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EBC16786C03009A6830 /* lwcompound.c */; };
+		33CF4F1D16786C03009A6830 /* lwcurvepoly.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EBD16786C03009A6830 /* lwcurvepoly.c */; };
+		33CF4F1E16786C03009A6830 /* lwgeodetic.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EBE16786C03009A6830 /* lwgeodetic.c */; };
+		33CF4F1F16786C03009A6830 /* lwgeodetic.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EBF16786C03009A6830 /* lwgeodetic.h */; };
+		33CF4F2016786C03009A6830 /* lwgeom.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC016786C03009A6830 /* lwgeom.c */; };
+		33CF4F2116786C03009A6830 /* lwgeom_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC116786C03009A6830 /* lwgeom_api.c */; };
+		33CF4F2216786C03009A6830 /* lwgeom_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC216786C03009A6830 /* lwgeom_debug.c */; };
+		33CF4F2316786C03009A6830 /* lwgeom_geos.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC316786C03009A6830 /* lwgeom_geos.c */; };
+		33CF4F2416786C03009A6830 /* lwgeom_geos.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EC416786C03009A6830 /* lwgeom_geos.h */; };
+		33CF4F2516786C03009A6830 /* lwgeom_geos_clean.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC516786C03009A6830 /* lwgeom_geos_clean.c */; };
+		33CF4F2616786C03009A6830 /* lwgeom_geos_node.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC616786C03009A6830 /* lwgeom_geos_node.c */; };
+		33CF4F2716786C03009A6830 /* lwgeom_geos_split.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC716786C03009A6830 /* lwgeom_geos_split.c */; };
+		33CF4F2816786C03009A6830 /* lwgeom_log.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EC816786C03009A6830 /* lwgeom_log.h */; };
+		33CF4F2916786C03009A6830 /* lwgeom_transform.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC916786C03009A6830 /* lwgeom_transform.c */; };
+		33CF4F2A16786C03009A6830 /* lwhomogenize.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ECA16786C03009A6830 /* lwhomogenize.c */; };
+		33CF4F2B16786C03009A6830 /* lwin_wkb.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ECB16786C03009A6830 /* lwin_wkb.c */; };
+		33CF4F2C16786C03009A6830 /* lwin_wkt.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ECC16786C03009A6830 /* lwin_wkt.c */; };
+		33CF4F2D16786C03009A6830 /* lwin_wkt.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4ECD16786C03009A6830 /* lwin_wkt.h */; };
+		33CF4F2E16786C03009A6830 /* lwin_wkt_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ECE16786C03009A6830 /* lwin_wkt_lex.c */; };
+		33CF4F3016786C03009A6830 /* lwin_wkt_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED016786C03009A6830 /* lwin_wkt_parse.c */; };
+		33CF4F3116786C03009A6830 /* lwin_wkt_parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4ED116786C03009A6830 /* lwin_wkt_parse.h */; };
+		33CF4F3316786C03009A6830 /* lwline.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED316786C03009A6830 /* lwline.c */; };
+		33CF4F3416786C03009A6830 /* lwlinearreferencing.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED416786C03009A6830 /* lwlinearreferencing.c */; };
+		33CF4F3516786C03009A6830 /* lwmcurve.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED516786C03009A6830 /* lwmcurve.c */; };
+		33CF4F3616786C03009A6830 /* lwmline.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED616786C03009A6830 /* lwmline.c */; };
+		33CF4F3716786C03009A6830 /* lwmpoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED716786C03009A6830 /* lwmpoint.c */; };
+		33CF4F3816786C03009A6830 /* lwmpoly.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED816786C03009A6830 /* lwmpoly.c */; };
+		33CF4F3916786C03009A6830 /* lwmsurface.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED916786C03009A6830 /* lwmsurface.c */; };
+		33CF4F3A16786C03009A6830 /* lwout_geojson.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EDA16786C03009A6830 /* lwout_geojson.c */; };
+		33CF4F3B16786C03009A6830 /* lwout_gml.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EDB16786C03009A6830 /* lwout_gml.c */; };
+		33CF4F3C16786C03009A6830 /* lwout_kml.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EDC16786C03009A6830 /* lwout_kml.c */; };
+		33CF4F3D16786C03009A6830 /* lwout_svg.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EDD16786C03009A6830 /* lwout_svg.c */; };
+		33CF4F3E16786C03009A6830 /* lwout_wkb.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EDE16786C03009A6830 /* lwout_wkb.c */; };
+		33CF4F3F16786C03009A6830 /* lwout_wkt.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EDF16786C03009A6830 /* lwout_wkt.c */; };
+		33CF4F4016786C03009A6830 /* lwout_x3d.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE016786C03009A6830 /* lwout_x3d.c */; };
+		33CF4F4116786C03009A6830 /* lwpoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE116786C03009A6830 /* lwpoint.c */; };
+		33CF4F4216786C03009A6830 /* lwpoly.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE216786C03009A6830 /* lwpoly.c */; };
+		33CF4F4316786C03009A6830 /* lwprint.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE316786C03009A6830 /* lwprint.c */; };
+		33CF4F4416786C03009A6830 /* lwpsurface.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE416786C03009A6830 /* lwpsurface.c */; };
+		33CF4F4516786C03009A6830 /* lwsegmentize.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE516786C03009A6830 /* lwsegmentize.c */; };
+		33CF4F4616786C03009A6830 /* lwspheroid.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE616786C03009A6830 /* lwspheroid.c */; };
+		33CF4F4716786C03009A6830 /* lwtin.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE716786C03009A6830 /* lwtin.c */; };
+		33CF4F4816786C03009A6830 /* lwtree.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE816786C03009A6830 /* lwtree.c */; };
+		33CF4F4916786C03009A6830 /* lwtree.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EE916786C03009A6830 /* lwtree.h */; };
+		33CF4F4A16786C03009A6830 /* lwtriangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EEA16786C03009A6830 /* lwtriangle.c */; };
+		33CF4F4B16786C03009A6830 /* lwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EEB16786C03009A6830 /* lwutil.c */; };
+		33CF4F4C16786C03009A6830 /* measures.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EED16786C03009A6830 /* measures.c */; };
+		33CF4F4D16786C03009A6830 /* measures.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EEE16786C03009A6830 /* measures.h */; };
+		33CF4F4E16786C03009A6830 /* measures3d.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EEF16786C03009A6830 /* measures3d.c */; };
+		33CF4F4F16786C03009A6830 /* measures3d.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EF016786C03009A6830 /* measures3d.h */; };
+		33CF4F5016786C03009A6830 /* ptarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EF116786C03009A6830 /* ptarray.c */; };
+		33CF4F5116786C03009A6830 /* snprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EF216786C03009A6830 /* snprintf.c */; };
+		33CF4F5216786C03009A6830 /* stringbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EF316786C03009A6830 /* stringbuffer.c */; };
+		33CF4F5316786C03009A6830 /* stringbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EF416786C03009A6830 /* stringbuffer.h */; };
+		33CF4F5416786C03009A6830 /* vsprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EF516786C03009A6830 /* vsprintf.c */; };
+		33CF4F5A16786D97009A6830 /* liblwgeom.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4F5916786D97009A6830 /* liblwgeom.h */; };
+		33CF4F5C16786D9F009A6830 /* postgis_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4F5B16786D9F009A6830 /* postgis_config.h */; };
 		3F7300901566EEB100408390 /* geos_c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F73FEA81566EEB000408390 /* geos_c.cpp */; };
 		3F7300921566EEB100408390 /* geos_ts_c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F73FEAB1566EEB000408390 /* geos_ts_c.cpp */; };
 		3F7305371566EF3D00408390 /* aasincos.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F73048C1566EF3D00408390 /* aasincos.c */; };
@@ -438,7 +587,6 @@
 		3F73088C1566F8B600408390 /* GeometricShapeFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F73077A1566F8B600408390 /* GeometricShapeFactory.cpp */; };
 		3F73088D1566F8B600408390 /* math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F73077D1566F8B600408390 /* math.cpp */; };
 		3F73088E1566F8B600408390 /* Profiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F73077E1566F8B600408390 /* Profiler.cpp */; };
-		3F73F8A81566E68F00408390 /* spatialite.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F73F8A61566E68F00408390 /* spatialite.c */; };
 		3F73F8AB1566E74400408390 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73F8AA1566E74300408390 /* libiconv.dylib */; };
 		3F73F8AD1566E76400408390 /* libcharset.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73F8AC1566E76400408390 /* libcharset.dylib */; };
 		3F73FE801566EA8E00408390 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73FE7F1566EA8E00408390 /* libstdc++.dylib */; };
@@ -446,6 +594,178 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33CF4B4D16785ECB009A6830 /* gg_sqlaux.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_sqlaux.c; sourceTree = "<group>"; };
+		33CF4B4E16785ECB009A6830 /* gg_utf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_utf8.c; sourceTree = "<group>"; };
+		33CF4B4F16785ECB009A6830 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		33CF4B5016785ECB009A6830 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		33CF4B5216785ECB009A6830 /* gaia_exif.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gaia_exif.c; sourceTree = "<group>"; };
+		33CF4B5316785ECB009A6830 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		33CF4B5416785ECB009A6830 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		33CF4B6316785ECB009A6830 /* gg_advanced.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_advanced.c; sourceTree = "<group>"; };
+		33CF4B6416785ECB009A6830 /* gg_endian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_endian.c; sourceTree = "<group>"; };
+		33CF4B6516785ECB009A6830 /* gg_ewkt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_ewkt.c; sourceTree = "<group>"; };
+		33CF4B6616785ECB009A6830 /* gg_extras.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_extras.c; sourceTree = "<group>"; };
+		33CF4B6716785ECB009A6830 /* gg_geodesic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_geodesic.c; sourceTree = "<group>"; };
+		33CF4B6816785ECB009A6830 /* gg_geoJSON.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_geoJSON.c; sourceTree = "<group>"; };
+		33CF4B6916785ECB009A6830 /* gg_geometries.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_geometries.c; sourceTree = "<group>"; };
+		33CF4B6A16785ECB009A6830 /* gg_geoscvt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_geoscvt.c; sourceTree = "<group>"; };
+		33CF4B6B16785ECB009A6830 /* gg_gml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_gml.c; sourceTree = "<group>"; };
+		33CF4B6C16785ECB009A6830 /* gg_kml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_kml.c; sourceTree = "<group>"; };
+		33CF4B6D16785ECB009A6830 /* gg_lwgeom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_lwgeom.c; sourceTree = "<group>"; };
+		33CF4B6E16785ECB009A6830 /* gg_relations.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_relations.c; sourceTree = "<group>"; };
+		33CF4B6F16785ECB009A6830 /* gg_shape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_shape.c; sourceTree = "<group>"; };
+		33CF4B7016785ECB009A6830 /* gg_transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_transform.c; sourceTree = "<group>"; };
+		33CF4B7116785ECB009A6830 /* gg_vanuatu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_vanuatu.c; sourceTree = "<group>"; };
+		33CF4B7216785ECB009A6830 /* gg_voronoj.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_voronoj.c; sourceTree = "<group>"; };
+		33CF4B7316785ECB009A6830 /* gg_wkb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_wkb.c; sourceTree = "<group>"; };
+		33CF4B7416785ECB009A6830 /* gg_wkt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_wkt.c; sourceTree = "<group>"; };
+		33CF4B8C16785ECB009A6830 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		33CF4B8D16785ECB009A6830 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		33CF4BA316785ECB009A6830 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		33CF4BA416785ECB009A6830 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		33CF4BA616785ECB009A6830 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		33CF4BA716785ECB009A6830 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		33CF4BA816785ECB009A6830 /* shapefiles.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shapefiles.c; sourceTree = "<group>"; };
+		33CF4BAA16785ECB009A6830 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		33CF4BAB16785ECB009A6830 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		33CF4BAC16785ECB009A6830 /* mbrcache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mbrcache.c; sourceTree = "<group>"; };
+		33CF4BAD16785ECB009A6830 /* metatables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = metatables.c; sourceTree = "<group>"; };
+		33CF4BAE16785ECB009A6830 /* spatialite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spatialite.c; sourceTree = "<group>"; };
+		33CF4BAF16785ECB009A6830 /* statistics.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = statistics.c; sourceTree = "<group>"; };
+		33CF4BB016785ECB009A6830 /* virtualdbf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = virtualdbf.c; sourceTree = "<group>"; };
+		33CF4BB116785ECB009A6830 /* virtualfdo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = virtualfdo.c; sourceTree = "<group>"; };
+		33CF4BB216785ECB009A6830 /* virtualnetwork.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = virtualnetwork.c; sourceTree = "<group>"; };
+		33CF4BB316785ECB009A6830 /* virtualshape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = virtualshape.c; sourceTree = "<group>"; };
+		33CF4BB416785ECB009A6830 /* virtualspatialindex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = virtualspatialindex.c; sourceTree = "<group>"; };
+		33CF4BB516785ECB009A6830 /* virtualXL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = virtualXL.c; sourceTree = "<group>"; };
+		33CF4BB716785ECB009A6830 /* epsg_inlined_00.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_00.c; sourceTree = "<group>"; };
+		33CF4BB816785ECB009A6830 /* epsg_inlined_01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_01.c; sourceTree = "<group>"; };
+		33CF4BB916785ECB009A6830 /* epsg_inlined_02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_02.c; sourceTree = "<group>"; };
+		33CF4BBA16785ECB009A6830 /* epsg_inlined_03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_03.c; sourceTree = "<group>"; };
+		33CF4BBB16785ECB009A6830 /* epsg_inlined_04.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_04.c; sourceTree = "<group>"; };
+		33CF4BBC16785ECB009A6830 /* epsg_inlined_05.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_05.c; sourceTree = "<group>"; };
+		33CF4BBD16785ECB009A6830 /* epsg_inlined_06.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_06.c; sourceTree = "<group>"; };
+		33CF4BBE16785ECB009A6830 /* epsg_inlined_07.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_07.c; sourceTree = "<group>"; };
+		33CF4BBF16785ECB009A6830 /* epsg_inlined_08.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_08.c; sourceTree = "<group>"; };
+		33CF4BC016785ECB009A6830 /* epsg_inlined_09.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_09.c; sourceTree = "<group>"; };
+		33CF4BC116785ECB009A6830 /* epsg_inlined_10.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_10.c; sourceTree = "<group>"; };
+		33CF4BC216785ECB009A6830 /* epsg_inlined_11.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_11.c; sourceTree = "<group>"; };
+		33CF4BC316785ECB009A6830 /* epsg_inlined_12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_12.c; sourceTree = "<group>"; };
+		33CF4BC416785ECB009A6830 /* epsg_inlined_13.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_13.c; sourceTree = "<group>"; };
+		33CF4BC516785ECB009A6830 /* epsg_inlined_14.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_14.c; sourceTree = "<group>"; };
+		33CF4BC616785ECB009A6830 /* epsg_inlined_15.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_15.c; sourceTree = "<group>"; };
+		33CF4BC716785ECB009A6830 /* epsg_inlined_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_16.c; sourceTree = "<group>"; };
+		33CF4BC816785ECB009A6830 /* epsg_inlined_17.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_17.c; sourceTree = "<group>"; };
+		33CF4BC916785ECB009A6830 /* epsg_inlined_18.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_18.c; sourceTree = "<group>"; };
+		33CF4BCA16785ECB009A6830 /* epsg_inlined_19.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_19.c; sourceTree = "<group>"; };
+		33CF4BCB16785ECB009A6830 /* epsg_inlined_20.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_20.c; sourceTree = "<group>"; };
+		33CF4BCC16785ECB009A6830 /* epsg_inlined_21.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_21.c; sourceTree = "<group>"; };
+		33CF4BCD16785ECB009A6830 /* epsg_inlined_22.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_22.c; sourceTree = "<group>"; };
+		33CF4BCE16785ECB009A6830 /* epsg_inlined_23.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_23.c; sourceTree = "<group>"; };
+		33CF4BCF16785ECB009A6830 /* epsg_inlined_24.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_24.c; sourceTree = "<group>"; };
+		33CF4BD016785ECB009A6830 /* epsg_inlined_25.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_25.c; sourceTree = "<group>"; };
+		33CF4BD116785ECB009A6830 /* epsg_inlined_26.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_26.c; sourceTree = "<group>"; };
+		33CF4BD216785ECB009A6830 /* epsg_inlined_27.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_27.c; sourceTree = "<group>"; };
+		33CF4BD316785ECB009A6830 /* epsg_inlined_28.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_28.c; sourceTree = "<group>"; };
+		33CF4BD416785ECB009A6830 /* epsg_inlined_29.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_29.c; sourceTree = "<group>"; };
+		33CF4BD516785ECB009A6830 /* epsg_inlined_30.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_30.c; sourceTree = "<group>"; };
+		33CF4BD616785ECB009A6830 /* epsg_inlined_31.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_31.c; sourceTree = "<group>"; };
+		33CF4BD716785ECB009A6830 /* epsg_inlined_32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_32.c; sourceTree = "<group>"; };
+		33CF4BD816785ECB009A6830 /* epsg_inlined_33.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_33.c; sourceTree = "<group>"; };
+		33CF4BD916785ECB009A6830 /* epsg_inlined_34.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_34.c; sourceTree = "<group>"; };
+		33CF4BDA16785ECB009A6830 /* epsg_inlined_35.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_35.c; sourceTree = "<group>"; };
+		33CF4BDB16785ECB009A6830 /* epsg_inlined_36.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_36.c; sourceTree = "<group>"; };
+		33CF4BDC16785ECB009A6830 /* epsg_inlined_37.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_37.c; sourceTree = "<group>"; };
+		33CF4BDD16785ECB009A6830 /* epsg_inlined_38.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_38.c; sourceTree = "<group>"; };
+		33CF4BDE16785ECB009A6830 /* epsg_inlined_39.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_39.c; sourceTree = "<group>"; };
+		33CF4BDF16785ECB009A6830 /* epsg_inlined_40.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_40.c; sourceTree = "<group>"; };
+		33CF4BE016785ECB009A6830 /* epsg_inlined_extra.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_extra.c; sourceTree = "<group>"; };
+		33CF4BE116785ECB009A6830 /* epsg_inlined_prussian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_prussian.c; sourceTree = "<group>"; };
+		33CF4BE216785ECB009A6830 /* epsg_inlined_wgs84_00.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_wgs84_00.c; sourceTree = "<group>"; };
+		33CF4BE316785ECB009A6830 /* epsg_inlined_wgs84_01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = epsg_inlined_wgs84_01.c; sourceTree = "<group>"; };
+		33CF4BE516785ECB009A6830 /* auto_epsg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = auto_epsg.c; sourceTree = "<group>"; };
+		33CF4BE616785ECB009A6830 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		33CF4BE716785ECB009A6830 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		33CF4BE816785ECB009A6830 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		33CF4BE916785ECB009A6830 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		33CF4BEA16785ECB009A6830 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		33CF4BEB16785ECB009A6830 /* srs_init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = srs_init.c; sourceTree = "<group>"; };
+		33CF4BED16785ECB009A6830 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		33CF4BEF16785ECB009A6830 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		33CF4BF016785ECB009A6830 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		33CF4BF116785ECB009A6830 /* virtualtext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = virtualtext.c; sourceTree = "<group>"; };
+		33CF4C71167868AD009A6830 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = SOURCE_ROOT; };
+		33CF4E8F16786BA0009A6830 /* liblwgeom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblwgeom.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CF4E9116786C03009A6830 /* box2d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = box2d.c; sourceTree = "<group>"; };
+		33CF4EB116786C03009A6830 /* g_box.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = g_box.c; sourceTree = "<group>"; };
+		33CF4EB216786C03009A6830 /* g_serialized.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = g_serialized.c; sourceTree = "<group>"; };
+		33CF4EB316786C03009A6830 /* g_serialized.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = g_serialized.txt; sourceTree = "<group>"; };
+		33CF4EB416786C03009A6830 /* g_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = g_util.c; sourceTree = "<group>"; };
+		33CF4EB516786C03009A6830 /* liblwgeom.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = liblwgeom.h.in; sourceTree = "<group>"; };
+		33CF4EB616786C03009A6830 /* liblwgeom_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liblwgeom_internal.h; sourceTree = "<group>"; };
+		33CF4EB716786C03009A6830 /* libtgeom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libtgeom.c; sourceTree = "<group>"; };
+		33CF4EB816786C03009A6830 /* libtgeom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libtgeom.h; sourceTree = "<group>"; };
+		33CF4EB916786C03009A6830 /* lwalgorithm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwalgorithm.c; sourceTree = "<group>"; };
+		33CF4EBA16786C03009A6830 /* lwcircstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcircstring.c; sourceTree = "<group>"; };
+		33CF4EBB16786C03009A6830 /* lwcollection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcollection.c; sourceTree = "<group>"; };
+		33CF4EBC16786C03009A6830 /* lwcompound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcompound.c; sourceTree = "<group>"; };
+		33CF4EBD16786C03009A6830 /* lwcurvepoly.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcurvepoly.c; sourceTree = "<group>"; };
+		33CF4EBE16786C03009A6830 /* lwgeodetic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeodetic.c; sourceTree = "<group>"; };
+		33CF4EBF16786C03009A6830 /* lwgeodetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwgeodetic.h; sourceTree = "<group>"; };
+		33CF4EC016786C03009A6830 /* lwgeom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom.c; sourceTree = "<group>"; };
+		33CF4EC116786C03009A6830 /* lwgeom_api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_api.c; sourceTree = "<group>"; };
+		33CF4EC216786C03009A6830 /* lwgeom_debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_debug.c; sourceTree = "<group>"; };
+		33CF4EC316786C03009A6830 /* lwgeom_geos.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos.c; sourceTree = "<group>"; };
+		33CF4EC416786C03009A6830 /* lwgeom_geos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwgeom_geos.h; sourceTree = "<group>"; };
+		33CF4EC516786C03009A6830 /* lwgeom_geos_clean.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos_clean.c; sourceTree = "<group>"; };
+		33CF4EC616786C03009A6830 /* lwgeom_geos_node.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos_node.c; sourceTree = "<group>"; };
+		33CF4EC716786C03009A6830 /* lwgeom_geos_split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos_split.c; sourceTree = "<group>"; };
+		33CF4EC816786C03009A6830 /* lwgeom_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwgeom_log.h; sourceTree = "<group>"; };
+		33CF4EC916786C03009A6830 /* lwgeom_transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_transform.c; sourceTree = "<group>"; };
+		33CF4ECA16786C03009A6830 /* lwhomogenize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwhomogenize.c; sourceTree = "<group>"; };
+		33CF4ECB16786C03009A6830 /* lwin_wkb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkb.c; sourceTree = "<group>"; };
+		33CF4ECC16786C03009A6830 /* lwin_wkt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkt.c; sourceTree = "<group>"; };
+		33CF4ECD16786C03009A6830 /* lwin_wkt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwin_wkt.h; sourceTree = "<group>"; };
+		33CF4ECE16786C03009A6830 /* lwin_wkt_lex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkt_lex.c; sourceTree = "<group>"; };
+		33CF4ED016786C03009A6830 /* lwin_wkt_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkt_parse.c; sourceTree = "<group>"; };
+		33CF4ED116786C03009A6830 /* lwin_wkt_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwin_wkt_parse.h; sourceTree = "<group>"; };
+		33CF4ED316786C03009A6830 /* lwline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwline.c; sourceTree = "<group>"; };
+		33CF4ED416786C03009A6830 /* lwlinearreferencing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwlinearreferencing.c; sourceTree = "<group>"; };
+		33CF4ED516786C03009A6830 /* lwmcurve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwmcurve.c; sourceTree = "<group>"; };
+		33CF4ED616786C03009A6830 /* lwmline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwmline.c; sourceTree = "<group>"; };
+		33CF4ED716786C03009A6830 /* lwmpoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwmpoint.c; sourceTree = "<group>"; };
+		33CF4ED816786C03009A6830 /* lwmpoly.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwmpoly.c; sourceTree = "<group>"; };
+		33CF4ED916786C03009A6830 /* lwmsurface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwmsurface.c; sourceTree = "<group>"; };
+		33CF4EDA16786C03009A6830 /* lwout_geojson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_geojson.c; sourceTree = "<group>"; };
+		33CF4EDB16786C03009A6830 /* lwout_gml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_gml.c; sourceTree = "<group>"; };
+		33CF4EDC16786C03009A6830 /* lwout_kml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_kml.c; sourceTree = "<group>"; };
+		33CF4EDD16786C03009A6830 /* lwout_svg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_svg.c; sourceTree = "<group>"; };
+		33CF4EDE16786C03009A6830 /* lwout_wkb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_wkb.c; sourceTree = "<group>"; };
+		33CF4EDF16786C03009A6830 /* lwout_wkt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_wkt.c; sourceTree = "<group>"; };
+		33CF4EE016786C03009A6830 /* lwout_x3d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_x3d.c; sourceTree = "<group>"; };
+		33CF4EE116786C03009A6830 /* lwpoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwpoint.c; sourceTree = "<group>"; };
+		33CF4EE216786C03009A6830 /* lwpoly.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwpoly.c; sourceTree = "<group>"; };
+		33CF4EE316786C03009A6830 /* lwprint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwprint.c; sourceTree = "<group>"; };
+		33CF4EE416786C03009A6830 /* lwpsurface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwpsurface.c; sourceTree = "<group>"; };
+		33CF4EE516786C03009A6830 /* lwsegmentize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwsegmentize.c; sourceTree = "<group>"; };
+		33CF4EE616786C03009A6830 /* lwspheroid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwspheroid.c; sourceTree = "<group>"; };
+		33CF4EE716786C03009A6830 /* lwtin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwtin.c; sourceTree = "<group>"; };
+		33CF4EE816786C03009A6830 /* lwtree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwtree.c; sourceTree = "<group>"; };
+		33CF4EE916786C03009A6830 /* lwtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwtree.h; sourceTree = "<group>"; };
+		33CF4EEA16786C03009A6830 /* lwtriangle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwtriangle.c; sourceTree = "<group>"; };
+		33CF4EEB16786C03009A6830 /* lwutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwutil.c; sourceTree = "<group>"; };
+		33CF4EEC16786C03009A6830 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		33CF4EED16786C03009A6830 /* measures.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = measures.c; sourceTree = "<group>"; };
+		33CF4EEE16786C03009A6830 /* measures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measures.h; sourceTree = "<group>"; };
+		33CF4EEF16786C03009A6830 /* measures3d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = measures3d.c; sourceTree = "<group>"; };
+		33CF4EF016786C03009A6830 /* measures3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measures3d.h; sourceTree = "<group>"; };
+		33CF4EF116786C03009A6830 /* ptarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ptarray.c; sourceTree = "<group>"; };
+		33CF4EF216786C03009A6830 /* snprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = snprintf.c; sourceTree = "<group>"; };
+		33CF4EF316786C03009A6830 /* stringbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stringbuffer.c; sourceTree = "<group>"; };
+		33CF4EF416786C03009A6830 /* stringbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringbuffer.h; sourceTree = "<group>"; };
+		33CF4EF516786C03009A6830 /* vsprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vsprintf.c; sourceTree = "<group>"; };
+		33CF4F5916786D97009A6830 /* liblwgeom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liblwgeom.h; sourceTree = "<group>"; };
+		33CF4F5B16786D9F009A6830 /* postgis_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = postgis_config.h; sourceTree = "<group>"; };
 		3F2878081567AF700076C106 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		3F7304811566EEEA00408390 /* libproj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libproj.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F73048C1566EF3D00408390 /* aasincos.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aasincos.c; sourceTree = "<group>"; };
@@ -1409,23 +1729,10 @@
 		3F730A6E1566F96200408390 /* geos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geos.h; sourceTree = "<group>"; };
 		3F730A6F1566F96200408390 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
 		3F730A701566F96200408390 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
-		3F73F8761566E66900408390 /* liblibspatialite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibspatialite.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F73F8761566E66900408390 /* libspatialite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libspatialite.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F73F87D1566E66900408390 /* libspatialite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libspatialite-Prefix.pch"; sourceTree = "<group>"; };
-		3F73F88A1566E67900408390 /* gaiaaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gaiaaux.h; sourceTree = "<group>"; };
-		3F73F88B1566E67900408390 /* gaiaexif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gaiaexif.h; sourceTree = "<group>"; };
-		3F73F88C1566E67900408390 /* gaiageo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gaiageo.h; sourceTree = "<group>"; };
-		3F73F88D1566E67900408390 /* gg_advanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_advanced.h; sourceTree = "<group>"; };
-		3F73F88E1566E67900408390 /* gg_const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_const.h; sourceTree = "<group>"; };
-		3F73F88F1566E67900408390 /* gg_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_core.h; sourceTree = "<group>"; };
-		3F73F8901566E67900408390 /* gg_dynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_dynamic.h; sourceTree = "<group>"; };
-		3F73F8911566E67900408390 /* gg_formats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_formats.h; sourceTree = "<group>"; };
-		3F73F8921566E67900408390 /* gg_mbr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_mbr.h; sourceTree = "<group>"; };
-		3F73F8931566E67900408390 /* gg_structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_structs.h; sourceTree = "<group>"; };
-		3F73F8941566E67900408390 /* spatialite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spatialite.h; sourceTree = "<group>"; };
 		3F73F8951566E67900408390 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
 		3F73F8961566E67900408390 /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ext.h; sourceTree = "<group>"; };
-		3F73F8971566E67900408390 /* spatialite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spatialite.h; sourceTree = "<group>"; };
-		3F73F8A61566E68F00408390 /* spatialite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spatialite.c; path = ../spatialite.c; sourceTree = "<group>"; };
 		3F73F8A71566E68F00408390 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sqlite3.c; path = ../sqlite3.c; sourceTree = "<group>"; };
 		3F73F8AA1566E74300408390 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		3F73F8AC1566E76400408390 /* libcharset.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcharset.dylib; path = usr/lib/libcharset.dylib; sourceTree = SDKROOT; };
@@ -1442,6 +1749,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		33CF4E8A16786BA0009A6830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F73047E1566EEEA00408390 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1469,6 +1783,262 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33CF4B4B16785ECB009A6830 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				33CF4B4C16785ECB009A6830 /* gaiaaux */,
+				33CF4B5116785ECB009A6830 /* gaiaexif */,
+				33CF4B5516785ECB009A6830 /* gaiageo */,
+				33CF4BA316785ECB009A6830 /* Makefile.am */,
+				33CF4BA416785ECB009A6830 /* Makefile.in */,
+				33CF4BA516785ECB009A6830 /* shapefiles */,
+				33CF4BA916785ECB009A6830 /* spatialite */,
+				33CF4BB616785ECB009A6830 /* srsinit */,
+				33CF4BEC16785ECB009A6830 /* versioninfo */,
+				33CF4BEE16785ECB009A6830 /* virtualtext */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		33CF4B4C16785ECB009A6830 /* gaiaaux */ = {
+			isa = PBXGroup;
+			children = (
+				33CF4B4D16785ECB009A6830 /* gg_sqlaux.c */,
+				33CF4B4E16785ECB009A6830 /* gg_utf8.c */,
+				33CF4B4F16785ECB009A6830 /* Makefile.am */,
+				33CF4B5016785ECB009A6830 /* Makefile.in */,
+			);
+			path = gaiaaux;
+			sourceTree = "<group>";
+		};
+		33CF4B5116785ECB009A6830 /* gaiaexif */ = {
+			isa = PBXGroup;
+			children = (
+				33CF4B5216785ECB009A6830 /* gaia_exif.c */,
+				33CF4B5316785ECB009A6830 /* Makefile.am */,
+				33CF4B5416785ECB009A6830 /* Makefile.in */,
+			);
+			path = gaiaexif;
+			sourceTree = "<group>";
+		};
+		33CF4B5516785ECB009A6830 /* gaiageo */ = {
+			isa = PBXGroup;
+			children = (
+				33CF4B6316785ECB009A6830 /* gg_advanced.c */,
+				33CF4B6416785ECB009A6830 /* gg_endian.c */,
+				33CF4B6516785ECB009A6830 /* gg_ewkt.c */,
+				33CF4B6616785ECB009A6830 /* gg_extras.c */,
+				33CF4B6716785ECB009A6830 /* gg_geodesic.c */,
+				33CF4B6816785ECB009A6830 /* gg_geoJSON.c */,
+				33CF4B6916785ECB009A6830 /* gg_geometries.c */,
+				33CF4B6A16785ECB009A6830 /* gg_geoscvt.c */,
+				33CF4B6B16785ECB009A6830 /* gg_gml.c */,
+				33CF4B6C16785ECB009A6830 /* gg_kml.c */,
+				33CF4B6D16785ECB009A6830 /* gg_lwgeom.c */,
+				33CF4B6E16785ECB009A6830 /* gg_relations.c */,
+				33CF4B6F16785ECB009A6830 /* gg_shape.c */,
+				33CF4B7016785ECB009A6830 /* gg_transform.c */,
+				33CF4B7116785ECB009A6830 /* gg_vanuatu.c */,
+				33CF4B7216785ECB009A6830 /* gg_voronoj.c */,
+				33CF4B7316785ECB009A6830 /* gg_wkb.c */,
+				33CF4B7416785ECB009A6830 /* gg_wkt.c */,
+				33CF4B8C16785ECB009A6830 /* Makefile.am */,
+				33CF4B8D16785ECB009A6830 /* Makefile.in */,
+			);
+			path = gaiageo;
+			sourceTree = "<group>";
+		};
+		33CF4BA516785ECB009A6830 /* shapefiles */ = {
+			isa = PBXGroup;
+			children = (
+				33CF4BA616785ECB009A6830 /* Makefile.am */,
+				33CF4BA716785ECB009A6830 /* Makefile.in */,
+				33CF4BA816785ECB009A6830 /* shapefiles.c */,
+			);
+			path = shapefiles;
+			sourceTree = "<group>";
+		};
+		33CF4BA916785ECB009A6830 /* spatialite */ = {
+			isa = PBXGroup;
+			children = (
+				33CF4BAA16785ECB009A6830 /* Makefile.am */,
+				33CF4BAB16785ECB009A6830 /* Makefile.in */,
+				33CF4BAC16785ECB009A6830 /* mbrcache.c */,
+				33CF4BAD16785ECB009A6830 /* metatables.c */,
+				33CF4BAE16785ECB009A6830 /* spatialite.c */,
+				33CF4BAF16785ECB009A6830 /* statistics.c */,
+				33CF4BB016785ECB009A6830 /* virtualdbf.c */,
+				33CF4BB116785ECB009A6830 /* virtualfdo.c */,
+				33CF4BB216785ECB009A6830 /* virtualnetwork.c */,
+				33CF4BB316785ECB009A6830 /* virtualshape.c */,
+				33CF4BB416785ECB009A6830 /* virtualspatialindex.c */,
+				33CF4BB516785ECB009A6830 /* virtualXL.c */,
+			);
+			path = spatialite;
+			sourceTree = "<group>";
+		};
+		33CF4BB616785ECB009A6830 /* srsinit */ = {
+			isa = PBXGroup;
+			children = (
+				33CF4BB716785ECB009A6830 /* epsg_inlined_00.c */,
+				33CF4BB816785ECB009A6830 /* epsg_inlined_01.c */,
+				33CF4BB916785ECB009A6830 /* epsg_inlined_02.c */,
+				33CF4BBA16785ECB009A6830 /* epsg_inlined_03.c */,
+				33CF4BBB16785ECB009A6830 /* epsg_inlined_04.c */,
+				33CF4BBC16785ECB009A6830 /* epsg_inlined_05.c */,
+				33CF4BBD16785ECB009A6830 /* epsg_inlined_06.c */,
+				33CF4BBE16785ECB009A6830 /* epsg_inlined_07.c */,
+				33CF4BBF16785ECB009A6830 /* epsg_inlined_08.c */,
+				33CF4BC016785ECB009A6830 /* epsg_inlined_09.c */,
+				33CF4BC116785ECB009A6830 /* epsg_inlined_10.c */,
+				33CF4BC216785ECB009A6830 /* epsg_inlined_11.c */,
+				33CF4BC316785ECB009A6830 /* epsg_inlined_12.c */,
+				33CF4BC416785ECB009A6830 /* epsg_inlined_13.c */,
+				33CF4BC516785ECB009A6830 /* epsg_inlined_14.c */,
+				33CF4BC616785ECB009A6830 /* epsg_inlined_15.c */,
+				33CF4BC716785ECB009A6830 /* epsg_inlined_16.c */,
+				33CF4BC816785ECB009A6830 /* epsg_inlined_17.c */,
+				33CF4BC916785ECB009A6830 /* epsg_inlined_18.c */,
+				33CF4BCA16785ECB009A6830 /* epsg_inlined_19.c */,
+				33CF4BCB16785ECB009A6830 /* epsg_inlined_20.c */,
+				33CF4BCC16785ECB009A6830 /* epsg_inlined_21.c */,
+				33CF4BCD16785ECB009A6830 /* epsg_inlined_22.c */,
+				33CF4BCE16785ECB009A6830 /* epsg_inlined_23.c */,
+				33CF4BCF16785ECB009A6830 /* epsg_inlined_24.c */,
+				33CF4BD016785ECB009A6830 /* epsg_inlined_25.c */,
+				33CF4BD116785ECB009A6830 /* epsg_inlined_26.c */,
+				33CF4BD216785ECB009A6830 /* epsg_inlined_27.c */,
+				33CF4BD316785ECB009A6830 /* epsg_inlined_28.c */,
+				33CF4BD416785ECB009A6830 /* epsg_inlined_29.c */,
+				33CF4BD516785ECB009A6830 /* epsg_inlined_30.c */,
+				33CF4BD616785ECB009A6830 /* epsg_inlined_31.c */,
+				33CF4BD716785ECB009A6830 /* epsg_inlined_32.c */,
+				33CF4BD816785ECB009A6830 /* epsg_inlined_33.c */,
+				33CF4BD916785ECB009A6830 /* epsg_inlined_34.c */,
+				33CF4BDA16785ECB009A6830 /* epsg_inlined_35.c */,
+				33CF4BDB16785ECB009A6830 /* epsg_inlined_36.c */,
+				33CF4BDC16785ECB009A6830 /* epsg_inlined_37.c */,
+				33CF4BDD16785ECB009A6830 /* epsg_inlined_38.c */,
+				33CF4BDE16785ECB009A6830 /* epsg_inlined_39.c */,
+				33CF4BDF16785ECB009A6830 /* epsg_inlined_40.c */,
+				33CF4BE016785ECB009A6830 /* epsg_inlined_extra.c */,
+				33CF4BE116785ECB009A6830 /* epsg_inlined_prussian.c */,
+				33CF4BE216785ECB009A6830 /* epsg_inlined_wgs84_00.c */,
+				33CF4BE316785ECB009A6830 /* epsg_inlined_wgs84_01.c */,
+				33CF4BE416785ECB009A6830 /* epsg_update */,
+				33CF4BE916785ECB009A6830 /* Makefile.am */,
+				33CF4BEA16785ECB009A6830 /* Makefile.in */,
+				33CF4BEB16785ECB009A6830 /* srs_init.c */,
+			);
+			path = srsinit;
+			sourceTree = "<group>";
+		};
+		33CF4BE416785ECB009A6830 /* epsg_update */ = {
+			isa = PBXGroup;
+			children = (
+				33CF4BE516785ECB009A6830 /* auto_epsg.c */,
+				33CF4BE616785ECB009A6830 /* Makefile.am */,
+				33CF4BE716785ECB009A6830 /* Makefile.in */,
+				33CF4BE816785ECB009A6830 /* README.txt */,
+			);
+			path = epsg_update;
+			sourceTree = "<group>";
+		};
+		33CF4BEC16785ECB009A6830 /* versioninfo */ = {
+			isa = PBXGroup;
+			children = (
+				33CF4BED16785ECB009A6830 /* version.c */,
+			);
+			path = versioninfo;
+			sourceTree = "<group>";
+		};
+		33CF4BEE16785ECB009A6830 /* virtualtext */ = {
+			isa = PBXGroup;
+			children = (
+				33CF4BEF16785ECB009A6830 /* Makefile.am */,
+				33CF4BF016785ECB009A6830 /* Makefile.in */,
+				33CF4BF116785ECB009A6830 /* virtualtext.c */,
+			);
+			path = virtualtext;
+			sourceTree = "<group>";
+		};
+		33CF4E9016786C03009A6830 /* liblwgeom */ = {
+			isa = PBXGroup;
+			children = (
+				33CF4F5B16786D9F009A6830 /* postgis_config.h */,
+				33CF4F5916786D97009A6830 /* liblwgeom.h */,
+				33CF4E9116786C03009A6830 /* box2d.c */,
+				33CF4EB116786C03009A6830 /* g_box.c */,
+				33CF4EB216786C03009A6830 /* g_serialized.c */,
+				33CF4EB316786C03009A6830 /* g_serialized.txt */,
+				33CF4EB416786C03009A6830 /* g_util.c */,
+				33CF4EB516786C03009A6830 /* liblwgeom.h.in */,
+				33CF4EB616786C03009A6830 /* liblwgeom_internal.h */,
+				33CF4EB716786C03009A6830 /* libtgeom.c */,
+				33CF4EB816786C03009A6830 /* libtgeom.h */,
+				33CF4EB916786C03009A6830 /* lwalgorithm.c */,
+				33CF4EBA16786C03009A6830 /* lwcircstring.c */,
+				33CF4EBB16786C03009A6830 /* lwcollection.c */,
+				33CF4EBC16786C03009A6830 /* lwcompound.c */,
+				33CF4EBD16786C03009A6830 /* lwcurvepoly.c */,
+				33CF4EBE16786C03009A6830 /* lwgeodetic.c */,
+				33CF4EBF16786C03009A6830 /* lwgeodetic.h */,
+				33CF4EC016786C03009A6830 /* lwgeom.c */,
+				33CF4EC116786C03009A6830 /* lwgeom_api.c */,
+				33CF4EC216786C03009A6830 /* lwgeom_debug.c */,
+				33CF4EC316786C03009A6830 /* lwgeom_geos.c */,
+				33CF4EC416786C03009A6830 /* lwgeom_geos.h */,
+				33CF4EC516786C03009A6830 /* lwgeom_geos_clean.c */,
+				33CF4EC616786C03009A6830 /* lwgeom_geos_node.c */,
+				33CF4EC716786C03009A6830 /* lwgeom_geos_split.c */,
+				33CF4EC816786C03009A6830 /* lwgeom_log.h */,
+				33CF4EC916786C03009A6830 /* lwgeom_transform.c */,
+				33CF4ECA16786C03009A6830 /* lwhomogenize.c */,
+				33CF4ECB16786C03009A6830 /* lwin_wkb.c */,
+				33CF4ECC16786C03009A6830 /* lwin_wkt.c */,
+				33CF4ECD16786C03009A6830 /* lwin_wkt.h */,
+				33CF4ECE16786C03009A6830 /* lwin_wkt_lex.c */,
+				33CF4ED016786C03009A6830 /* lwin_wkt_parse.c */,
+				33CF4ED116786C03009A6830 /* lwin_wkt_parse.h */,
+				33CF4ED316786C03009A6830 /* lwline.c */,
+				33CF4ED416786C03009A6830 /* lwlinearreferencing.c */,
+				33CF4ED516786C03009A6830 /* lwmcurve.c */,
+				33CF4ED616786C03009A6830 /* lwmline.c */,
+				33CF4ED716786C03009A6830 /* lwmpoint.c */,
+				33CF4ED816786C03009A6830 /* lwmpoly.c */,
+				33CF4ED916786C03009A6830 /* lwmsurface.c */,
+				33CF4EDA16786C03009A6830 /* lwout_geojson.c */,
+				33CF4EDB16786C03009A6830 /* lwout_gml.c */,
+				33CF4EDC16786C03009A6830 /* lwout_kml.c */,
+				33CF4EDD16786C03009A6830 /* lwout_svg.c */,
+				33CF4EDE16786C03009A6830 /* lwout_wkb.c */,
+				33CF4EDF16786C03009A6830 /* lwout_wkt.c */,
+				33CF4EE016786C03009A6830 /* lwout_x3d.c */,
+				33CF4EE116786C03009A6830 /* lwpoint.c */,
+				33CF4EE216786C03009A6830 /* lwpoly.c */,
+				33CF4EE316786C03009A6830 /* lwprint.c */,
+				33CF4EE416786C03009A6830 /* lwpsurface.c */,
+				33CF4EE516786C03009A6830 /* lwsegmentize.c */,
+				33CF4EE616786C03009A6830 /* lwspheroid.c */,
+				33CF4EE716786C03009A6830 /* lwtin.c */,
+				33CF4EE816786C03009A6830 /* lwtree.c */,
+				33CF4EE916786C03009A6830 /* lwtree.h */,
+				33CF4EEA16786C03009A6830 /* lwtriangle.c */,
+				33CF4EEB16786C03009A6830 /* lwutil.c */,
+				33CF4EEC16786C03009A6830 /* Makefile.in */,
+				33CF4EED16786C03009A6830 /* measures.c */,
+				33CF4EEE16786C03009A6830 /* measures.h */,
+				33CF4EEF16786C03009A6830 /* measures3d.c */,
+				33CF4EF016786C03009A6830 /* measures3d.h */,
+				33CF4EF116786C03009A6830 /* ptarray.c */,
+				33CF4EF216786C03009A6830 /* snprintf.c */,
+				33CF4EF316786C03009A6830 /* stringbuffer.c */,
+				33CF4EF416786C03009A6830 /* stringbuffer.h */,
+				33CF4EF516786C03009A6830 /* vsprintf.c */,
+			);
+			path = liblwgeom;
+			sourceTree = "<group>";
+		};
 		3F7304831566EEEA00408390 /* proj */ = {
 			isa = PBXGroup;
 			children = (
@@ -3057,6 +3627,7 @@
 				3F73F87B1566E66900408390 /* libspatialite */,
 				3F73FE951566EE4200408390 /* geos */,
 				3F7304831566EEEA00408390 /* proj */,
+				33CF4E9016786C03009A6830 /* liblwgeom */,
 				3F73F8781566E66900408390 /* Frameworks */,
 				3F73F8771566E66900408390 /* Products */,
 			);
@@ -3065,9 +3636,10 @@
 		3F73F8771566E66900408390 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F73F8761566E66900408390 /* liblibspatialite.a */,
+				3F73F8761566E66900408390 /* libspatialite.a */,
 				3F73FE921566EE4200408390 /* libgeos.a */,
 				3F7304811566EEEA00408390 /* libproj.a */,
+				33CF4E8F16786BA0009A6830 /* liblwgeom.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3088,7 +3660,8 @@
 		3F73F87B1566E66900408390 /* libspatialite */ = {
 			isa = PBXGroup;
 			children = (
-				3F73F8A61566E68F00408390 /* spatialite.c */,
+				33CF4C71167868AD009A6830 /* config.h */,
+				33CF4B4B16785ECB009A6830 /* src */,
 				3F73F8A71566E68F00408390 /* sqlite3.c */,
 				3F73F87C1566E66900408390 /* Supporting Files */,
 			);
@@ -3107,7 +3680,6 @@
 			isa = PBXGroup;
 			children = (
 				3F73F8891566E67900408390 /* spatialite */,
-				3F73F8971566E67900408390 /* spatialite.h */,
 			);
 			path = headers;
 			sourceTree = "<group>";
@@ -3115,17 +3687,6 @@
 		3F73F8891566E67900408390 /* spatialite */ = {
 			isa = PBXGroup;
 			children = (
-				3F73F88A1566E67900408390 /* gaiaaux.h */,
-				3F73F88B1566E67900408390 /* gaiaexif.h */,
-				3F73F88C1566E67900408390 /* gaiageo.h */,
-				3F73F88D1566E67900408390 /* gg_advanced.h */,
-				3F73F88E1566E67900408390 /* gg_const.h */,
-				3F73F88F1566E67900408390 /* gg_core.h */,
-				3F73F8901566E67900408390 /* gg_dynamic.h */,
-				3F73F8911566E67900408390 /* gg_formats.h */,
-				3F73F8921566E67900408390 /* gg_mbr.h */,
-				3F73F8931566E67900408390 /* gg_structs.h */,
-				3F73F8941566E67900408390 /* spatialite.h */,
 				3F73F8951566E67900408390 /* sqlite3.h */,
 				3F73F8961566E67900408390 /* sqlite3ext.h */,
 			);
@@ -3159,6 +3720,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		33CF4E8B16786BA0009A6830 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CF4F1616786C03009A6830 /* liblwgeom_internal.h in Headers */,
+				33CF4F1816786C03009A6830 /* libtgeom.h in Headers */,
+				33CF4F1F16786C03009A6830 /* lwgeodetic.h in Headers */,
+				33CF4F2416786C03009A6830 /* lwgeom_geos.h in Headers */,
+				33CF4F2816786C03009A6830 /* lwgeom_log.h in Headers */,
+				33CF4F2D16786C03009A6830 /* lwin_wkt.h in Headers */,
+				33CF4F3116786C03009A6830 /* lwin_wkt_parse.h in Headers */,
+				33CF4F4916786C03009A6830 /* lwtree.h in Headers */,
+				33CF4F4D16786C03009A6830 /* measures.h in Headers */,
+				33CF4F4F16786C03009A6830 /* measures3d.h in Headers */,
+				33CF4F5316786C03009A6830 /* stringbuffer.h in Headers */,
+				33CF4F5A16786D97009A6830 /* liblwgeom.h in Headers */,
+				33CF4F5C16786D9F009A6830 /* postgis_config.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F73047F1566EEEA00408390 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -3170,6 +3751,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33CF4C72167868AD009A6830 /* config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3183,6 +3765,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		33CF4D7816786BA0009A6830 /* lwgeom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CF4E8C16786BA0009A6830 /* Build configuration list for PBXNativeTarget "lwgeom" */;
+			buildPhases = (
+				33CF4D7916786BA0009A6830 /* Sources */,
+				33CF4E8A16786BA0009A6830 /* Frameworks */,
+				33CF4E8B16786BA0009A6830 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lwgeom;
+			productName = geos;
+			productReference = 33CF4E8F16786BA0009A6830 /* liblwgeom.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		3F7304801566EEEA00408390 /* proj */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F7304891566EEEA00408390 /* Build configuration list for PBXNativeTarget "proj" */;
@@ -3200,9 +3799,9 @@
 			productReference = 3F7304811566EEEA00408390 /* libproj.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		3F73F8751566E66900408390 /* libspatialite */ = {
+		3F73F8751566E66900408390 /* spatialite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F73F8831566E66900408390 /* Build configuration list for PBXNativeTarget "libspatialite" */;
+			buildConfigurationList = 3F73F8831566E66900408390 /* Build configuration list for PBXNativeTarget "spatialite" */;
 			buildPhases = (
 				3F73F8721566E66900408390 /* Sources */,
 				3F73F8731566E66900408390 /* Frameworks */,
@@ -3212,9 +3811,9 @@
 			);
 			dependencies = (
 			);
-			name = libspatialite;
+			name = spatialite;
 			productName = libspatialite;
-			productReference = 3F73F8761566E66900408390 /* liblibspatialite.a */;
+			productReference = 3F73F8761566E66900408390 /* libspatialite.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		3F73FE911566EE4200408390 /* geos */ = {
@@ -3240,7 +3839,7 @@
 		3F73F86D1566E66900408390 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = ORNYX;
 			};
 			buildConfigurationList = 3F73F8701566E66900408390 /* Build configuration list for PBXProject "libspatialite" */;
@@ -3255,14 +3854,76 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F73F8751566E66900408390 /* libspatialite */,
+				3F73F8751566E66900408390 /* spatialite */,
 				3F73FE911566EE4200408390 /* geos */,
 				3F7304801566EEEA00408390 /* proj */,
+				33CF4D7816786BA0009A6830 /* lwgeom */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		33CF4D7916786BA0009A6830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CF4EF616786C03009A6830 /* box2d.c in Sources */,
+				33CF4F1316786C03009A6830 /* g_box.c in Sources */,
+				33CF4F1416786C03009A6830 /* g_serialized.c in Sources */,
+				33CF4F1516786C03009A6830 /* g_util.c in Sources */,
+				33CF4F1716786C03009A6830 /* libtgeom.c in Sources */,
+				33CF4F1916786C03009A6830 /* lwalgorithm.c in Sources */,
+				33CF4F1A16786C03009A6830 /* lwcircstring.c in Sources */,
+				33CF4F1B16786C03009A6830 /* lwcollection.c in Sources */,
+				33CF4F1C16786C03009A6830 /* lwcompound.c in Sources */,
+				33CF4F1D16786C03009A6830 /* lwcurvepoly.c in Sources */,
+				33CF4F1E16786C03009A6830 /* lwgeodetic.c in Sources */,
+				33CF4F2016786C03009A6830 /* lwgeom.c in Sources */,
+				33CF4F2116786C03009A6830 /* lwgeom_api.c in Sources */,
+				33CF4F2216786C03009A6830 /* lwgeom_debug.c in Sources */,
+				33CF4F2316786C03009A6830 /* lwgeom_geos.c in Sources */,
+				33CF4F2516786C03009A6830 /* lwgeom_geos_clean.c in Sources */,
+				33CF4F2616786C03009A6830 /* lwgeom_geos_node.c in Sources */,
+				33CF4F2716786C03009A6830 /* lwgeom_geos_split.c in Sources */,
+				33CF4F2916786C03009A6830 /* lwgeom_transform.c in Sources */,
+				33CF4F2A16786C03009A6830 /* lwhomogenize.c in Sources */,
+				33CF4F2B16786C03009A6830 /* lwin_wkb.c in Sources */,
+				33CF4F2C16786C03009A6830 /* lwin_wkt.c in Sources */,
+				33CF4F2E16786C03009A6830 /* lwin_wkt_lex.c in Sources */,
+				33CF4F3016786C03009A6830 /* lwin_wkt_parse.c in Sources */,
+				33CF4F3316786C03009A6830 /* lwline.c in Sources */,
+				33CF4F3416786C03009A6830 /* lwlinearreferencing.c in Sources */,
+				33CF4F3516786C03009A6830 /* lwmcurve.c in Sources */,
+				33CF4F3616786C03009A6830 /* lwmline.c in Sources */,
+				33CF4F3716786C03009A6830 /* lwmpoint.c in Sources */,
+				33CF4F3816786C03009A6830 /* lwmpoly.c in Sources */,
+				33CF4F3916786C03009A6830 /* lwmsurface.c in Sources */,
+				33CF4F3A16786C03009A6830 /* lwout_geojson.c in Sources */,
+				33CF4F3B16786C03009A6830 /* lwout_gml.c in Sources */,
+				33CF4F3C16786C03009A6830 /* lwout_kml.c in Sources */,
+				33CF4F3D16786C03009A6830 /* lwout_svg.c in Sources */,
+				33CF4F3E16786C03009A6830 /* lwout_wkb.c in Sources */,
+				33CF4F3F16786C03009A6830 /* lwout_wkt.c in Sources */,
+				33CF4F4016786C03009A6830 /* lwout_x3d.c in Sources */,
+				33CF4F4116786C03009A6830 /* lwpoint.c in Sources */,
+				33CF4F4216786C03009A6830 /* lwpoly.c in Sources */,
+				33CF4F4316786C03009A6830 /* lwprint.c in Sources */,
+				33CF4F4416786C03009A6830 /* lwpsurface.c in Sources */,
+				33CF4F4516786C03009A6830 /* lwsegmentize.c in Sources */,
+				33CF4F4616786C03009A6830 /* lwspheroid.c in Sources */,
+				33CF4F4716786C03009A6830 /* lwtin.c in Sources */,
+				33CF4F4816786C03009A6830 /* lwtree.c in Sources */,
+				33CF4F4A16786C03009A6830 /* lwtriangle.c in Sources */,
+				33CF4F4B16786C03009A6830 /* lwutil.c in Sources */,
+				33CF4F4C16786C03009A6830 /* measures.c in Sources */,
+				33CF4F4E16786C03009A6830 /* measures3d.c in Sources */,
+				33CF4F5016786C03009A6830 /* ptarray.c in Sources */,
+				33CF4F5116786C03009A6830 /* snprintf.c in Sources */,
+				33CF4F5216786C03009A6830 /* stringbuffer.c in Sources */,
+				33CF4F5416786C03009A6830 /* vsprintf.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F73047D1566EEEA00408390 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3434,7 +4095,87 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF765F915681E7A002541F2 /* sqlite3.c in Sources */,
-				3F73F8A81566E68F00408390 /* spatialite.c in Sources */,
+				33CF4BF216785ECB009A6830 /* gg_sqlaux.c in Sources */,
+				33CF4BF316785ECB009A6830 /* gg_utf8.c in Sources */,
+				33CF4BF416785ECB009A6830 /* gaia_exif.c in Sources */,
+				33CF4BFE16785ECB009A6830 /* gg_advanced.c in Sources */,
+				33CF4BFF16785ECB009A6830 /* gg_endian.c in Sources */,
+				33CF4C0016785ECB009A6830 /* gg_ewkt.c in Sources */,
+				33CF4C0116785ECB009A6830 /* gg_extras.c in Sources */,
+				33CF4C0216785ECB009A6830 /* gg_geodesic.c in Sources */,
+				33CF4C0316785ECB009A6830 /* gg_geoJSON.c in Sources */,
+				33CF4C0416785ECB009A6830 /* gg_geometries.c in Sources */,
+				33CF4C0516785ECB009A6830 /* gg_geoscvt.c in Sources */,
+				33CF4C0616785ECB009A6830 /* gg_gml.c in Sources */,
+				33CF4C0716785ECB009A6830 /* gg_kml.c in Sources */,
+				33CF4C0816785ECB009A6830 /* gg_lwgeom.c in Sources */,
+				33CF4C0916785ECB009A6830 /* gg_relations.c in Sources */,
+				33CF4C0A16785ECB009A6830 /* gg_shape.c in Sources */,
+				33CF4C0B16785ECB009A6830 /* gg_transform.c in Sources */,
+				33CF4C0C16785ECB009A6830 /* gg_vanuatu.c in Sources */,
+				33CF4C0D16785ECB009A6830 /* gg_voronoj.c in Sources */,
+				33CF4C0E16785ECB009A6830 /* gg_wkb.c in Sources */,
+				33CF4C0F16785ECB009A6830 /* gg_wkt.c in Sources */,
+				33CF4C3116785ECB009A6830 /* shapefiles.c in Sources */,
+				33CF4C3216785ECB009A6830 /* mbrcache.c in Sources */,
+				33CF4C3316785ECB009A6830 /* metatables.c in Sources */,
+				33CF4C3416785ECB009A6830 /* spatialite.c in Sources */,
+				33CF4C3516785ECB009A6830 /* statistics.c in Sources */,
+				33CF4C3616785ECB009A6830 /* virtualdbf.c in Sources */,
+				33CF4C3716785ECB009A6830 /* virtualfdo.c in Sources */,
+				33CF4C3816785ECB009A6830 /* virtualnetwork.c in Sources */,
+				33CF4C3916785ECB009A6830 /* virtualshape.c in Sources */,
+				33CF4C3A16785ECB009A6830 /* virtualspatialindex.c in Sources */,
+				33CF4C3B16785ECB009A6830 /* virtualXL.c in Sources */,
+				33CF4C3C16785ECB009A6830 /* epsg_inlined_00.c in Sources */,
+				33CF4C3D16785ECB009A6830 /* epsg_inlined_01.c in Sources */,
+				33CF4C3E16785ECB009A6830 /* epsg_inlined_02.c in Sources */,
+				33CF4C3F16785ECB009A6830 /* epsg_inlined_03.c in Sources */,
+				33CF4C4016785ECB009A6830 /* epsg_inlined_04.c in Sources */,
+				33CF4C4116785ECB009A6830 /* epsg_inlined_05.c in Sources */,
+				33CF4C4216785ECB009A6830 /* epsg_inlined_06.c in Sources */,
+				33CF4C4316785ECB009A6830 /* epsg_inlined_07.c in Sources */,
+				33CF4C4416785ECB009A6830 /* epsg_inlined_08.c in Sources */,
+				33CF4C4516785ECB009A6830 /* epsg_inlined_09.c in Sources */,
+				33CF4C4616785ECB009A6830 /* epsg_inlined_10.c in Sources */,
+				33CF4C4716785ECB009A6830 /* epsg_inlined_11.c in Sources */,
+				33CF4C4816785ECB009A6830 /* epsg_inlined_12.c in Sources */,
+				33CF4C4916785ECB009A6830 /* epsg_inlined_13.c in Sources */,
+				33CF4C4A16785ECB009A6830 /* epsg_inlined_14.c in Sources */,
+				33CF4C4B16785ECB009A6830 /* epsg_inlined_15.c in Sources */,
+				33CF4C4C16785ECB009A6830 /* epsg_inlined_16.c in Sources */,
+				33CF4C4D16785ECB009A6830 /* epsg_inlined_17.c in Sources */,
+				33CF4C4E16785ECB009A6830 /* epsg_inlined_18.c in Sources */,
+				33CF4C4F16785ECB009A6830 /* epsg_inlined_19.c in Sources */,
+				33CF4C5016785ECB009A6830 /* epsg_inlined_20.c in Sources */,
+				33CF4C5116785ECB009A6830 /* epsg_inlined_21.c in Sources */,
+				33CF4C5216785ECB009A6830 /* epsg_inlined_22.c in Sources */,
+				33CF4C5316785ECB009A6830 /* epsg_inlined_23.c in Sources */,
+				33CF4C5416785ECB009A6830 /* epsg_inlined_24.c in Sources */,
+				33CF4C5516785ECB009A6830 /* epsg_inlined_25.c in Sources */,
+				33CF4C5616785ECB009A6830 /* epsg_inlined_26.c in Sources */,
+				33CF4C5716785ECB009A6830 /* epsg_inlined_27.c in Sources */,
+				33CF4C5816785ECB009A6830 /* epsg_inlined_28.c in Sources */,
+				33CF4C5916785ECB009A6830 /* epsg_inlined_29.c in Sources */,
+				33CF4C5A16785ECB009A6830 /* epsg_inlined_30.c in Sources */,
+				33CF4C5B16785ECB009A6830 /* epsg_inlined_31.c in Sources */,
+				33CF4C5C16785ECB009A6830 /* epsg_inlined_32.c in Sources */,
+				33CF4C5D16785ECB009A6830 /* epsg_inlined_33.c in Sources */,
+				33CF4C5E16785ECB009A6830 /* epsg_inlined_34.c in Sources */,
+				33CF4C5F16785ECB009A6830 /* epsg_inlined_35.c in Sources */,
+				33CF4C6016785ECB009A6830 /* epsg_inlined_36.c in Sources */,
+				33CF4C6116785ECB009A6830 /* epsg_inlined_37.c in Sources */,
+				33CF4C6216785ECB009A6830 /* epsg_inlined_38.c in Sources */,
+				33CF4C6316785ECB009A6830 /* epsg_inlined_39.c in Sources */,
+				33CF4C6416785ECB009A6830 /* epsg_inlined_40.c in Sources */,
+				33CF4C6516785ECB009A6830 /* epsg_inlined_extra.c in Sources */,
+				33CF4C6616785ECB009A6830 /* epsg_inlined_prussian.c in Sources */,
+				33CF4C6716785ECB009A6830 /* epsg_inlined_wgs84_00.c in Sources */,
+				33CF4C6816785ECB009A6830 /* epsg_inlined_wgs84_01.c in Sources */,
+				33CF4C6916785ECB009A6830 /* auto_epsg.c in Sources */,
+				33CF4C6A16785ECB009A6830 /* srs_init.c in Sources */,
+				33CF4C6B16785ECB009A6830 /* version.c in Sources */,
+				33CF4C6C16785ECB009A6830 /* virtualtext.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3720,6 +4461,52 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		33CF4E8D16786BA0009A6830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/lwgeom.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/geos/include\"",
+					"\"$(SRCROOT)/headers\"",
+					"\"$(SRCROOT)/proj\"",
+					"\"$(SRCROOT)/geos/capi\"",
+					"\"$(SRCROOT)/liblwgeom\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = lwgeom;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv6 armv7 i386";
+			};
+			name = Debug;
+		};
+		33CF4E8E16786BA0009A6830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/lwgeom.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/geos/include\"",
+					"\"$(SRCROOT)/headers\"",
+					"\"$(SRCROOT)/proj\"",
+					"\"$(SRCROOT)/geos/capi\"",
+					"\"$(SRCROOT)/liblwgeom\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = lwgeom;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv6 armv7 i386";
+			};
+			name = Release;
+		};
 		3F73048A1566EEEA00408390 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3765,6 +4552,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -3790,6 +4581,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -3813,9 +4608,10 @@
 				GCC_PREFIX_HEADER = "libspatialite/libspatialite-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/geos/include\"",
-					"\"$(SRCROOT)/headers\"",
 					"\"$(SRCROOT)/proj\"",
 					"\"$(SRCROOT)/geos/capi\"",
+					"\"$(SRCROOT)/src/headers\"",
+					"\"$(SRCROOT)/liblwgeom\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = NO;
@@ -3841,9 +4637,10 @@
 				GCC_PREFIX_HEADER = "libspatialite/libspatialite-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/geos/include\"",
-					"\"$(SRCROOT)/headers\"",
 					"\"$(SRCROOT)/proj\"",
 					"\"$(SRCROOT)/geos/capi\"",
+					"\"$(SRCROOT)/src/headers\"",
+					"\"$(SRCROOT)/liblwgeom\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = NO;
@@ -3907,6 +4704,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		33CF4E8C16786BA0009A6830 /* Build configuration list for PBXNativeTarget "lwgeom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CF4E8D16786BA0009A6830 /* Debug */,
+				33CF4E8E16786BA0009A6830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3F7304891566EEEA00408390 /* Build configuration list for PBXNativeTarget "proj" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3925,7 +4731,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F73F8831566E66900408390 /* Build configuration list for PBXNativeTarget "libspatialite" */ = {
+		3F73F8831566E66900408390 /* Build configuration list for PBXNativeTarget "spatialite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F73F8841566E66900408390 /* Debug */,
