@@ -590,7 +590,6 @@
 		3F73F8AB1566E74400408390 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73F8AA1566E74300408390 /* libiconv.dylib */; };
 		3F73F8AD1566E76400408390 /* libcharset.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73F8AC1566E76400408390 /* libcharset.dylib */; };
 		3F73FE801566EA8E00408390 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73FE7F1566EA8E00408390 /* libstdc++.dylib */; };
-		3FF765F915681E7A002541F2 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F73F8A71566E68F00408390 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DSQLITE_OMIT_COMPILEOPTION_DIAGS -DSQLITE_OMIT_DEPRECATED"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1731,9 +1730,6 @@
 		3F730A701566F96200408390 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		3F73F8761566E66900408390 /* libspatialite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libspatialite.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F73F87D1566E66900408390 /* libspatialite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libspatialite-Prefix.pch"; sourceTree = "<group>"; };
-		3F73F8951566E67900408390 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
-		3F73F8961566E67900408390 /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ext.h; sourceTree = "<group>"; };
-		3F73F8A71566E68F00408390 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sqlite3.c; path = ../sqlite3.c; sourceTree = "<group>"; };
 		3F73F8AA1566E74300408390 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		3F73F8AC1566E76400408390 /* libcharset.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcharset.dylib; path = usr/lib/libcharset.dylib; sourceTree = SDKROOT; };
 		3F73FE7F1566EA8E00408390 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
@@ -3623,7 +3619,6 @@
 		3F73F86B1566E66900408390 = {
 			isa = PBXGroup;
 			children = (
-				3F73F8861566E67900408390 /* headers */,
 				3F73F87B1566E66900408390 /* libspatialite */,
 				3F73FE951566EE4200408390 /* geos */,
 				3F7304831566EEEA00408390 /* proj */,
@@ -3662,7 +3657,6 @@
 			children = (
 				33CF4C71167868AD009A6830 /* config.h */,
 				33CF4B4B16785ECB009A6830 /* src */,
-				3F73F8A71566E68F00408390 /* sqlite3.c */,
 				3F73F87C1566E66900408390 /* Supporting Files */,
 			);
 			path = libspatialite;
@@ -3674,23 +3668,6 @@
 				3F73F87D1566E66900408390 /* libspatialite-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3F73F8861566E67900408390 /* headers */ = {
-			isa = PBXGroup;
-			children = (
-				3F73F8891566E67900408390 /* spatialite */,
-			);
-			path = headers;
-			sourceTree = "<group>";
-		};
-		3F73F8891566E67900408390 /* spatialite */ = {
-			isa = PBXGroup;
-			children = (
-				3F73F8951566E67900408390 /* sqlite3.h */,
-				3F73F8961566E67900408390 /* sqlite3ext.h */,
-			);
-			path = spatialite;
 			sourceTree = "<group>";
 		};
 		3F73FE951566EE4200408390 /* geos */ = {
@@ -4094,7 +4071,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF765F915681E7A002541F2 /* sqlite3.c in Sources */,
 				33CF4BF216785ECB009A6830 /* gg_sqlaux.c in Sources */,
 				33CF4BF316785ECB009A6830 /* gg_utf8.c in Sources */,
 				33CF4BF416785ECB009A6830 /* gaia_exif.c in Sources */,
