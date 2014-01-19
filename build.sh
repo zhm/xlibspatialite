@@ -1,7 +1,5 @@
 
-# TARGET=sns
 ACTION="clean build"
-# FILE_NAME=libsns.a
 
 DEVICE=iphoneos7.0
 SIMULATOR=iphonesimulator7.0
@@ -15,8 +13,8 @@ SIMULATOR_BUILD_DIR_DEBUG='./build/Debug-simulator'
 UNIVERSAL_BUILD_DIR_RELEASE='./build/Release-universal'
 UNIVERSAL_BUILD_DIR_DEBUG='./build/Debug-universal'
 
-# rm -rf $UNIVERSAL_BUILD_DIR_RELEASE
-# rm -rf $UNIVERSAL_BUILD_DIR_DEBUG
+rm -rf $UNIVERSAL_BUILD_DIR_RELEASE
+rm -rf $UNIVERSAL_BUILD_DIR_DEBUG
 
 mkdir -p $DEVICE_BUILD_DIR_RELEASE
 mkdir -p $DEVICE_BUILD_DIR_DEBUG
@@ -25,25 +23,11 @@ mkdir -p $SIMULATOR_BUILD_DIR_DEBUG
 mkdir -p $UNIVERSAL_BUILD_DIR_RELEASE
 mkdir -p $UNIVERSAL_BUILD_DIR_DEBUG
 
-# xcodebuild -configuration Release -scheme libspatialite -sdk $DEVICE CONFIGURATION_BUILD_DIR=$DEVICE_BUILD_DIR_RELEASE
-# xcodebuild -configuration Debug -scheme libspatialite -sdk $DEVICE CONFIGURATION_BUILD_DIR=$DEVICE_BUILD_DIR_DEBUG
+xcodebuild -configuration Release -scheme libspatialite -sdk $DEVICE CONFIGURATION_BUILD_DIR=$DEVICE_BUILD_DIR_RELEASE
+xcodebuild -configuration Debug -scheme libspatialite -sdk $DEVICE CONFIGURATION_BUILD_DIR=$DEVICE_BUILD_DIR_DEBUG
 
-# xcodebuild -configuration Release -scheme libspatialite -sdk $SIMULATOR CONFIGURATION_BUILD_DIR=$SIMULATOR_BUILD_DIR_RELEASE
-# xcodebuild -configuration Debug -scheme libspatialite -sdk $SIMULATOR CONFIGURATION_BUILD_DIR=$SIMULATOR_BUILD_DIR_DEBUG
-
-# xcodebuild -configuration Debug -target ${TARGET} -sdk ${DEVICE} ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO
-# xcodebuild -configuration Debug -target ${TARGET} -sdk ${SIMULATOR} ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO
-# xcodebuild -configuration Release -target ${TARGET} -sdk ${DEVICE} ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO
-# xcodebuild -configuration Release -target ${TARGET} -sdk ${SIMULATOR} ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO
-#Merge all platform binaries as a fat binary for each configurations.
-
-# DEBUG_DEVICE_DIR=${SYMROOT}/Debug-iphoneos
-# DEBUG_SIMULATOR_DIR=${SYMROOT}/Debug-iphonesimulator
-# DEBUG_UNIVERSAL_DIR=${SYMROOT}/Debug-universal
-
-# RELEASE_DEVICE_DIR=${SYMROOT}/Release-iphoneos
-# RELEASE_SIMULATOR_DIR=${SYMROOT}/Release-iphonesimulator
-# RELEASE_UNIVERSAL_DIR=${SYMROOT}/Release-universal
+xcodebuild -configuration Release -scheme libspatialite -sdk $SIMULATOR CONFIGURATION_BUILD_DIR=$SIMULATOR_BUILD_DIR_RELEASE
+xcodebuild -configuration Debug -scheme libspatialite -sdk $SIMULATOR CONFIGURATION_BUILD_DIR=$SIMULATOR_BUILD_DIR_DEBUG
 
 lipo -create -output "${UNIVERSAL_BUILD_DIR_DEBUG}/libgeos.a" "${DEVICE_BUILD_DIR_DEBUG}/libgeos.a" "${SIMULATOR_BUILD_DIR_DEBUG}/libgeos.a"
 lipo -create -output "${UNIVERSAL_BUILD_DIR_DEBUG}/liblwgeom.a" "${DEVICE_BUILD_DIR_DEBUG}/liblwgeom.a" "${SIMULATOR_BUILD_DIR_DEBUG}/liblwgeom.a"
