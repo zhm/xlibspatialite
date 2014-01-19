@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		334F30CF18862B7100A0E293 /* redefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 334F30CA18862B7100A0E293 /* redefines.h */; };
+		334F30D018862B7100A0E293 /* shell.c in Sources */ = {isa = PBXBuildFile; fileRef = 334F30CB18862B7100A0E293 /* shell.c */; };
+		334F30D118862B7100A0E293 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 334F30CC18862B7100A0E293 /* sqlite3.c */; };
+		334F30D218862B7100A0E293 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 334F30CD18862B7100A0E293 /* sqlite3.h */; };
+		334F30D318862B7100A0E293 /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 334F30CE18862B7100A0E293 /* sqlite3ext.h */; };
+		334F30D418862CA300A0E293 /* libgeos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73FE921566EE4200408390 /* libgeos.a */; };
+		334F30D518862CA300A0E293 /* liblwgeom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CF4E8F16786BA0009A6830 /* liblwgeom.a */; };
+		334F30D618862CA300A0E293 /* libproj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7304811566EEEA00408390 /* libproj.a */; };
 		33CF4BF216785ECB009A6830 /* gg_sqlaux.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B4D16785ECB009A6830 /* gg_sqlaux.c */; };
 		33CF4BF316785ECB009A6830 /* gg_utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B4E16785ECB009A6830 /* gg_utf8.c */; };
 		33CF4BF416785ECB009A6830 /* gaia_exif.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4B5216785ECB009A6830 /* gaia_exif.c */; };
@@ -590,10 +598,14 @@
 		3F73F8AB1566E74400408390 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73F8AA1566E74300408390 /* libiconv.dylib */; };
 		3F73F8AD1566E76400408390 /* libcharset.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73F8AC1566E76400408390 /* libcharset.dylib */; };
 		3F73FE801566EA8E00408390 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73FE7F1566EA8E00408390 /* libstdc++.dylib */; };
-		3FF765F915681E7A002541F2 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F73F8A71566E68F00408390 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DSQLITE_OMIT_COMPILEOPTION_DIAGS -DSQLITE_OMIT_DEPRECATED"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		334F30CA18862B7100A0E293 /* redefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redefines.h; sourceTree = "<group>"; };
+		334F30CB18862B7100A0E293 /* shell.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shell.c; sourceTree = "<group>"; };
+		334F30CC18862B7100A0E293 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		334F30CD18862B7100A0E293 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		334F30CE18862B7100A0E293 /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ext.h; sourceTree = "<group>"; };
 		33CF4B4D16785ECB009A6830 /* gg_sqlaux.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_sqlaux.c; sourceTree = "<group>"; };
 		33CF4B4E16785ECB009A6830 /* gg_utf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gg_utf8.c; sourceTree = "<group>"; };
 		33CF4B4F16785ECB009A6830 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
@@ -766,7 +778,6 @@
 		33CF4EF516786C03009A6830 /* vsprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vsprintf.c; sourceTree = "<group>"; };
 		33CF4F5916786D97009A6830 /* liblwgeom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liblwgeom.h; sourceTree = "<group>"; };
 		33CF4F5B16786D9F009A6830 /* postgis_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = postgis_config.h; sourceTree = "<group>"; };
-		3F2878081567AF700076C106 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		3F7304811566EEEA00408390 /* libproj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libproj.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F73048C1566EF3D00408390 /* aasincos.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aasincos.c; sourceTree = "<group>"; };
 		3F73048D1566EF3D00408390 /* adjlon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adjlon.c; sourceTree = "<group>"; };
@@ -1731,9 +1742,6 @@
 		3F730A701566F96200408390 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		3F73F8761566E66900408390 /* libspatialite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libspatialite.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F73F87D1566E66900408390 /* libspatialite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libspatialite-Prefix.pch"; sourceTree = "<group>"; };
-		3F73F8951566E67900408390 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
-		3F73F8961566E67900408390 /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ext.h; sourceTree = "<group>"; };
-		3F73F8A71566E68F00408390 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sqlite3.c; path = ../sqlite3.c; sourceTree = "<group>"; };
 		3F73F8AA1566E74300408390 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		3F73F8AC1566E76400408390 /* libcharset.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcharset.dylib; path = usr/lib/libcharset.dylib; sourceTree = SDKROOT; };
 		3F73FE7F1566EA8E00408390 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
@@ -1767,6 +1775,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				334F30D418862CA300A0E293 /* libgeos.a in Frameworks */,
+				334F30D518862CA300A0E293 /* liblwgeom.a in Frameworks */,
+				334F30D618862CA300A0E293 /* libproj.a in Frameworks */,
 				3F73FE801566EA8E00408390 /* libstdc++.dylib in Frameworks */,
 				3F73F8AD1566E76400408390 /* libcharset.dylib in Frameworks */,
 				3F73F8AB1566E74400408390 /* libiconv.dylib in Frameworks */,
@@ -1783,6 +1794,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		334F30C918862B7100A0E293 /* sqlite3 */ = {
+			isa = PBXGroup;
+			children = (
+				334F30CA18862B7100A0E293 /* redefines.h */,
+				334F30CB18862B7100A0E293 /* shell.c */,
+				334F30CC18862B7100A0E293 /* sqlite3.c */,
+				334F30CD18862B7100A0E293 /* sqlite3.h */,
+				334F30CE18862B7100A0E293 /* sqlite3ext.h */,
+			);
+			path = sqlite3;
+			sourceTree = "<group>";
+		};
 		33CF4B4B16785ECB009A6830 /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -3623,7 +3646,7 @@
 		3F73F86B1566E66900408390 = {
 			isa = PBXGroup;
 			children = (
-				3F73F8861566E67900408390 /* headers */,
+				334F30C918862B7100A0E293 /* sqlite3 */,
 				3F73F87B1566E66900408390 /* libspatialite */,
 				3F73FE951566EE4200408390 /* geos */,
 				3F7304831566EEEA00408390 /* proj */,
@@ -3647,7 +3670,6 @@
 		3F73F8781566E66900408390 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3F2878081567AF700076C106 /* libsqlite3.dylib */,
 				3F7305F91566F17B00408390 /* libc++.dylib */,
 				3F73FE7F1566EA8E00408390 /* libstdc++.dylib */,
 				3F73F8AC1566E76400408390 /* libcharset.dylib */,
@@ -3662,7 +3684,6 @@
 			children = (
 				33CF4C71167868AD009A6830 /* config.h */,
 				33CF4B4B16785ECB009A6830 /* src */,
-				3F73F8A71566E68F00408390 /* sqlite3.c */,
 				3F73F87C1566E66900408390 /* Supporting Files */,
 			);
 			path = libspatialite;
@@ -3674,23 +3695,6 @@
 				3F73F87D1566E66900408390 /* libspatialite-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3F73F8861566E67900408390 /* headers */ = {
-			isa = PBXGroup;
-			children = (
-				3F73F8891566E67900408390 /* spatialite */,
-			);
-			path = headers;
-			sourceTree = "<group>";
-		};
-		3F73F8891566E67900408390 /* spatialite */ = {
-			isa = PBXGroup;
-			children = (
-				3F73F8951566E67900408390 /* sqlite3.h */,
-				3F73F8961566E67900408390 /* sqlite3ext.h */,
-			);
-			path = spatialite;
 			sourceTree = "<group>";
 		};
 		3F73FE951566EE4200408390 /* geos */ = {
@@ -3751,6 +3755,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				334F30D318862B7100A0E293 /* sqlite3ext.h in Headers */,
+				334F30CF18862B7100A0E293 /* redefines.h in Headers */,
+				334F30D218862B7100A0E293 /* sqlite3.h in Headers */,
 				33CF4C72167868AD009A6830 /* config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4094,7 +4101,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF765F915681E7A002541F2 /* sqlite3.c in Sources */,
 				33CF4BF216785ECB009A6830 /* gg_sqlaux.c in Sources */,
 				33CF4BF316785ECB009A6830 /* gg_utf8.c in Sources */,
 				33CF4BF416785ECB009A6830 /* gaia_exif.c in Sources */,
@@ -4139,6 +4145,7 @@
 				33CF4C4516785ECB009A6830 /* epsg_inlined_09.c in Sources */,
 				33CF4C4616785ECB009A6830 /* epsg_inlined_10.c in Sources */,
 				33CF4C4716785ECB009A6830 /* epsg_inlined_11.c in Sources */,
+				334F30D018862B7100A0E293 /* shell.c in Sources */,
 				33CF4C4816785ECB009A6830 /* epsg_inlined_12.c in Sources */,
 				33CF4C4916785ECB009A6830 /* epsg_inlined_13.c in Sources */,
 				33CF4C4A16785ECB009A6830 /* epsg_inlined_14.c in Sources */,
@@ -4161,6 +4168,7 @@
 				33CF4C5B16785ECB009A6830 /* epsg_inlined_31.c in Sources */,
 				33CF4C5C16785ECB009A6830 /* epsg_inlined_32.c in Sources */,
 				33CF4C5D16785ECB009A6830 /* epsg_inlined_33.c in Sources */,
+				334F30D118862B7100A0E293 /* sqlite3.c in Sources */,
 				33CF4C5E16785ECB009A6830 /* epsg_inlined_34.c in Sources */,
 				33CF4C5F16785ECB009A6830 /* epsg_inlined_35.c in Sources */,
 				33CF4C6016785ECB009A6830 /* epsg_inlined_36.c in Sources */,
@@ -4464,6 +4472,7 @@
 		33CF4E8D16786BA0009A6830 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/lwgeom.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
@@ -4480,13 +4489,14 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = lwgeom;
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "armv6 armv7 i386";
+				VALID_ARCHS = "i386 armv6 armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		33CF4E8E16786BA0009A6830 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/lwgeom.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
@@ -4503,13 +4513,14 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = lwgeom;
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "armv6 armv7 i386";
+				VALID_ARCHS = "i386 armv6 armv7 armv7s arm64";
 			};
 			name = Release;
 		};
 		3F73048A1566EEEA00408390 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/proj.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
@@ -4523,13 +4534,14 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "armv6 armv7 i386";
+				VALID_ARCHS = "i386 armv6 armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		3F73048B1566EEEA00408390 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/proj.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
@@ -4543,7 +4555,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "armv6 armv7 i386";
+				VALID_ARCHS = "i386 armv6 armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -4602,6 +4614,7 @@
 		3F73F8841566E66900408390 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/libspatialite.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -4623,13 +4636,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "armv7 i386 armv6";
+				VALID_ARCHS = "i386 armv6 armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		3F73F8851566E66900408390 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/libspatialite.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -4653,13 +4667,14 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "armv7 i386 armv6";
+				VALID_ARCHS = "i386 armv6 armv7 armv7s arm64";
 			};
 			name = Release;
 		};
 		3F73FE9C1566EE4200408390 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/geos.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
@@ -4675,13 +4690,14 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "armv6 armv7 i386";
+				VALID_ARCHS = "i386 armv6 armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		3F73FE9D1566EE4200408390 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/geos.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
@@ -4697,7 +4713,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "armv6 armv7 i386";
+				VALID_ARCHS = "i386 armv6 armv7 armv7s arm64";
 			};
 			name = Release;
 		};
