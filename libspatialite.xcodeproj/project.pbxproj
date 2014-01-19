@@ -408,35 +408,27 @@
 		33E5582A188B6B0300E798E4 /* g_box.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557BF188B6B0300E798E4 /* g_box.c */; };
 		33E5582B188B6B0300E798E4 /* g_serialized.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557C0188B6B0300E798E4 /* g_serialized.c */; };
 		33E5582C188B6B0300E798E4 /* g_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557C2188B6B0300E798E4 /* g_util.c */; };
-		33E5582D188B6B0300E798E4 /* liblwgeom.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E557C3188B6B0300E798E4 /* liblwgeom.h */; };
-		33E5582E188B6B0300E798E4 /* liblwgeom_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E557C4188B6B0300E798E4 /* liblwgeom_internal.h */; };
 		33E5582F188B6B0300E798E4 /* lwalgorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557C5188B6B0300E798E4 /* lwalgorithm.c */; };
 		33E55830188B6B0300E798E4 /* lwcircstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557C6188B6B0300E798E4 /* lwcircstring.c */; };
 		33E55831188B6B0300E798E4 /* lwcollection.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557C7188B6B0300E798E4 /* lwcollection.c */; };
 		33E55832188B6B0300E798E4 /* lwcompound.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557C8188B6B0300E798E4 /* lwcompound.c */; };
 		33E55833188B6B0300E798E4 /* lwcurvepoly.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557C9188B6B0300E798E4 /* lwcurvepoly.c */; };
 		33E55834188B6B0300E798E4 /* lwgeodetic.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557CA188B6B0300E798E4 /* lwgeodetic.c */; };
-		33E55835188B6B0300E798E4 /* lwgeodetic.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E557CB188B6B0300E798E4 /* lwgeodetic.h */; };
 		33E55836188B6B0300E798E4 /* lwgeodetic_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557CC188B6B0300E798E4 /* lwgeodetic_tree.c */; };
-		33E55837188B6B0300E798E4 /* lwgeodetic_tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E557CD188B6B0300E798E4 /* lwgeodetic_tree.h */; };
 		33E55838188B6B0300E798E4 /* lwgeom.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557CE188B6B0300E798E4 /* lwgeom.c */; };
 		33E55839188B6B0300E798E4 /* lwgeom_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557CF188B6B0300E798E4 /* lwgeom_api.c */; };
 		33E5583A188B6B0300E798E4 /* lwgeom_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557D0188B6B0300E798E4 /* lwgeom_debug.c */; };
 		33E5583B188B6B0300E798E4 /* lwgeom_geos.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557D1188B6B0300E798E4 /* lwgeom_geos.c */; };
-		33E5583C188B6B0300E798E4 /* lwgeom_geos.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E557D2188B6B0300E798E4 /* lwgeom_geos.h */; };
 		33E5583D188B6B0300E798E4 /* lwgeom_geos_clean.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557D3188B6B0300E798E4 /* lwgeom_geos_clean.c */; };
 		33E5583E188B6B0300E798E4 /* lwgeom_geos_node.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557D4188B6B0300E798E4 /* lwgeom_geos_node.c */; };
 		33E5583F188B6B0300E798E4 /* lwgeom_geos_split.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557D5188B6B0300E798E4 /* lwgeom_geos_split.c */; };
-		33E55840188B6B0300E798E4 /* lwgeom_log.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E557D6188B6B0300E798E4 /* lwgeom_log.h */; };
 		33E55843188B6B0300E798E4 /* lwgeom_transform.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557D9188B6B0300E798E4 /* lwgeom_transform.c */; };
 		33E55844188B6B0300E798E4 /* lwhomogenize.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557DA188B6B0300E798E4 /* lwhomogenize.c */; };
 		33E55845188B6B0300E798E4 /* lwin_geojson.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557DB188B6B0300E798E4 /* lwin_geojson.c */; };
 		33E55846188B6B0300E798E4 /* lwin_wkb.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557DC188B6B0300E798E4 /* lwin_wkb.c */; };
 		33E55847188B6B0300E798E4 /* lwin_wkt.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557DD188B6B0300E798E4 /* lwin_wkt.c */; };
-		33E55848188B6B0300E798E4 /* lwin_wkt.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E557DE188B6B0300E798E4 /* lwin_wkt.h */; };
 		33E55849188B6B0300E798E4 /* lwin_wkt_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557DF188B6B0300E798E4 /* lwin_wkt_lex.c */; };
 		33E5584B188B6B0300E798E4 /* lwin_wkt_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557E1188B6B0300E798E4 /* lwin_wkt_parse.c */; };
-		33E5584C188B6B0300E798E4 /* lwin_wkt_parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E557E2188B6B0300E798E4 /* lwin_wkt_parse.h */; };
 		33E5584D188B6B0300E798E4 /* lwin_wkt_parse.y in Sources */ = {isa = PBXBuildFile; fileRef = 33E557E3188B6B0300E798E4 /* lwin_wkt_parse.y */; };
 		33E5584E188B6B0300E798E4 /* lwline.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557E4188B6B0300E798E4 /* lwline.c */; };
 		33E5584F188B6B0300E798E4 /* lwlinearreferencing.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557E5188B6B0300E798E4 /* lwlinearreferencing.c */; };
@@ -460,18 +452,13 @@
 		33E55861188B6B0300E798E4 /* lwspheroid.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557F7188B6B0300E798E4 /* lwspheroid.c */; };
 		33E55862188B6B0300E798E4 /* lwtin.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557F8188B6B0300E798E4 /* lwtin.c */; };
 		33E55863188B6B0300E798E4 /* lwtree.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557F9188B6B0300E798E4 /* lwtree.c */; };
-		33E55864188B6B0300E798E4 /* lwtree.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E557FA188B6B0300E798E4 /* lwtree.h */; };
 		33E55865188B6B0300E798E4 /* lwtriangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557FB188B6B0300E798E4 /* lwtriangle.c */; };
 		33E55866188B6B0300E798E4 /* lwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557FC188B6B0300E798E4 /* lwutil.c */; };
 		33E55867188B6B0300E798E4 /* measures.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E557FE188B6B0300E798E4 /* measures.c */; };
-		33E55868188B6B0300E798E4 /* measures.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E557FF188B6B0300E798E4 /* measures.h */; };
 		33E55869188B6B0300E798E4 /* measures3d.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E55800188B6B0300E798E4 /* measures3d.c */; };
-		33E5586A188B6B0300E798E4 /* measures3d.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E55801188B6B0300E798E4 /* measures3d.h */; };
-		33E5586B188B6B0300E798E4 /* postgis_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E55802188B6B0300E798E4 /* postgis_config.h */; };
 		33E5586C188B6B0300E798E4 /* ptarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E55803188B6B0300E798E4 /* ptarray.c */; };
 		33E5586D188B6B0300E798E4 /* snprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E55804188B6B0300E798E4 /* snprintf.c */; };
 		33E5586E188B6B0300E798E4 /* stringbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E55805188B6B0300E798E4 /* stringbuffer.c */; };
-		33E5586F188B6B0300E798E4 /* stringbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E55806188B6B0300E798E4 /* stringbuffer.h */; };
 		33E55870188B6B0300E798E4 /* vsprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E55807188B6B0300E798E4 /* vsprintf.c */; };
 		3F7305371566EF3D00408390 /* aasincos.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F73048C1566EF3D00408390 /* aasincos.c */; };
 		3F7305381566EF3D00408390 /* adjlon.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F73048D1566EF3D00408390 /* adjlon.c */; };
@@ -1327,35 +1314,27 @@
 		33E557C0188B6B0300E798E4 /* g_serialized.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = g_serialized.c; sourceTree = "<group>"; };
 		33E557C1188B6B0300E798E4 /* g_serialized.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = g_serialized.txt; sourceTree = "<group>"; };
 		33E557C2188B6B0300E798E4 /* g_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = g_util.c; sourceTree = "<group>"; };
-		33E557C3188B6B0300E798E4 /* liblwgeom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liblwgeom.h; sourceTree = "<group>"; };
-		33E557C4188B6B0300E798E4 /* liblwgeom_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liblwgeom_internal.h; sourceTree = "<group>"; };
 		33E557C5188B6B0300E798E4 /* lwalgorithm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwalgorithm.c; sourceTree = "<group>"; };
 		33E557C6188B6B0300E798E4 /* lwcircstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcircstring.c; sourceTree = "<group>"; };
 		33E557C7188B6B0300E798E4 /* lwcollection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcollection.c; sourceTree = "<group>"; };
 		33E557C8188B6B0300E798E4 /* lwcompound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcompound.c; sourceTree = "<group>"; };
 		33E557C9188B6B0300E798E4 /* lwcurvepoly.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcurvepoly.c; sourceTree = "<group>"; };
 		33E557CA188B6B0300E798E4 /* lwgeodetic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeodetic.c; sourceTree = "<group>"; };
-		33E557CB188B6B0300E798E4 /* lwgeodetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwgeodetic.h; sourceTree = "<group>"; };
 		33E557CC188B6B0300E798E4 /* lwgeodetic_tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeodetic_tree.c; sourceTree = "<group>"; };
-		33E557CD188B6B0300E798E4 /* lwgeodetic_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwgeodetic_tree.h; sourceTree = "<group>"; };
 		33E557CE188B6B0300E798E4 /* lwgeom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom.c; sourceTree = "<group>"; };
 		33E557CF188B6B0300E798E4 /* lwgeom_api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_api.c; sourceTree = "<group>"; };
 		33E557D0188B6B0300E798E4 /* lwgeom_debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_debug.c; sourceTree = "<group>"; };
 		33E557D1188B6B0300E798E4 /* lwgeom_geos.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos.c; sourceTree = "<group>"; };
-		33E557D2188B6B0300E798E4 /* lwgeom_geos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwgeom_geos.h; sourceTree = "<group>"; };
 		33E557D3188B6B0300E798E4 /* lwgeom_geos_clean.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos_clean.c; sourceTree = "<group>"; };
 		33E557D4188B6B0300E798E4 /* lwgeom_geos_node.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos_node.c; sourceTree = "<group>"; };
 		33E557D5188B6B0300E798E4 /* lwgeom_geos_split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos_split.c; sourceTree = "<group>"; };
-		33E557D6188B6B0300E798E4 /* lwgeom_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwgeom_log.h; sourceTree = "<group>"; };
 		33E557D9188B6B0300E798E4 /* lwgeom_transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_transform.c; sourceTree = "<group>"; };
 		33E557DA188B6B0300E798E4 /* lwhomogenize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwhomogenize.c; sourceTree = "<group>"; };
 		33E557DB188B6B0300E798E4 /* lwin_geojson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_geojson.c; sourceTree = "<group>"; };
 		33E557DC188B6B0300E798E4 /* lwin_wkb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkb.c; sourceTree = "<group>"; };
 		33E557DD188B6B0300E798E4 /* lwin_wkt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkt.c; sourceTree = "<group>"; };
-		33E557DE188B6B0300E798E4 /* lwin_wkt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwin_wkt.h; sourceTree = "<group>"; };
 		33E557DF188B6B0300E798E4 /* lwin_wkt_lex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkt_lex.c; sourceTree = "<group>"; };
 		33E557E1188B6B0300E798E4 /* lwin_wkt_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkt_parse.c; sourceTree = "<group>"; };
-		33E557E2188B6B0300E798E4 /* lwin_wkt_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwin_wkt_parse.h; sourceTree = "<group>"; };
 		33E557E3188B6B0300E798E4 /* lwin_wkt_parse.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; path = lwin_wkt_parse.y; sourceTree = "<group>"; };
 		33E557E4188B6B0300E798E4 /* lwline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwline.c; sourceTree = "<group>"; };
 		33E557E5188B6B0300E798E4 /* lwlinearreferencing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwlinearreferencing.c; sourceTree = "<group>"; };
@@ -1379,18 +1358,13 @@
 		33E557F7188B6B0300E798E4 /* lwspheroid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwspheroid.c; sourceTree = "<group>"; };
 		33E557F8188B6B0300E798E4 /* lwtin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwtin.c; sourceTree = "<group>"; };
 		33E557F9188B6B0300E798E4 /* lwtree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwtree.c; sourceTree = "<group>"; };
-		33E557FA188B6B0300E798E4 /* lwtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwtree.h; sourceTree = "<group>"; };
 		33E557FB188B6B0300E798E4 /* lwtriangle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwtriangle.c; sourceTree = "<group>"; };
 		33E557FC188B6B0300E798E4 /* lwutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwutil.c; sourceTree = "<group>"; };
 		33E557FE188B6B0300E798E4 /* measures.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = measures.c; sourceTree = "<group>"; };
-		33E557FF188B6B0300E798E4 /* measures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measures.h; sourceTree = "<group>"; };
 		33E55800188B6B0300E798E4 /* measures3d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = measures3d.c; sourceTree = "<group>"; };
-		33E55801188B6B0300E798E4 /* measures3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measures3d.h; sourceTree = "<group>"; };
-		33E55802188B6B0300E798E4 /* postgis_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = postgis_config.h; sourceTree = "<group>"; };
 		33E55803188B6B0300E798E4 /* ptarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ptarray.c; sourceTree = "<group>"; };
 		33E55804188B6B0300E798E4 /* snprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = snprintf.c; sourceTree = "<group>"; };
 		33E55805188B6B0300E798E4 /* stringbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stringbuffer.c; sourceTree = "<group>"; };
-		33E55806188B6B0300E798E4 /* stringbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringbuffer.h; sourceTree = "<group>"; };
 		33E55807188B6B0300E798E4 /* vsprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vsprintf.c; sourceTree = "<group>"; };
 		3F7304811566EEEA00408390 /* libproj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libproj.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F73048C1566EF3D00408390 /* aasincos.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aasincos.c; sourceTree = "<group>"; };
@@ -3042,35 +3016,27 @@
 				33E557C0188B6B0300E798E4 /* g_serialized.c */,
 				33E557C1188B6B0300E798E4 /* g_serialized.txt */,
 				33E557C2188B6B0300E798E4 /* g_util.c */,
-				33E557C3188B6B0300E798E4 /* liblwgeom.h */,
-				33E557C4188B6B0300E798E4 /* liblwgeom_internal.h */,
 				33E557C5188B6B0300E798E4 /* lwalgorithm.c */,
 				33E557C6188B6B0300E798E4 /* lwcircstring.c */,
 				33E557C7188B6B0300E798E4 /* lwcollection.c */,
 				33E557C8188B6B0300E798E4 /* lwcompound.c */,
 				33E557C9188B6B0300E798E4 /* lwcurvepoly.c */,
 				33E557CA188B6B0300E798E4 /* lwgeodetic.c */,
-				33E557CB188B6B0300E798E4 /* lwgeodetic.h */,
 				33E557CC188B6B0300E798E4 /* lwgeodetic_tree.c */,
-				33E557CD188B6B0300E798E4 /* lwgeodetic_tree.h */,
 				33E557CE188B6B0300E798E4 /* lwgeom.c */,
 				33E557CF188B6B0300E798E4 /* lwgeom_api.c */,
 				33E557D0188B6B0300E798E4 /* lwgeom_debug.c */,
 				33E557D1188B6B0300E798E4 /* lwgeom_geos.c */,
-				33E557D2188B6B0300E798E4 /* lwgeom_geos.h */,
 				33E557D3188B6B0300E798E4 /* lwgeom_geos_clean.c */,
 				33E557D4188B6B0300E798E4 /* lwgeom_geos_node.c */,
 				33E557D5188B6B0300E798E4 /* lwgeom_geos_split.c */,
-				33E557D6188B6B0300E798E4 /* lwgeom_log.h */,
 				33E557D9188B6B0300E798E4 /* lwgeom_transform.c */,
 				33E557DA188B6B0300E798E4 /* lwhomogenize.c */,
 				33E557DB188B6B0300E798E4 /* lwin_geojson.c */,
 				33E557DC188B6B0300E798E4 /* lwin_wkb.c */,
 				33E557DD188B6B0300E798E4 /* lwin_wkt.c */,
-				33E557DE188B6B0300E798E4 /* lwin_wkt.h */,
 				33E557DF188B6B0300E798E4 /* lwin_wkt_lex.c */,
 				33E557E1188B6B0300E798E4 /* lwin_wkt_parse.c */,
-				33E557E2188B6B0300E798E4 /* lwin_wkt_parse.h */,
 				33E557E3188B6B0300E798E4 /* lwin_wkt_parse.y */,
 				33E557E4188B6B0300E798E4 /* lwline.c */,
 				33E557E5188B6B0300E798E4 /* lwlinearreferencing.c */,
@@ -3094,18 +3060,13 @@
 				33E557F7188B6B0300E798E4 /* lwspheroid.c */,
 				33E557F8188B6B0300E798E4 /* lwtin.c */,
 				33E557F9188B6B0300E798E4 /* lwtree.c */,
-				33E557FA188B6B0300E798E4 /* lwtree.h */,
 				33E557FB188B6B0300E798E4 /* lwtriangle.c */,
 				33E557FC188B6B0300E798E4 /* lwutil.c */,
 				33E557FE188B6B0300E798E4 /* measures.c */,
-				33E557FF188B6B0300E798E4 /* measures.h */,
 				33E55800188B6B0300E798E4 /* measures3d.c */,
-				33E55801188B6B0300E798E4 /* measures3d.h */,
-				33E55802188B6B0300E798E4 /* postgis_config.h */,
 				33E55803188B6B0300E798E4 /* ptarray.c */,
 				33E55804188B6B0300E798E4 /* snprintf.c */,
 				33E55805188B6B0300E798E4 /* stringbuffer.c */,
-				33E55806188B6B0300E798E4 /* stringbuffer.h */,
 				33E55807188B6B0300E798E4 /* vsprintf.c */,
 			);
 			path = lwgeom;
@@ -3359,19 +3320,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33E55840188B6B0300E798E4 /* lwgeom_log.h in Headers */,
-				33E55848188B6B0300E798E4 /* lwin_wkt.h in Headers */,
-				33E5586F188B6B0300E798E4 /* stringbuffer.h in Headers */,
-				33E55835188B6B0300E798E4 /* lwgeodetic.h in Headers */,
-				33E5586B188B6B0300E798E4 /* postgis_config.h in Headers */,
-				33E5586A188B6B0300E798E4 /* measures3d.h in Headers */,
-				33E55837188B6B0300E798E4 /* lwgeodetic_tree.h in Headers */,
-				33E5583C188B6B0300E798E4 /* lwgeom_geos.h in Headers */,
-				33E5584C188B6B0300E798E4 /* lwin_wkt_parse.h in Headers */,
-				33E5582D188B6B0300E798E4 /* liblwgeom.h in Headers */,
-				33E55864188B6B0300E798E4 /* lwtree.h in Headers */,
-				33E5582E188B6B0300E798E4 /* liblwgeom_internal.h in Headers */,
-				33E55868188B6B0300E798E4 /* measures.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
