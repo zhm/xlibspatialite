@@ -118,7 +118,8 @@ lwline_split_by_line(const LWLINE* lwline_in, const LWLINE* blade_in)
 		return NULL;
 	}
 
-	if ( ! lwtype_is_collection(diff->type) )
+	out = lwgeom_as_lwcollection(diff);
+	if ( ! out )
 	{
 		components = lwalloc(sizeof(LWGEOM*)*1);
 		components[0] = diff;
@@ -127,9 +128,10 @@ lwline_split_by_line(const LWLINE* lwline_in, const LWLINE* blade_in)
 	}
 	else
 	{
-		out = lwcollection_construct(COLLECTIONTYPE, lwline_in->srid,
-		                             NULL, ((LWCOLLECTION*)diff)->ngeoms,
-		                             ((LWCOLLECTION*)diff)->geoms);
+	  /* Set SRID */
+		lwgeom_set_srid((LWGEOM*)out, lwline_in->srid);
+	  /* Force collection type */
+	  out->type = COLLECTIONTYPE;
 	}
 
 
@@ -198,7 +200,11 @@ lwline_split_by_point_to(const LWLINE* lwline_in, const LWPOINT* blade_in,
 	}
 
 	/* There is a real intersection, let's get two substrings */
-	vstol = 1e-14; /* TODO: take this as parameter ? */
+
+	/* Compute vertex snap tolerance based on line length
+	 * TODO: take as parameter ? */
+	vstol = ptarray_length_2d(lwline_in->points) / 1e14;
+
 	pa1 = ptarray_substring(lwline_in->points, 0, loc, vstol);
 	pa2 = ptarray_substring(lwline_in->points, loc, 1, vstol);
 
@@ -333,7 +339,7 @@ lwpoly_split_by_line(const LWPOLY* lwpoly_in, const LWLINE* blade_in)
 	out = lwcollection_construct_empty(COLLECTIONTYPE, lwpoly_in->srid,
 				     hasZ, 0);
 	/* Allocate space for all polys */
-	out->geoms = lwalloc(sizeof(LWGEOM*)*n);
+	out->geoms = lwrealloc(out->geoms, sizeof(LWGEOM*)*n);
 	assert(0 == out->ngeoms);
 	for (i=0; i<n; ++i)
 	{

@@ -16,73 +16,6 @@
 		334F30D518862CA300A0E293 /* liblwgeom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CF4E8F16786BA0009A6830 /* liblwgeom.a */; };
 		334F30D618862CA300A0E293 /* libproj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7304811566EEEA00408390 /* libproj.a */; };
 		33CF4C72167868AD009A6830 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4C71167868AD009A6830 /* config.h */; };
-		33CF4EF616786C03009A6830 /* box2d.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4E9116786C03009A6830 /* box2d.c */; };
-		33CF4F1316786C03009A6830 /* g_box.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EB116786C03009A6830 /* g_box.c */; };
-		33CF4F1416786C03009A6830 /* g_serialized.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EB216786C03009A6830 /* g_serialized.c */; };
-		33CF4F1516786C03009A6830 /* g_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EB416786C03009A6830 /* g_util.c */; };
-		33CF4F1616786C03009A6830 /* liblwgeom_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EB616786C03009A6830 /* liblwgeom_internal.h */; };
-		33CF4F1716786C03009A6830 /* libtgeom.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EB716786C03009A6830 /* libtgeom.c */; };
-		33CF4F1816786C03009A6830 /* libtgeom.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EB816786C03009A6830 /* libtgeom.h */; };
-		33CF4F1916786C03009A6830 /* lwalgorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EB916786C03009A6830 /* lwalgorithm.c */; };
-		33CF4F1A16786C03009A6830 /* lwcircstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EBA16786C03009A6830 /* lwcircstring.c */; };
-		33CF4F1B16786C03009A6830 /* lwcollection.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EBB16786C03009A6830 /* lwcollection.c */; };
-		33CF4F1C16786C03009A6830 /* lwcompound.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EBC16786C03009A6830 /* lwcompound.c */; };
-		33CF4F1D16786C03009A6830 /* lwcurvepoly.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EBD16786C03009A6830 /* lwcurvepoly.c */; };
-		33CF4F1E16786C03009A6830 /* lwgeodetic.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EBE16786C03009A6830 /* lwgeodetic.c */; };
-		33CF4F1F16786C03009A6830 /* lwgeodetic.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EBF16786C03009A6830 /* lwgeodetic.h */; };
-		33CF4F2016786C03009A6830 /* lwgeom.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC016786C03009A6830 /* lwgeom.c */; };
-		33CF4F2116786C03009A6830 /* lwgeom_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC116786C03009A6830 /* lwgeom_api.c */; };
-		33CF4F2216786C03009A6830 /* lwgeom_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC216786C03009A6830 /* lwgeom_debug.c */; };
-		33CF4F2316786C03009A6830 /* lwgeom_geos.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC316786C03009A6830 /* lwgeom_geos.c */; };
-		33CF4F2416786C03009A6830 /* lwgeom_geos.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EC416786C03009A6830 /* lwgeom_geos.h */; };
-		33CF4F2516786C03009A6830 /* lwgeom_geos_clean.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC516786C03009A6830 /* lwgeom_geos_clean.c */; };
-		33CF4F2616786C03009A6830 /* lwgeom_geos_node.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC616786C03009A6830 /* lwgeom_geos_node.c */; };
-		33CF4F2716786C03009A6830 /* lwgeom_geos_split.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC716786C03009A6830 /* lwgeom_geos_split.c */; };
-		33CF4F2816786C03009A6830 /* lwgeom_log.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EC816786C03009A6830 /* lwgeom_log.h */; };
-		33CF4F2916786C03009A6830 /* lwgeom_transform.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EC916786C03009A6830 /* lwgeom_transform.c */; };
-		33CF4F2A16786C03009A6830 /* lwhomogenize.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ECA16786C03009A6830 /* lwhomogenize.c */; };
-		33CF4F2B16786C03009A6830 /* lwin_wkb.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ECB16786C03009A6830 /* lwin_wkb.c */; };
-		33CF4F2C16786C03009A6830 /* lwin_wkt.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ECC16786C03009A6830 /* lwin_wkt.c */; };
-		33CF4F2D16786C03009A6830 /* lwin_wkt.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4ECD16786C03009A6830 /* lwin_wkt.h */; };
-		33CF4F2E16786C03009A6830 /* lwin_wkt_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ECE16786C03009A6830 /* lwin_wkt_lex.c */; };
-		33CF4F3016786C03009A6830 /* lwin_wkt_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED016786C03009A6830 /* lwin_wkt_parse.c */; };
-		33CF4F3116786C03009A6830 /* lwin_wkt_parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4ED116786C03009A6830 /* lwin_wkt_parse.h */; };
-		33CF4F3316786C03009A6830 /* lwline.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED316786C03009A6830 /* lwline.c */; };
-		33CF4F3416786C03009A6830 /* lwlinearreferencing.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED416786C03009A6830 /* lwlinearreferencing.c */; };
-		33CF4F3516786C03009A6830 /* lwmcurve.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED516786C03009A6830 /* lwmcurve.c */; };
-		33CF4F3616786C03009A6830 /* lwmline.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED616786C03009A6830 /* lwmline.c */; };
-		33CF4F3716786C03009A6830 /* lwmpoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED716786C03009A6830 /* lwmpoint.c */; };
-		33CF4F3816786C03009A6830 /* lwmpoly.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED816786C03009A6830 /* lwmpoly.c */; };
-		33CF4F3916786C03009A6830 /* lwmsurface.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4ED916786C03009A6830 /* lwmsurface.c */; };
-		33CF4F3A16786C03009A6830 /* lwout_geojson.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EDA16786C03009A6830 /* lwout_geojson.c */; };
-		33CF4F3B16786C03009A6830 /* lwout_gml.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EDB16786C03009A6830 /* lwout_gml.c */; };
-		33CF4F3C16786C03009A6830 /* lwout_kml.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EDC16786C03009A6830 /* lwout_kml.c */; };
-		33CF4F3D16786C03009A6830 /* lwout_svg.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EDD16786C03009A6830 /* lwout_svg.c */; };
-		33CF4F3E16786C03009A6830 /* lwout_wkb.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EDE16786C03009A6830 /* lwout_wkb.c */; };
-		33CF4F3F16786C03009A6830 /* lwout_wkt.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EDF16786C03009A6830 /* lwout_wkt.c */; };
-		33CF4F4016786C03009A6830 /* lwout_x3d.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE016786C03009A6830 /* lwout_x3d.c */; };
-		33CF4F4116786C03009A6830 /* lwpoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE116786C03009A6830 /* lwpoint.c */; };
-		33CF4F4216786C03009A6830 /* lwpoly.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE216786C03009A6830 /* lwpoly.c */; };
-		33CF4F4316786C03009A6830 /* lwprint.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE316786C03009A6830 /* lwprint.c */; };
-		33CF4F4416786C03009A6830 /* lwpsurface.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE416786C03009A6830 /* lwpsurface.c */; };
-		33CF4F4516786C03009A6830 /* lwsegmentize.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE516786C03009A6830 /* lwsegmentize.c */; };
-		33CF4F4616786C03009A6830 /* lwspheroid.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE616786C03009A6830 /* lwspheroid.c */; };
-		33CF4F4716786C03009A6830 /* lwtin.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE716786C03009A6830 /* lwtin.c */; };
-		33CF4F4816786C03009A6830 /* lwtree.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EE816786C03009A6830 /* lwtree.c */; };
-		33CF4F4916786C03009A6830 /* lwtree.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EE916786C03009A6830 /* lwtree.h */; };
-		33CF4F4A16786C03009A6830 /* lwtriangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EEA16786C03009A6830 /* lwtriangle.c */; };
-		33CF4F4B16786C03009A6830 /* lwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EEB16786C03009A6830 /* lwutil.c */; };
-		33CF4F4C16786C03009A6830 /* measures.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EED16786C03009A6830 /* measures.c */; };
-		33CF4F4D16786C03009A6830 /* measures.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EEE16786C03009A6830 /* measures.h */; };
-		33CF4F4E16786C03009A6830 /* measures3d.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EEF16786C03009A6830 /* measures3d.c */; };
-		33CF4F4F16786C03009A6830 /* measures3d.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EF016786C03009A6830 /* measures3d.h */; };
-		33CF4F5016786C03009A6830 /* ptarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EF116786C03009A6830 /* ptarray.c */; };
-		33CF4F5116786C03009A6830 /* snprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EF216786C03009A6830 /* snprintf.c */; };
-		33CF4F5216786C03009A6830 /* stringbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EF316786C03009A6830 /* stringbuffer.c */; };
-		33CF4F5316786C03009A6830 /* stringbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4EF416786C03009A6830 /* stringbuffer.h */; };
-		33CF4F5416786C03009A6830 /* vsprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 33CF4EF516786C03009A6830 /* vsprintf.c */; };
-		33CF4F5A16786D97009A6830 /* liblwgeom.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4F5916786D97009A6830 /* liblwgeom.h */; };
-		33CF4F5C16786D9F009A6830 /* postgis_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CF4F5B16786D9F009A6830 /* postgis_config.h */; };
 		33E5484A188B503800E798E4 /* dxf_load_distinct.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54795188B503800E798E4 /* dxf_load_distinct.c */; };
 		33E5484B188B503800E798E4 /* dxf_load_mixed.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54796188B503800E798E4 /* dxf_load_mixed.c */; };
 		33E5484C188B503800E798E4 /* dxf_loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54797188B503800E798E4 /* dxf_loader.c */; };
@@ -186,6 +119,74 @@
 		33E548CC188B503800E798E4 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54841188B503800E798E4 /* version.c */; };
 		33E548CD188B503800E798E4 /* virtualtext.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54845188B503800E798E4 /* virtualtext.c */; };
 		33E548CE188B503800E798E4 /* wfs_in.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54849188B503800E798E4 /* wfs_in.c */; };
+		33E5493C188B53B900E798E4 /* box2d.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E548CF188B53B800E798E4 /* box2d.c */; };
+		33E5495E188B53B900E798E4 /* g_box.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E548F4188B53B800E798E4 /* g_box.c */; };
+		33E5495F188B53B900E798E4 /* g_serialized.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E548F5188B53B800E798E4 /* g_serialized.c */; };
+		33E54960188B53B900E798E4 /* g_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E548F7188B53B800E798E4 /* g_util.c */; };
+		33E54961188B53B900E798E4 /* liblwgeom_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E548F8188B53B800E798E4 /* liblwgeom_internal.h */; };
+		33E54962188B53B900E798E4 /* lwalgorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E548FA188B53B800E798E4 /* lwalgorithm.c */; };
+		33E54963188B53B900E798E4 /* lwcircstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E548FB188B53B800E798E4 /* lwcircstring.c */; };
+		33E54964188B53B900E798E4 /* lwcollection.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E548FC188B53B800E798E4 /* lwcollection.c */; };
+		33E54965188B53B900E798E4 /* lwcompound.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E548FD188B53B800E798E4 /* lwcompound.c */; };
+		33E54966188B53B900E798E4 /* lwcurvepoly.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E548FE188B53B800E798E4 /* lwcurvepoly.c */; };
+		33E54967188B53B900E798E4 /* lwgeodetic_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E548FF188B53B800E798E4 /* lwgeodetic_tree.c */; };
+		33E54968188B53B900E798E4 /* lwgeodetic_tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E54900188B53B800E798E4 /* lwgeodetic_tree.h */; };
+		33E54969188B53B900E798E4 /* lwgeodetic.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54901188B53B800E798E4 /* lwgeodetic.c */; };
+		33E5496A188B53B900E798E4 /* lwgeodetic.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E54902188B53B800E798E4 /* lwgeodetic.h */; };
+		33E5496B188B53B900E798E4 /* lwgeom_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54903188B53B800E798E4 /* lwgeom_api.c */; };
+		33E5496C188B53B900E798E4 /* lwgeom_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54904188B53B800E798E4 /* lwgeom_debug.c */; };
+		33E5496D188B53B900E798E4 /* lwgeom_geos_clean.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54905188B53B800E798E4 /* lwgeom_geos_clean.c */; };
+		33E5496E188B53B900E798E4 /* lwgeom_geos_node.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54906188B53B800E798E4 /* lwgeom_geos_node.c */; };
+		33E5496F188B53B900E798E4 /* lwgeom_geos_split.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54907188B53B800E798E4 /* lwgeom_geos_split.c */; };
+		33E54970188B53B900E798E4 /* lwgeom_geos.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54908188B53B800E798E4 /* lwgeom_geos.c */; };
+		33E54971188B53B900E798E4 /* lwgeom_geos.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E54909188B53B800E798E4 /* lwgeom_geos.h */; };
+		33E54972188B53B900E798E4 /* lwgeom_log.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E5490A188B53B800E798E4 /* lwgeom_log.h */; };
+		33E54974188B53B900E798E4 /* lwgeom_sfcgal.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E5490C188B53B800E798E4 /* lwgeom_sfcgal.h */; };
+		33E54975188B53B900E798E4 /* lwgeom_transform.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E5490D188B53B800E798E4 /* lwgeom_transform.c */; };
+		33E54976188B53B900E798E4 /* lwgeom.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E5490E188B53B800E798E4 /* lwgeom.c */; };
+		33E54977188B53B900E798E4 /* lwhomogenize.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E5490F188B53B800E798E4 /* lwhomogenize.c */; };
+		33E54978188B53B900E798E4 /* lwin_geojson.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54910188B53B800E798E4 /* lwin_geojson.c */; };
+		33E54979188B53B900E798E4 /* lwin_wkb.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54911188B53B800E798E4 /* lwin_wkb.c */; };
+		33E5497A188B53B900E798E4 /* lwin_wkt_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54912188B53B800E798E4 /* lwin_wkt_lex.c */; };
+		33E5497C188B53B900E798E4 /* lwin_wkt_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54914188B53B800E798E4 /* lwin_wkt_parse.c */; };
+		33E5497D188B53B900E798E4 /* lwin_wkt_parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E54915188B53B800E798E4 /* lwin_wkt_parse.h */; };
+		33E5497F188B53B900E798E4 /* lwin_wkt.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54917188B53B800E798E4 /* lwin_wkt.c */; };
+		33E54980188B53B900E798E4 /* lwin_wkt.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E54918188B53B800E798E4 /* lwin_wkt.h */; };
+		33E54981188B53B900E798E4 /* lwline.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54919188B53B800E798E4 /* lwline.c */; };
+		33E54982188B53B900E798E4 /* lwlinearreferencing.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E5491A188B53B800E798E4 /* lwlinearreferencing.c */; };
+		33E54983188B53B900E798E4 /* lwmcurve.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E5491B188B53B800E798E4 /* lwmcurve.c */; };
+		33E54984188B53B900E798E4 /* lwmline.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E5491C188B53B800E798E4 /* lwmline.c */; };
+		33E54985188B53B900E798E4 /* lwmpoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E5491D188B53B800E798E4 /* lwmpoint.c */; };
+		33E54986188B53B900E798E4 /* lwmpoly.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E5491E188B53B800E798E4 /* lwmpoly.c */; };
+		33E54987188B53B900E798E4 /* lwmsurface.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E5491F188B53B800E798E4 /* lwmsurface.c */; };
+		33E54988188B53B900E798E4 /* lwout_geojson.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54920188B53B800E798E4 /* lwout_geojson.c */; };
+		33E54989188B53B900E798E4 /* lwout_gml.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54921188B53B800E798E4 /* lwout_gml.c */; };
+		33E5498A188B53B900E798E4 /* lwout_kml.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54922188B53B800E798E4 /* lwout_kml.c */; };
+		33E5498B188B53B900E798E4 /* lwout_svg.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54923188B53B800E798E4 /* lwout_svg.c */; };
+		33E5498C188B53B900E798E4 /* lwout_wkb.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54924188B53B800E798E4 /* lwout_wkb.c */; };
+		33E5498D188B53B900E798E4 /* lwout_wkt.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54925188B53B800E798E4 /* lwout_wkt.c */; };
+		33E5498E188B53B900E798E4 /* lwout_x3d.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54926188B53B800E798E4 /* lwout_x3d.c */; };
+		33E5498F188B53B900E798E4 /* lwpoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54927188B53B800E798E4 /* lwpoint.c */; };
+		33E54990188B53B900E798E4 /* lwpoly.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54928188B53B800E798E4 /* lwpoly.c */; };
+		33E54991188B53B900E798E4 /* lwprint.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54929188B53B800E798E4 /* lwprint.c */; };
+		33E54992188B53B900E798E4 /* lwpsurface.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E5492A188B53B800E798E4 /* lwpsurface.c */; };
+		33E54993188B53B900E798E4 /* lwsegmentize.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E5492B188B53B800E798E4 /* lwsegmentize.c */; };
+		33E54994188B53B900E798E4 /* lwspheroid.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E5492C188B53B800E798E4 /* lwspheroid.c */; };
+		33E54995188B53B900E798E4 /* lwtin.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E5492D188B53B800E798E4 /* lwtin.c */; };
+		33E54996188B53B900E798E4 /* lwtree.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E5492E188B53B800E798E4 /* lwtree.c */; };
+		33E54997188B53B900E798E4 /* lwtree.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E5492F188B53B800E798E4 /* lwtree.h */; };
+		33E54998188B53B900E798E4 /* lwtriangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54930188B53B800E798E4 /* lwtriangle.c */; };
+		33E54999188B53B900E798E4 /* lwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54931188B53B800E798E4 /* lwutil.c */; };
+		33E5499A188B53B900E798E4 /* measures.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54933188B53B800E798E4 /* measures.c */; };
+		33E5499B188B53B900E798E4 /* measures.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E54934188B53B800E798E4 /* measures.h */; };
+		33E5499C188B53B900E798E4 /* measures3d.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54935188B53B800E798E4 /* measures3d.c */; };
+		33E5499D188B53B900E798E4 /* measures3d.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E54936188B53B800E798E4 /* measures3d.h */; };
+		33E5499E188B53B900E798E4 /* ptarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54937188B53B800E798E4 /* ptarray.c */; };
+		33E5499F188B53B900E798E4 /* snprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54938188B53B900E798E4 /* snprintf.c */; };
+		33E549A0188B53B900E798E4 /* stringbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E54939188B53B900E798E4 /* stringbuffer.c */; };
+		33E549A1188B53B900E798E4 /* stringbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E5493A188B53B900E798E4 /* stringbuffer.h */; };
+		33E549A2188B53B900E798E4 /* vsprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 33E5493B188B53B900E798E4 /* vsprintf.c */; };
+		33E549A4188B555A00E798E4 /* postgis_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E549A3188B555A00E798E4 /* postgis_config.h */; };
 		3F7300901566EEB100408390 /* geos_c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F73FEA81566EEB000408390 /* geos_c.cpp */; };
 		3F7300921566EEB100408390 /* geos_ts_c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F73FEAB1566EEB000408390 /* geos_ts_c.cpp */; };
 		3F7305371566EF3D00408390 /* aasincos.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F73048C1566EF3D00408390 /* aasincos.c */; };
@@ -630,76 +631,6 @@
 		334F30CE18862B7100A0E293 /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ext.h; sourceTree = "<group>"; };
 		33CF4C71167868AD009A6830 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = SOURCE_ROOT; };
 		33CF4E8F16786BA0009A6830 /* liblwgeom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblwgeom.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		33CF4E9116786C03009A6830 /* box2d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = box2d.c; sourceTree = "<group>"; };
-		33CF4EB116786C03009A6830 /* g_box.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = g_box.c; sourceTree = "<group>"; };
-		33CF4EB216786C03009A6830 /* g_serialized.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = g_serialized.c; sourceTree = "<group>"; };
-		33CF4EB316786C03009A6830 /* g_serialized.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = g_serialized.txt; sourceTree = "<group>"; };
-		33CF4EB416786C03009A6830 /* g_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = g_util.c; sourceTree = "<group>"; };
-		33CF4EB516786C03009A6830 /* liblwgeom.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = liblwgeom.h.in; sourceTree = "<group>"; };
-		33CF4EB616786C03009A6830 /* liblwgeom_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liblwgeom_internal.h; sourceTree = "<group>"; };
-		33CF4EB716786C03009A6830 /* libtgeom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libtgeom.c; sourceTree = "<group>"; };
-		33CF4EB816786C03009A6830 /* libtgeom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libtgeom.h; sourceTree = "<group>"; };
-		33CF4EB916786C03009A6830 /* lwalgorithm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwalgorithm.c; sourceTree = "<group>"; };
-		33CF4EBA16786C03009A6830 /* lwcircstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcircstring.c; sourceTree = "<group>"; };
-		33CF4EBB16786C03009A6830 /* lwcollection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcollection.c; sourceTree = "<group>"; };
-		33CF4EBC16786C03009A6830 /* lwcompound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcompound.c; sourceTree = "<group>"; };
-		33CF4EBD16786C03009A6830 /* lwcurvepoly.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcurvepoly.c; sourceTree = "<group>"; };
-		33CF4EBE16786C03009A6830 /* lwgeodetic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeodetic.c; sourceTree = "<group>"; };
-		33CF4EBF16786C03009A6830 /* lwgeodetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwgeodetic.h; sourceTree = "<group>"; };
-		33CF4EC016786C03009A6830 /* lwgeom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom.c; sourceTree = "<group>"; };
-		33CF4EC116786C03009A6830 /* lwgeom_api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_api.c; sourceTree = "<group>"; };
-		33CF4EC216786C03009A6830 /* lwgeom_debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_debug.c; sourceTree = "<group>"; };
-		33CF4EC316786C03009A6830 /* lwgeom_geos.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos.c; sourceTree = "<group>"; };
-		33CF4EC416786C03009A6830 /* lwgeom_geos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwgeom_geos.h; sourceTree = "<group>"; };
-		33CF4EC516786C03009A6830 /* lwgeom_geos_clean.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos_clean.c; sourceTree = "<group>"; };
-		33CF4EC616786C03009A6830 /* lwgeom_geos_node.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos_node.c; sourceTree = "<group>"; };
-		33CF4EC716786C03009A6830 /* lwgeom_geos_split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos_split.c; sourceTree = "<group>"; };
-		33CF4EC816786C03009A6830 /* lwgeom_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwgeom_log.h; sourceTree = "<group>"; };
-		33CF4EC916786C03009A6830 /* lwgeom_transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_transform.c; sourceTree = "<group>"; };
-		33CF4ECA16786C03009A6830 /* lwhomogenize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwhomogenize.c; sourceTree = "<group>"; };
-		33CF4ECB16786C03009A6830 /* lwin_wkb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkb.c; sourceTree = "<group>"; };
-		33CF4ECC16786C03009A6830 /* lwin_wkt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkt.c; sourceTree = "<group>"; };
-		33CF4ECD16786C03009A6830 /* lwin_wkt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwin_wkt.h; sourceTree = "<group>"; };
-		33CF4ECE16786C03009A6830 /* lwin_wkt_lex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkt_lex.c; sourceTree = "<group>"; };
-		33CF4ED016786C03009A6830 /* lwin_wkt_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkt_parse.c; sourceTree = "<group>"; };
-		33CF4ED116786C03009A6830 /* lwin_wkt_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwin_wkt_parse.h; sourceTree = "<group>"; };
-		33CF4ED316786C03009A6830 /* lwline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwline.c; sourceTree = "<group>"; };
-		33CF4ED416786C03009A6830 /* lwlinearreferencing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwlinearreferencing.c; sourceTree = "<group>"; };
-		33CF4ED516786C03009A6830 /* lwmcurve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwmcurve.c; sourceTree = "<group>"; };
-		33CF4ED616786C03009A6830 /* lwmline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwmline.c; sourceTree = "<group>"; };
-		33CF4ED716786C03009A6830 /* lwmpoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwmpoint.c; sourceTree = "<group>"; };
-		33CF4ED816786C03009A6830 /* lwmpoly.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwmpoly.c; sourceTree = "<group>"; };
-		33CF4ED916786C03009A6830 /* lwmsurface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwmsurface.c; sourceTree = "<group>"; };
-		33CF4EDA16786C03009A6830 /* lwout_geojson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_geojson.c; sourceTree = "<group>"; };
-		33CF4EDB16786C03009A6830 /* lwout_gml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_gml.c; sourceTree = "<group>"; };
-		33CF4EDC16786C03009A6830 /* lwout_kml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_kml.c; sourceTree = "<group>"; };
-		33CF4EDD16786C03009A6830 /* lwout_svg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_svg.c; sourceTree = "<group>"; };
-		33CF4EDE16786C03009A6830 /* lwout_wkb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_wkb.c; sourceTree = "<group>"; };
-		33CF4EDF16786C03009A6830 /* lwout_wkt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_wkt.c; sourceTree = "<group>"; };
-		33CF4EE016786C03009A6830 /* lwout_x3d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_x3d.c; sourceTree = "<group>"; };
-		33CF4EE116786C03009A6830 /* lwpoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwpoint.c; sourceTree = "<group>"; };
-		33CF4EE216786C03009A6830 /* lwpoly.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwpoly.c; sourceTree = "<group>"; };
-		33CF4EE316786C03009A6830 /* lwprint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwprint.c; sourceTree = "<group>"; };
-		33CF4EE416786C03009A6830 /* lwpsurface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwpsurface.c; sourceTree = "<group>"; };
-		33CF4EE516786C03009A6830 /* lwsegmentize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwsegmentize.c; sourceTree = "<group>"; };
-		33CF4EE616786C03009A6830 /* lwspheroid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwspheroid.c; sourceTree = "<group>"; };
-		33CF4EE716786C03009A6830 /* lwtin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwtin.c; sourceTree = "<group>"; };
-		33CF4EE816786C03009A6830 /* lwtree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwtree.c; sourceTree = "<group>"; };
-		33CF4EE916786C03009A6830 /* lwtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwtree.h; sourceTree = "<group>"; };
-		33CF4EEA16786C03009A6830 /* lwtriangle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwtriangle.c; sourceTree = "<group>"; };
-		33CF4EEB16786C03009A6830 /* lwutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwutil.c; sourceTree = "<group>"; };
-		33CF4EEC16786C03009A6830 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
-		33CF4EED16786C03009A6830 /* measures.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = measures.c; sourceTree = "<group>"; };
-		33CF4EEE16786C03009A6830 /* measures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measures.h; sourceTree = "<group>"; };
-		33CF4EEF16786C03009A6830 /* measures3d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = measures3d.c; sourceTree = "<group>"; };
-		33CF4EF016786C03009A6830 /* measures3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measures3d.h; sourceTree = "<group>"; };
-		33CF4EF116786C03009A6830 /* ptarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ptarray.c; sourceTree = "<group>"; };
-		33CF4EF216786C03009A6830 /* snprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = snprintf.c; sourceTree = "<group>"; };
-		33CF4EF316786C03009A6830 /* stringbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stringbuffer.c; sourceTree = "<group>"; };
-		33CF4EF416786C03009A6830 /* stringbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringbuffer.h; sourceTree = "<group>"; };
-		33CF4EF516786C03009A6830 /* vsprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vsprintf.c; sourceTree = "<group>"; };
-		33CF4F5916786D97009A6830 /* liblwgeom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liblwgeom.h; sourceTree = "<group>"; };
-		33CF4F5B16786D9F009A6830 /* postgis_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = postgis_config.h; sourceTree = "<group>"; };
 		33E54795188B503800E798E4 /* dxf_load_distinct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dxf_load_distinct.c; sourceTree = "<group>"; };
 		33E54796188B503800E798E4 /* dxf_load_mixed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dxf_load_mixed.c; sourceTree = "<group>"; };
 		33E54797188B503800E798E4 /* dxf_loader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dxf_loader.c; sourceTree = "<group>"; };
@@ -804,6 +735,77 @@
 		33E54841188B503800E798E4 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
 		33E54845188B503800E798E4 /* virtualtext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = virtualtext.c; sourceTree = "<group>"; };
 		33E54849188B503800E798E4 /* wfs_in.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wfs_in.c; sourceTree = "<group>"; };
+		33E548CF188B53B800E798E4 /* box2d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = box2d.c; sourceTree = "<group>"; };
+		33E548F4188B53B800E798E4 /* g_box.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = g_box.c; sourceTree = "<group>"; };
+		33E548F5188B53B800E798E4 /* g_serialized.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = g_serialized.c; sourceTree = "<group>"; };
+		33E548F6188B53B800E798E4 /* g_serialized.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = g_serialized.txt; sourceTree = "<group>"; };
+		33E548F7188B53B800E798E4 /* g_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = g_util.c; sourceTree = "<group>"; };
+		33E548F8188B53B800E798E4 /* liblwgeom_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liblwgeom_internal.h; sourceTree = "<group>"; };
+		33E548F9188B53B800E798E4 /* liblwgeom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liblwgeom.h; sourceTree = "<group>"; };
+		33E548FA188B53B800E798E4 /* lwalgorithm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwalgorithm.c; sourceTree = "<group>"; };
+		33E548FB188B53B800E798E4 /* lwcircstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcircstring.c; sourceTree = "<group>"; };
+		33E548FC188B53B800E798E4 /* lwcollection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcollection.c; sourceTree = "<group>"; };
+		33E548FD188B53B800E798E4 /* lwcompound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcompound.c; sourceTree = "<group>"; };
+		33E548FE188B53B800E798E4 /* lwcurvepoly.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwcurvepoly.c; sourceTree = "<group>"; };
+		33E548FF188B53B800E798E4 /* lwgeodetic_tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeodetic_tree.c; sourceTree = "<group>"; };
+		33E54900188B53B800E798E4 /* lwgeodetic_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwgeodetic_tree.h; sourceTree = "<group>"; };
+		33E54901188B53B800E798E4 /* lwgeodetic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeodetic.c; sourceTree = "<group>"; };
+		33E54902188B53B800E798E4 /* lwgeodetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwgeodetic.h; sourceTree = "<group>"; };
+		33E54903188B53B800E798E4 /* lwgeom_api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_api.c; sourceTree = "<group>"; };
+		33E54904188B53B800E798E4 /* lwgeom_debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_debug.c; sourceTree = "<group>"; };
+		33E54905188B53B800E798E4 /* lwgeom_geos_clean.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos_clean.c; sourceTree = "<group>"; };
+		33E54906188B53B800E798E4 /* lwgeom_geos_node.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos_node.c; sourceTree = "<group>"; };
+		33E54907188B53B800E798E4 /* lwgeom_geos_split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos_split.c; sourceTree = "<group>"; };
+		33E54908188B53B800E798E4 /* lwgeom_geos.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_geos.c; sourceTree = "<group>"; };
+		33E54909188B53B800E798E4 /* lwgeom_geos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwgeom_geos.h; sourceTree = "<group>"; };
+		33E5490A188B53B800E798E4 /* lwgeom_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwgeom_log.h; sourceTree = "<group>"; };
+		33E5490C188B53B800E798E4 /* lwgeom_sfcgal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwgeom_sfcgal.h; sourceTree = "<group>"; };
+		33E5490D188B53B800E798E4 /* lwgeom_transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom_transform.c; sourceTree = "<group>"; };
+		33E5490E188B53B800E798E4 /* lwgeom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwgeom.c; sourceTree = "<group>"; };
+		33E5490F188B53B800E798E4 /* lwhomogenize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwhomogenize.c; sourceTree = "<group>"; };
+		33E54910188B53B800E798E4 /* lwin_geojson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_geojson.c; sourceTree = "<group>"; };
+		33E54911188B53B800E798E4 /* lwin_wkb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkb.c; sourceTree = "<group>"; };
+		33E54912188B53B800E798E4 /* lwin_wkt_lex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkt_lex.c; sourceTree = "<group>"; };
+		33E54914188B53B800E798E4 /* lwin_wkt_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkt_parse.c; sourceTree = "<group>"; };
+		33E54915188B53B800E798E4 /* lwin_wkt_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwin_wkt_parse.h; sourceTree = "<group>"; };
+		33E54917188B53B800E798E4 /* lwin_wkt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwin_wkt.c; sourceTree = "<group>"; };
+		33E54918188B53B800E798E4 /* lwin_wkt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwin_wkt.h; sourceTree = "<group>"; };
+		33E54919188B53B800E798E4 /* lwline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwline.c; sourceTree = "<group>"; };
+		33E5491A188B53B800E798E4 /* lwlinearreferencing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwlinearreferencing.c; sourceTree = "<group>"; };
+		33E5491B188B53B800E798E4 /* lwmcurve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwmcurve.c; sourceTree = "<group>"; };
+		33E5491C188B53B800E798E4 /* lwmline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwmline.c; sourceTree = "<group>"; };
+		33E5491D188B53B800E798E4 /* lwmpoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwmpoint.c; sourceTree = "<group>"; };
+		33E5491E188B53B800E798E4 /* lwmpoly.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwmpoly.c; sourceTree = "<group>"; };
+		33E5491F188B53B800E798E4 /* lwmsurface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwmsurface.c; sourceTree = "<group>"; };
+		33E54920188B53B800E798E4 /* lwout_geojson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_geojson.c; sourceTree = "<group>"; };
+		33E54921188B53B800E798E4 /* lwout_gml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_gml.c; sourceTree = "<group>"; };
+		33E54922188B53B800E798E4 /* lwout_kml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_kml.c; sourceTree = "<group>"; };
+		33E54923188B53B800E798E4 /* lwout_svg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_svg.c; sourceTree = "<group>"; };
+		33E54924188B53B800E798E4 /* lwout_wkb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_wkb.c; sourceTree = "<group>"; };
+		33E54925188B53B800E798E4 /* lwout_wkt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_wkt.c; sourceTree = "<group>"; };
+		33E54926188B53B800E798E4 /* lwout_x3d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwout_x3d.c; sourceTree = "<group>"; };
+		33E54927188B53B800E798E4 /* lwpoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwpoint.c; sourceTree = "<group>"; };
+		33E54928188B53B800E798E4 /* lwpoly.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwpoly.c; sourceTree = "<group>"; };
+		33E54929188B53B800E798E4 /* lwprint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwprint.c; sourceTree = "<group>"; };
+		33E5492A188B53B800E798E4 /* lwpsurface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwpsurface.c; sourceTree = "<group>"; };
+		33E5492B188B53B800E798E4 /* lwsegmentize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwsegmentize.c; sourceTree = "<group>"; };
+		33E5492C188B53B800E798E4 /* lwspheroid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwspheroid.c; sourceTree = "<group>"; };
+		33E5492D188B53B800E798E4 /* lwtin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwtin.c; sourceTree = "<group>"; };
+		33E5492E188B53B800E798E4 /* lwtree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwtree.c; sourceTree = "<group>"; };
+		33E5492F188B53B800E798E4 /* lwtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwtree.h; sourceTree = "<group>"; };
+		33E54930188B53B800E798E4 /* lwtriangle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwtriangle.c; sourceTree = "<group>"; };
+		33E54931188B53B800E798E4 /* lwutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lwutil.c; sourceTree = "<group>"; };
+		33E54932188B53B800E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		33E54933188B53B800E798E4 /* measures.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = measures.c; sourceTree = "<group>"; };
+		33E54934188B53B800E798E4 /* measures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measures.h; sourceTree = "<group>"; };
+		33E54935188B53B800E798E4 /* measures3d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = measures3d.c; sourceTree = "<group>"; };
+		33E54936188B53B800E798E4 /* measures3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measures3d.h; sourceTree = "<group>"; };
+		33E54937188B53B800E798E4 /* ptarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ptarray.c; sourceTree = "<group>"; };
+		33E54938188B53B900E798E4 /* snprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = snprintf.c; sourceTree = "<group>"; };
+		33E54939188B53B900E798E4 /* stringbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stringbuffer.c; sourceTree = "<group>"; };
+		33E5493A188B53B900E798E4 /* stringbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringbuffer.h; sourceTree = "<group>"; };
+		33E5493B188B53B900E798E4 /* vsprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vsprintf.c; sourceTree = "<group>"; };
+		33E549A3188B555A00E798E4 /* postgis_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = postgis_config.h; sourceTree = "<group>"; };
 		3F7304811566EEEA00408390 /* libproj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libproj.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F73048C1566EF3D00408390 /* aasincos.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aasincos.c; sourceTree = "<group>"; };
 		3F73048D1566EF3D00408390 /* adjlon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adjlon.c; sourceTree = "<group>"; };
@@ -1854,76 +1856,77 @@
 		33CF4E9016786C03009A6830 /* liblwgeom */ = {
 			isa = PBXGroup;
 			children = (
-				33CF4F5B16786D9F009A6830 /* postgis_config.h */,
-				33CF4F5916786D97009A6830 /* liblwgeom.h */,
-				33CF4E9116786C03009A6830 /* box2d.c */,
-				33CF4EB116786C03009A6830 /* g_box.c */,
-				33CF4EB216786C03009A6830 /* g_serialized.c */,
-				33CF4EB316786C03009A6830 /* g_serialized.txt */,
-				33CF4EB416786C03009A6830 /* g_util.c */,
-				33CF4EB516786C03009A6830 /* liblwgeom.h.in */,
-				33CF4EB616786C03009A6830 /* liblwgeom_internal.h */,
-				33CF4EB716786C03009A6830 /* libtgeom.c */,
-				33CF4EB816786C03009A6830 /* libtgeom.h */,
-				33CF4EB916786C03009A6830 /* lwalgorithm.c */,
-				33CF4EBA16786C03009A6830 /* lwcircstring.c */,
-				33CF4EBB16786C03009A6830 /* lwcollection.c */,
-				33CF4EBC16786C03009A6830 /* lwcompound.c */,
-				33CF4EBD16786C03009A6830 /* lwcurvepoly.c */,
-				33CF4EBE16786C03009A6830 /* lwgeodetic.c */,
-				33CF4EBF16786C03009A6830 /* lwgeodetic.h */,
-				33CF4EC016786C03009A6830 /* lwgeom.c */,
-				33CF4EC116786C03009A6830 /* lwgeom_api.c */,
-				33CF4EC216786C03009A6830 /* lwgeom_debug.c */,
-				33CF4EC316786C03009A6830 /* lwgeom_geos.c */,
-				33CF4EC416786C03009A6830 /* lwgeom_geos.h */,
-				33CF4EC516786C03009A6830 /* lwgeom_geos_clean.c */,
-				33CF4EC616786C03009A6830 /* lwgeom_geos_node.c */,
-				33CF4EC716786C03009A6830 /* lwgeom_geos_split.c */,
-				33CF4EC816786C03009A6830 /* lwgeom_log.h */,
-				33CF4EC916786C03009A6830 /* lwgeom_transform.c */,
-				33CF4ECA16786C03009A6830 /* lwhomogenize.c */,
-				33CF4ECB16786C03009A6830 /* lwin_wkb.c */,
-				33CF4ECC16786C03009A6830 /* lwin_wkt.c */,
-				33CF4ECD16786C03009A6830 /* lwin_wkt.h */,
-				33CF4ECE16786C03009A6830 /* lwin_wkt_lex.c */,
-				33CF4ED016786C03009A6830 /* lwin_wkt_parse.c */,
-				33CF4ED116786C03009A6830 /* lwin_wkt_parse.h */,
-				33CF4ED316786C03009A6830 /* lwline.c */,
-				33CF4ED416786C03009A6830 /* lwlinearreferencing.c */,
-				33CF4ED516786C03009A6830 /* lwmcurve.c */,
-				33CF4ED616786C03009A6830 /* lwmline.c */,
-				33CF4ED716786C03009A6830 /* lwmpoint.c */,
-				33CF4ED816786C03009A6830 /* lwmpoly.c */,
-				33CF4ED916786C03009A6830 /* lwmsurface.c */,
-				33CF4EDA16786C03009A6830 /* lwout_geojson.c */,
-				33CF4EDB16786C03009A6830 /* lwout_gml.c */,
-				33CF4EDC16786C03009A6830 /* lwout_kml.c */,
-				33CF4EDD16786C03009A6830 /* lwout_svg.c */,
-				33CF4EDE16786C03009A6830 /* lwout_wkb.c */,
-				33CF4EDF16786C03009A6830 /* lwout_wkt.c */,
-				33CF4EE016786C03009A6830 /* lwout_x3d.c */,
-				33CF4EE116786C03009A6830 /* lwpoint.c */,
-				33CF4EE216786C03009A6830 /* lwpoly.c */,
-				33CF4EE316786C03009A6830 /* lwprint.c */,
-				33CF4EE416786C03009A6830 /* lwpsurface.c */,
-				33CF4EE516786C03009A6830 /* lwsegmentize.c */,
-				33CF4EE616786C03009A6830 /* lwspheroid.c */,
-				33CF4EE716786C03009A6830 /* lwtin.c */,
-				33CF4EE816786C03009A6830 /* lwtree.c */,
-				33CF4EE916786C03009A6830 /* lwtree.h */,
-				33CF4EEA16786C03009A6830 /* lwtriangle.c */,
-				33CF4EEB16786C03009A6830 /* lwutil.c */,
-				33CF4EEC16786C03009A6830 /* Makefile.in */,
-				33CF4EED16786C03009A6830 /* measures.c */,
-				33CF4EEE16786C03009A6830 /* measures.h */,
-				33CF4EEF16786C03009A6830 /* measures3d.c */,
-				33CF4EF016786C03009A6830 /* measures3d.h */,
-				33CF4EF116786C03009A6830 /* ptarray.c */,
-				33CF4EF216786C03009A6830 /* snprintf.c */,
-				33CF4EF316786C03009A6830 /* stringbuffer.c */,
-				33CF4EF416786C03009A6830 /* stringbuffer.h */,
-				33CF4EF516786C03009A6830 /* vsprintf.c */,
+				33E549A3188B555A00E798E4 /* postgis_config.h */,
+				33E548CF188B53B800E798E4 /* box2d.c */,
+				33E548F4188B53B800E798E4 /* g_box.c */,
+				33E548F5188B53B800E798E4 /* g_serialized.c */,
+				33E548F6188B53B800E798E4 /* g_serialized.txt */,
+				33E548F7188B53B800E798E4 /* g_util.c */,
+				33E548F8188B53B800E798E4 /* liblwgeom_internal.h */,
+				33E548F9188B53B800E798E4 /* liblwgeom.h */,
+				33E548FA188B53B800E798E4 /* lwalgorithm.c */,
+				33E548FB188B53B800E798E4 /* lwcircstring.c */,
+				33E548FC188B53B800E798E4 /* lwcollection.c */,
+				33E548FD188B53B800E798E4 /* lwcompound.c */,
+				33E548FE188B53B800E798E4 /* lwcurvepoly.c */,
+				33E548FF188B53B800E798E4 /* lwgeodetic_tree.c */,
+				33E54900188B53B800E798E4 /* lwgeodetic_tree.h */,
+				33E54901188B53B800E798E4 /* lwgeodetic.c */,
+				33E54902188B53B800E798E4 /* lwgeodetic.h */,
+				33E54903188B53B800E798E4 /* lwgeom_api.c */,
+				33E54904188B53B800E798E4 /* lwgeom_debug.c */,
+				33E54905188B53B800E798E4 /* lwgeom_geos_clean.c */,
+				33E54906188B53B800E798E4 /* lwgeom_geos_node.c */,
+				33E54907188B53B800E798E4 /* lwgeom_geos_split.c */,
+				33E54908188B53B800E798E4 /* lwgeom_geos.c */,
+				33E54909188B53B800E798E4 /* lwgeom_geos.h */,
+				33E5490A188B53B800E798E4 /* lwgeom_log.h */,
+				33E5490C188B53B800E798E4 /* lwgeom_sfcgal.h */,
+				33E5490D188B53B800E798E4 /* lwgeom_transform.c */,
+				33E5490E188B53B800E798E4 /* lwgeom.c */,
+				33E5490F188B53B800E798E4 /* lwhomogenize.c */,
+				33E54910188B53B800E798E4 /* lwin_geojson.c */,
+				33E54911188B53B800E798E4 /* lwin_wkb.c */,
+				33E54912188B53B800E798E4 /* lwin_wkt_lex.c */,
+				33E54914188B53B800E798E4 /* lwin_wkt_parse.c */,
+				33E54915188B53B800E798E4 /* lwin_wkt_parse.h */,
+				33E54917188B53B800E798E4 /* lwin_wkt.c */,
+				33E54918188B53B800E798E4 /* lwin_wkt.h */,
+				33E54919188B53B800E798E4 /* lwline.c */,
+				33E5491A188B53B800E798E4 /* lwlinearreferencing.c */,
+				33E5491B188B53B800E798E4 /* lwmcurve.c */,
+				33E5491C188B53B800E798E4 /* lwmline.c */,
+				33E5491D188B53B800E798E4 /* lwmpoint.c */,
+				33E5491E188B53B800E798E4 /* lwmpoly.c */,
+				33E5491F188B53B800E798E4 /* lwmsurface.c */,
+				33E54920188B53B800E798E4 /* lwout_geojson.c */,
+				33E54921188B53B800E798E4 /* lwout_gml.c */,
+				33E54922188B53B800E798E4 /* lwout_kml.c */,
+				33E54923188B53B800E798E4 /* lwout_svg.c */,
+				33E54924188B53B800E798E4 /* lwout_wkb.c */,
+				33E54925188B53B800E798E4 /* lwout_wkt.c */,
+				33E54926188B53B800E798E4 /* lwout_x3d.c */,
+				33E54927188B53B800E798E4 /* lwpoint.c */,
+				33E54928188B53B800E798E4 /* lwpoly.c */,
+				33E54929188B53B800E798E4 /* lwprint.c */,
+				33E5492A188B53B800E798E4 /* lwpsurface.c */,
+				33E5492B188B53B800E798E4 /* lwsegmentize.c */,
+				33E5492C188B53B800E798E4 /* lwspheroid.c */,
+				33E5492D188B53B800E798E4 /* lwtin.c */,
+				33E5492E188B53B800E798E4 /* lwtree.c */,
+				33E5492F188B53B800E798E4 /* lwtree.h */,
+				33E54930188B53B800E798E4 /* lwtriangle.c */,
+				33E54931188B53B800E798E4 /* lwutil.c */,
+				33E54932188B53B800E798E4 /* Makefile.in */,
+				33E54933188B53B800E798E4 /* measures.c */,
+				33E54934188B53B800E798E4 /* measures.h */,
+				33E54935188B53B800E798E4 /* measures3d.c */,
+				33E54936188B53B800E798E4 /* measures3d.h */,
+				33E54937188B53B800E798E4 /* ptarray.c */,
+				33E54938188B53B900E798E4 /* snprintf.c */,
+				33E54939188B53B900E798E4 /* stringbuffer.c */,
+				33E5493A188B53B900E798E4 /* stringbuffer.h */,
+				33E5493B188B53B900E798E4 /* vsprintf.c */,
 			);
 			path = liblwgeom;
 			sourceTree = "<group>";
@@ -3790,19 +3793,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33CF4F1616786C03009A6830 /* liblwgeom_internal.h in Headers */,
-				33CF4F1816786C03009A6830 /* libtgeom.h in Headers */,
-				33CF4F1F16786C03009A6830 /* lwgeodetic.h in Headers */,
-				33CF4F2416786C03009A6830 /* lwgeom_geos.h in Headers */,
-				33CF4F2816786C03009A6830 /* lwgeom_log.h in Headers */,
-				33CF4F2D16786C03009A6830 /* lwin_wkt.h in Headers */,
-				33CF4F3116786C03009A6830 /* lwin_wkt_parse.h in Headers */,
-				33CF4F4916786C03009A6830 /* lwtree.h in Headers */,
-				33CF4F4D16786C03009A6830 /* measures.h in Headers */,
-				33CF4F4F16786C03009A6830 /* measures3d.h in Headers */,
-				33CF4F5316786C03009A6830 /* stringbuffer.h in Headers */,
-				33CF4F5A16786D97009A6830 /* liblwgeom.h in Headers */,
-				33CF4F5C16786D9F009A6830 /* postgis_config.h in Headers */,
+				33E54961188B53B900E798E4 /* liblwgeom_internal.h in Headers */,
+				33E54980188B53B900E798E4 /* lwin_wkt.h in Headers */,
+				33E5497D188B53B900E798E4 /* lwin_wkt_parse.h in Headers */,
+				33E5499B188B53B900E798E4 /* measures.h in Headers */,
+				33E549A4188B555A00E798E4 /* postgis_config.h in Headers */,
+				33E549A1188B53B900E798E4 /* stringbuffer.h in Headers */,
+				33E5496A188B53B900E798E4 /* lwgeodetic.h in Headers */,
+				33E54974188B53B900E798E4 /* lwgeom_sfcgal.h in Headers */,
+				33E54968188B53B900E798E4 /* lwgeodetic_tree.h in Headers */,
+				33E54997188B53B900E798E4 /* lwtree.h in Headers */,
+				33E54972188B53B900E798E4 /* lwgeom_log.h in Headers */,
+				33E5499D188B53B900E798E4 /* measures3d.h in Headers */,
+				33E54971188B53B900E798E4 /* lwgeom_geos.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3936,60 +3939,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33CF4EF616786C03009A6830 /* box2d.c in Sources */,
-				33CF4F1316786C03009A6830 /* g_box.c in Sources */,
-				33CF4F1416786C03009A6830 /* g_serialized.c in Sources */,
-				33CF4F1516786C03009A6830 /* g_util.c in Sources */,
-				33CF4F1716786C03009A6830 /* libtgeom.c in Sources */,
-				33CF4F1916786C03009A6830 /* lwalgorithm.c in Sources */,
-				33CF4F1A16786C03009A6830 /* lwcircstring.c in Sources */,
-				33CF4F1B16786C03009A6830 /* lwcollection.c in Sources */,
-				33CF4F1C16786C03009A6830 /* lwcompound.c in Sources */,
-				33CF4F1D16786C03009A6830 /* lwcurvepoly.c in Sources */,
-				33CF4F1E16786C03009A6830 /* lwgeodetic.c in Sources */,
-				33CF4F2016786C03009A6830 /* lwgeom.c in Sources */,
-				33CF4F2116786C03009A6830 /* lwgeom_api.c in Sources */,
-				33CF4F2216786C03009A6830 /* lwgeom_debug.c in Sources */,
-				33CF4F2316786C03009A6830 /* lwgeom_geos.c in Sources */,
-				33CF4F2516786C03009A6830 /* lwgeom_geos_clean.c in Sources */,
-				33CF4F2616786C03009A6830 /* lwgeom_geos_node.c in Sources */,
-				33CF4F2716786C03009A6830 /* lwgeom_geos_split.c in Sources */,
-				33CF4F2916786C03009A6830 /* lwgeom_transform.c in Sources */,
-				33CF4F2A16786C03009A6830 /* lwhomogenize.c in Sources */,
-				33CF4F2B16786C03009A6830 /* lwin_wkb.c in Sources */,
-				33CF4F2C16786C03009A6830 /* lwin_wkt.c in Sources */,
-				33CF4F2E16786C03009A6830 /* lwin_wkt_lex.c in Sources */,
-				33CF4F3016786C03009A6830 /* lwin_wkt_parse.c in Sources */,
-				33CF4F3316786C03009A6830 /* lwline.c in Sources */,
-				33CF4F3416786C03009A6830 /* lwlinearreferencing.c in Sources */,
-				33CF4F3516786C03009A6830 /* lwmcurve.c in Sources */,
-				33CF4F3616786C03009A6830 /* lwmline.c in Sources */,
-				33CF4F3716786C03009A6830 /* lwmpoint.c in Sources */,
-				33CF4F3816786C03009A6830 /* lwmpoly.c in Sources */,
-				33CF4F3916786C03009A6830 /* lwmsurface.c in Sources */,
-				33CF4F3A16786C03009A6830 /* lwout_geojson.c in Sources */,
-				33CF4F3B16786C03009A6830 /* lwout_gml.c in Sources */,
-				33CF4F3C16786C03009A6830 /* lwout_kml.c in Sources */,
-				33CF4F3D16786C03009A6830 /* lwout_svg.c in Sources */,
-				33CF4F3E16786C03009A6830 /* lwout_wkb.c in Sources */,
-				33CF4F3F16786C03009A6830 /* lwout_wkt.c in Sources */,
-				33CF4F4016786C03009A6830 /* lwout_x3d.c in Sources */,
-				33CF4F4116786C03009A6830 /* lwpoint.c in Sources */,
-				33CF4F4216786C03009A6830 /* lwpoly.c in Sources */,
-				33CF4F4316786C03009A6830 /* lwprint.c in Sources */,
-				33CF4F4416786C03009A6830 /* lwpsurface.c in Sources */,
-				33CF4F4516786C03009A6830 /* lwsegmentize.c in Sources */,
-				33CF4F4616786C03009A6830 /* lwspheroid.c in Sources */,
-				33CF4F4716786C03009A6830 /* lwtin.c in Sources */,
-				33CF4F4816786C03009A6830 /* lwtree.c in Sources */,
-				33CF4F4A16786C03009A6830 /* lwtriangle.c in Sources */,
-				33CF4F4B16786C03009A6830 /* lwutil.c in Sources */,
-				33CF4F4C16786C03009A6830 /* measures.c in Sources */,
-				33CF4F4E16786C03009A6830 /* measures3d.c in Sources */,
-				33CF4F5016786C03009A6830 /* ptarray.c in Sources */,
-				33CF4F5116786C03009A6830 /* snprintf.c in Sources */,
-				33CF4F5216786C03009A6830 /* stringbuffer.c in Sources */,
-				33CF4F5416786C03009A6830 /* vsprintf.c in Sources */,
+				33E54975188B53B900E798E4 /* lwgeom_transform.c in Sources */,
+				33E5498A188B53B900E798E4 /* lwout_kml.c in Sources */,
+				33E54979188B53B900E798E4 /* lwin_wkb.c in Sources */,
+				33E54978188B53B900E798E4 /* lwin_geojson.c in Sources */,
+				33E54989188B53B900E798E4 /* lwout_gml.c in Sources */,
+				33E54977188B53B900E798E4 /* lwhomogenize.c in Sources */,
+				33E54990188B53B900E798E4 /* lwpoly.c in Sources */,
+				33E5499C188B53B900E798E4 /* measures3d.c in Sources */,
+				33E5498C188B53B900E798E4 /* lwout_wkb.c in Sources */,
+				33E5496F188B53B900E798E4 /* lwgeom_geos_split.c in Sources */,
+				33E5497A188B53B900E798E4 /* lwin_wkt_lex.c in Sources */,
+				33E549A2188B53B900E798E4 /* vsprintf.c in Sources */,
+				33E5498E188B53B900E798E4 /* lwout_x3d.c in Sources */,
+				33E54985188B53B900E798E4 /* lwmpoint.c in Sources */,
+				33E54962188B53B900E798E4 /* lwalgorithm.c in Sources */,
+				33E5498F188B53B900E798E4 /* lwpoint.c in Sources */,
+				33E54976188B53B900E798E4 /* lwgeom.c in Sources */,
+				33E54984188B53B900E798E4 /* lwmline.c in Sources */,
+				33E5496C188B53B900E798E4 /* lwgeom_debug.c in Sources */,
+				33E54993188B53B900E798E4 /* lwsegmentize.c in Sources */,
+				33E54966188B53B900E798E4 /* lwcurvepoly.c in Sources */,
+				33E5496E188B53B900E798E4 /* lwgeom_geos_node.c in Sources */,
+				33E5499A188B53B900E798E4 /* measures.c in Sources */,
+				33E5495E188B53B900E798E4 /* g_box.c in Sources */,
+				33E5499E188B53B900E798E4 /* ptarray.c in Sources */,
+				33E5499F188B53B900E798E4 /* snprintf.c in Sources */,
+				33E54964188B53B900E798E4 /* lwcollection.c in Sources */,
+				33E5495F188B53B900E798E4 /* g_serialized.c in Sources */,
+				33E54987188B53B900E798E4 /* lwmsurface.c in Sources */,
+				33E5498B188B53B900E798E4 /* lwout_svg.c in Sources */,
+				33E54992188B53B900E798E4 /* lwpsurface.c in Sources */,
+				33E5496B188B53B900E798E4 /* lwgeom_api.c in Sources */,
+				33E54970188B53B900E798E4 /* lwgeom_geos.c in Sources */,
+				33E5498D188B53B900E798E4 /* lwout_wkt.c in Sources */,
+				33E54999188B53B900E798E4 /* lwutil.c in Sources */,
+				33E549A0188B53B900E798E4 /* stringbuffer.c in Sources */,
+				33E54982188B53B900E798E4 /* lwlinearreferencing.c in Sources */,
+				33E54996188B53B900E798E4 /* lwtree.c in Sources */,
+				33E54960188B53B900E798E4 /* g_util.c in Sources */,
+				33E5493C188B53B900E798E4 /* box2d.c in Sources */,
+				33E54995188B53B900E798E4 /* lwtin.c in Sources */,
+				33E54981188B53B900E798E4 /* lwline.c in Sources */,
+				33E54994188B53B900E798E4 /* lwspheroid.c in Sources */,
+				33E54965188B53B900E798E4 /* lwcompound.c in Sources */,
+				33E54969188B53B900E798E4 /* lwgeodetic.c in Sources */,
+				33E54986188B53B900E798E4 /* lwmpoly.c in Sources */,
+				33E5497C188B53B900E798E4 /* lwin_wkt_parse.c in Sources */,
+				33E54963188B53B900E798E4 /* lwcircstring.c in Sources */,
+				33E54983188B53B900E798E4 /* lwmcurve.c in Sources */,
+				33E54988188B53B900E798E4 /* lwout_geojson.c in Sources */,
+				33E54998188B53B900E798E4 /* lwtriangle.c in Sources */,
+				33E54967188B53B900E798E4 /* lwgeodetic_tree.c in Sources */,
+				33E54991188B53B900E798E4 /* lwprint.c in Sources */,
+				33E5497F188B53B900E798E4 /* lwin_wkt.c in Sources */,
+				33E5496D188B53B900E798E4 /* lwgeom_geos_clean.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

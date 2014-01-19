@@ -189,7 +189,7 @@ ptarray_close2d(POINTARRAY* ring)
 	POINTARRAY* newring;
 
 	/* close the ring if not already closed (2d only) */
-	if ( ! ptarray_isclosed2d(ring) )
+	if ( ! ptarray_is_closed_2d(ring) )
 	{
 		/* close it up */
 		newring = ptarray_addPoint(ring,
@@ -317,6 +317,7 @@ lwcollection_make_geos_friendly(LWCOLLECTION *g)
 
 	ret = lwalloc(sizeof(LWCOLLECTION));
 	memcpy(ret, g, sizeof(LWCOLLECTION));
+    ret->maxgeoms = g->ngeoms;
 
 	for (i=0; i<g->ngeoms; i++)
 	{
@@ -324,7 +325,7 @@ lwcollection_make_geos_friendly(LWCOLLECTION *g)
 		if ( newg ) new_geoms[new_ngeoms++] = newg;
 	}
 
-	ret->bbox = 0; /* recompute later... */
+	ret->bbox = NULL; /* recompute later... */
 
 	ret->ngeoms = new_ngeoms;
 	if ( new_ngeoms )
@@ -334,7 +335,8 @@ lwcollection_make_geos_friendly(LWCOLLECTION *g)
 	else
 	{
 		free(new_geoms);
-		ret->geoms = 0;
+		ret->geoms = NULL;
+        ret->maxgeoms = 0;
 	}
 
 	return (LWGEOM*)ret;
@@ -613,6 +615,7 @@ LWGEOM_GEOS_makeValidPolygon(const GEOSGeometry* gin)
 			/* cleanup and throw */
 			GEOSGeom_destroy(geos_cut_edges);
 			GEOSGeom_destroy(geos_area);
+			/* TODO: Shouldn't this be an lwerror ? */
 			lwnotice("GEOSDifference() threw an error: %s",
 			         lwgeom_geos_errmsg);
 			return NULL;
@@ -664,6 +667,7 @@ LWGEOM_GEOS_makeValidPolygon(const GEOSGeometry* gin)
 		if ( ! gout )   /* an exception again */
 		{
 			/* cleanup and throw */
+			/* TODO: Shouldn't this be an lwerror ? */
 			lwnotice("GEOSGeom_createCollection() threw an error: %s",
 			         lwgeom_geos_errmsg);
 			/* TODO: cleanup! */
@@ -792,6 +796,58 @@ LWGEOM_GEOS_makeValidMultiLine(const GEOSGeometry* gin)
 	return gout;
 }
 
+static GEOSGeometry* LWGEOM_GEOS_makeValid(const GEOSGeometry*);
+
+/*
+ * We expect initGEOS being called already.
+ * Will return NULL on error (expect error handler being called by then)
+ */
+static GEOSGeometry*
+LWGEOM_GEOS_makeValidCollection(const GEOSGeometry* gin)
+{
+	int nvgeoms;
+	GEOSGeometry **vgeoms;
+	GEOSGeom gout;
+	unsigned int i;
+
+	nvgeoms = GEOSGetNumGeometries(gin);
+	if ( nvgeoms == -1 ) {
+		lwerror("GEOSGetNumGeometries: %s", lwgeom_geos_errmsg);
+		return 0;
+	}
+
+	vgeoms = lwalloc( sizeof(GEOSGeometry*) * nvgeoms );
+	if ( ! vgeoms ) {
+		lwerror("LWGEOM_GEOS_makeValidCollection: out of memory");
+		return 0;
+	}
+
+	for ( i=0; i<nvgeoms; ++i ) {
+		vgeoms[i] = LWGEOM_GEOS_makeValid( GEOSGetGeometryN(gin, i) );
+		if ( ! vgeoms[i] ) {
+			while (i--) GEOSGeom_destroy(vgeoms[i]);
+			lwfree(vgeoms);
+			/* we expect lwerror being called already by makeValid */
+			return NULL;
+		}
+	}
+
+	/* Collect areas and lines (if any line) */
+	gout = GEOSGeom_createCollection(GEOS_GEOMETRYCOLLECTION, vgeoms, nvgeoms);
+	lwfree(vgeoms);
+	if ( ! gout )   /* an exception again */
+	{
+		/* cleanup and throw */
+		for ( i=0; i<nvgeoms; ++i ) GEOSGeom_destroy(vgeoms[i]);
+		lwerror("GEOSGeom_createCollection() threw an error: %s",
+		         lwgeom_geos_errmsg);
+		return NULL;
+	}
+
+	return gout;
+
+}
+
 
 static GEOSGeometry*
 LWGEOM_GEOS_makeValid(const GEOSGeometry* gin)
@@ -873,6 +929,18 @@ LWGEOM_GEOS_makeValid(const GEOSGeometry* gin)
 		break; /* we've done */
 	}
 
+	case GEOS_GEOMETRYCOLLECTION:
+	{
+		gout = LWGEOM_GEOS_makeValidCollection(gin);
+		if ( ! gout )  /* an exception or something */
+		{
+			/* cleanup and throw */
+			lwerror("%s", lwgeom_geos_errmsg);
+			return NULL;
+		}
+		break; /* we've done */
+	}
+
 	default:
 	{
 		char* typname = GEOSGeomType(gin);
@@ -928,7 +996,7 @@ lwgeom_make_valid(LWGEOM* lwgeom_in)
 	int is3d;
 	GEOSGeom geosgeom;
 	GEOSGeometry* geosout;
-	LWGEOM *lwgeom_out;
+	LWGEOM *lwgeom_out, *lwgeom_tmp;
 
 	is3d = FLAGS_GET_Z(lwgeom_in->flags);
 
@@ -979,13 +1047,15 @@ lwgeom_make_valid(LWGEOM* lwgeom_in)
 	}
 
 	lwgeom_out = GEOS2LWGEOM(geosout, is3d);
+	GEOSGeom_destroy(geosout);
+
 	if ( lwgeom_is_collection(lwgeom_in) && ! lwgeom_is_collection(lwgeom_out) )
 	{
 		LWDEBUG(3, "lwgeom_make_valid: forcing multi");
-		lwgeom_out = lwgeom_as_multi(lwgeom_out);
+		lwgeom_tmp = lwgeom_as_multi(lwgeom_out);
+		lwfree(lwgeom_out); /* note: only frees the wrapper, not the content */
+		lwgeom_out = lwgeom_tmp;
 	}
-
-	GEOSGeom_destroy(geosout);
 
 	lwgeom_out->srid = lwgeom_in->srid;
 	return lwgeom_out;

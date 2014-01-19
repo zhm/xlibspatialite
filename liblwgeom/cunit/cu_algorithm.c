@@ -61,7 +61,7 @@ static int clean_cg_suite(void)
 */
 static void test_lw_segment_side(void)
 {
-	double rv = 0.0;
+	int rv = 0;
 	POINT2D p1, p2, q;
 
 	/* Vertical line at x=0 */
@@ -75,19 +75,19 @@ static void test_lw_segment_side(void)
 	q.y = 1.5;
 	rv = lw_segment_side(&p1, &p2, &q);
 	//printf("left %g\n",rv);
-	CU_ASSERT(rv < 0.0);
+	CU_ASSERT(rv < 0);
 
 	/* On the right */
 	q.x = 2.0;
 	rv = lw_segment_side(&p1, &p2, &q);
 	//printf("right %g\n",rv);
-	CU_ASSERT(rv > 0.0);
+	CU_ASSERT(rv > 0);
 
 	/* On the line */
 	q.x = 0.0;
 	rv = lw_segment_side(&p1, &p2, &q);
 	//printf("on line %g\n",rv);
-	CU_ASSERT_EQUAL(rv, 0.0);
+	CU_ASSERT_EQUAL(rv, 0);
 
 }
 
@@ -716,12 +716,12 @@ static void test_geohash_point(void)
 
 	geohash = geohash_point(0, 0, 16);
 	//printf("\ngeohash %s\n",geohash);
-	CU_ASSERT_STRING_EQUAL(geohash, "7zzzzzzzzzzzzzzz");
+	CU_ASSERT_STRING_EQUAL(geohash, "s000000000000000");
 	lwfree(geohash);
 
 	geohash = geohash_point(90, 0, 16);
 	//printf("\ngeohash %s\n",geohash);
-	CU_ASSERT_STRING_EQUAL(geohash, "mzzzzzzzzzzzzzzz");
+	CU_ASSERT_STRING_EQUAL(geohash, "w000000000000000");
 	lwfree(geohash);
 
 	geohash = geohash_point(20.012345, -20.012345, 15);
@@ -878,6 +878,24 @@ static void test_isclosed(void)
 	lwgeom_free(geom);
 }
 
+
+static void test_geohash_point_as_int(void)
+{
+	unsigned int gh;
+	POINT2D p;
+	
+	p.x = 50; p.y = 35;
+	gh = geohash_point_as_int(&p);
+	CU_ASSERT_EQUAL(gh, (unsigned int)3440103613);
+	p.x = 140; p.y = 45;
+	gh = geohash_point_as_int(&p);
+	CU_ASSERT_EQUAL(gh, (unsigned int)3982480893);
+	p.x = 140; p.y = 55;
+	gh = geohash_point_as_int(&p);
+	CU_ASSERT_EQUAL(gh, (unsigned int)4166944232);	
+}
+
+
 /*
 ** Used by test harness to register the tests in this file.
 */
@@ -897,6 +915,7 @@ CU_TestInfo algorithms_tests[] =
 	PG_TEST(test_geohash_point),
 	PG_TEST(test_geohash_precision),
 	PG_TEST(test_geohash),
+	PG_TEST(test_geohash_point_as_int),
 	PG_TEST(test_isclosed),
 	CU_TEST_INFO_NULL
 };

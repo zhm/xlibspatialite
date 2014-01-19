@@ -52,7 +52,7 @@
 /* #undef HAVE_LIBICONVCTL */
 
 /* Define to 1 if libjson is present */
-#define HAVE_LIBJSON 1
+/* #undef HAVE_LIBJSON */
 
 /* Define to 1 if you have the `pq' library (-lpq). */
 #define HAVE_LIBPQ 1
@@ -104,37 +104,37 @@
 #define LT_OBJDIR ".libs/"
 
 /* Location of PostgreSQL locale directory */
-#define PGSQL_LOCALEDIR "/usr/local/Cellar/postgresql/9.2.1/share/locale"
+#define PGSQL_LOCALEDIR "/usr/local/Cellar/postgresql/9.2.4/share/locale"
 
 /* Enable caching of bounding box within geometries */
 #define POSTGIS_AUTOCACHE_BBOX 1
 
 /* PostGIS build date */
-#define POSTGIS_BUILD_DATE "2012-12-12 07:43:50"
+#define POSTGIS_BUILD_DATE "2014-01-19 00:49:47"
 
 /* PostGIS library debug level (0=disabled) */
 #define POSTGIS_DEBUG_LEVEL 0
 
 /* GDAL library version */
-#define POSTGIS_GDAL_VERSION 19
+#define POSTGIS_GDAL_VERSION 110
 
 /* GEOS library version */
-#define POSTGIS_GEOS_VERSION 33
+#define POSTGIS_GEOS_VERSION 34
 
 /* PostGIS libxml2 version */
-#define POSTGIS_LIBXML2_VERSION "2.7.8"
+#define POSTGIS_LIBXML2_VERSION "2.9.0"
 
 /* PostGIS library version */
-#define POSTGIS_LIB_VERSION "2.0.2"
+#define POSTGIS_LIB_VERSION "2.1.1"
 
 /* PostGIS major version */
 #define POSTGIS_MAJOR_VERSION "2"
 
 /* PostGIS minor version */
-#define POSTGIS_MINOR_VERSION "0"
+#define POSTGIS_MINOR_VERSION "1"
 
 /* PostGIS micro version */
-#define POSTGIS_MICRO_VERSION "2"
+#define POSTGIS_MICRO_VERSION "1"
 
 /* PostgreSQL server version */
 #define POSTGIS_PGSQL_VERSION 92
@@ -146,7 +146,7 @@
 #define POSTGIS_PROJ_VERSION 48
 
 /* PostGIS Raster build date */
-#define POSTGIS_RASTER_BUILD_DATE "2012-12-12 07:43:50"
+#define POSTGIS_RASTER_BUILD_DATE "2014-01-19 00:49:47"
 
 /* PostGIS Raster library version */
 #define POSTGIS_RASTER_LIB_VERSION "0.1.6d"
@@ -170,13 +170,13 @@
 #define POSTGIS_RASTER_WARN_ON_TRUNCATION 0
 
 /* PostGIS scripts version */
-#define POSTGIS_SCRIPTS_VERSION "2.0.2"
+#define POSTGIS_SCRIPTS_VERSION "2.1.1"
 
 /* Enable use of ANALYZE statistics */
 #define POSTGIS_USE_STATS 1
 
 /* PostGIS version */
-#define POSTGIS_VERSION "2.0 USE_GEOS=1 USE_PROJ=1 USE_STATS=1"
+#define POSTGIS_VERSION "2.1 USE_GEOS=1 USE_PROJ=1 USE_STATS=1"
 
 /* Define command to determine the current directory during regression */
 /* #undef PWDREGRESS */
