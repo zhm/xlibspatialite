@@ -190,7 +190,6 @@
 		33E554CA188B5BC300E798E4 /* geos_c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E54FB2188B5BC000E798E4 /* geos_c.cpp */; };
 		33E554CB188B5BC300E798E4 /* geos_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E54FB3188B5BC000E798E4 /* geos_c.h */; };
 		33E554CC188B5BC300E798E4 /* geos_ts_c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E54FB5188B5BC000E798E4 /* geos_ts_c.cpp */; };
-		33E554CD188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E54FB6188B5BC000E798E4 /* Makefile */; };
 		33E5565A188B5BC300E798E4 /* Angle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E551F2188B5BC100E798E4 /* Angle.cpp */; };
 		33E5565B188B5BC300E798E4 /* BoundaryNodeRule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E551F3188B5BC100E798E4 /* BoundaryNodeRule.cpp */; };
 		33E5565C188B5BC300E798E4 /* Centroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E551F4188B5BC100E798E4 /* Centroid.cpp */; };
@@ -201,17 +200,14 @@
 		33E55661188B5BC300E798E4 /* ConvexHull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E551F9188B5BC100E798E4 /* ConvexHull.cpp */; };
 		33E55662188B5BC300E798E4 /* DiscreteHausdorffDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E551FE188B5BC100E798E4 /* DiscreteHausdorffDistance.cpp */; };
 		33E55663188B5BC300E798E4 /* DistanceToPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E551FF188B5BC100E798E4 /* DistanceToPoint.cpp */; };
-		33E55664188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55200188B5BC100E798E4 /* Makefile */; };
 		33E55665188B5BC300E798E4 /* HCoordinate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55203188B5BC100E798E4 /* HCoordinate.cpp */; };
 		33E55666188B5BC300E798E4 /* InteriorPointArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55204188B5BC100E798E4 /* InteriorPointArea.cpp */; };
 		33E55667188B5BC300E798E4 /* InteriorPointLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55205188B5BC100E798E4 /* InteriorPointLine.cpp */; };
 		33E55668188B5BC300E798E4 /* InteriorPointPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55206188B5BC100E798E4 /* InteriorPointPoint.cpp */; };
 		33E55669188B5BC300E798E4 /* LineIntersector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55207188B5BC100E798E4 /* LineIntersector.cpp */; };
 		33E5566A188B5BC300E798E4 /* IndexedPointInAreaLocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5520D188B5BC100E798E4 /* IndexedPointInAreaLocator.cpp */; };
-		33E5566B188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E5520E188B5BC100E798E4 /* Makefile */; };
 		33E5566C188B5BC300E798E4 /* PointOnGeometryLocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55211188B5BC100E798E4 /* PointOnGeometryLocator.cpp */; };
 		33E5566D188B5BC300E798E4 /* SimplePointInAreaLocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55212188B5BC100E798E4 /* SimplePointInAreaLocator.cpp */; };
-		33E5566E188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55213188B5BC100E798E4 /* Makefile */; };
 		33E5566F188B5BC300E798E4 /* MCPointInRing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55216188B5BC100E798E4 /* MCPointInRing.cpp */; };
 		33E55670188B5BC300E798E4 /* MinimumDiameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55217188B5BC100E798E4 /* MinimumDiameter.cpp */; };
 		33E55671188B5BC300E798E4 /* NotRepresentableException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55218188B5BC100E798E4 /* NotRepresentableException.cpp */; };
@@ -237,7 +233,6 @@
 		33E55685188B5BC300E798E4 /* LineSegment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55248188B5BC100E798E4 /* LineSegment.cpp */; };
 		33E55686188B5BC300E798E4 /* LineString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55249188B5BC100E798E4 /* LineString.cpp */; };
 		33E55687188B5BC300E798E4 /* Location.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5524A188B5BC100E798E4 /* Location.cpp */; };
-		33E55688188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E5524B188B5BC100E798E4 /* Makefile */; };
 		33E55689188B5BC300E798E4 /* MultiLineString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5524E188B5BC100E798E4 /* MultiLineString.cpp */; };
 		33E5568A188B5BC300E798E4 /* MultiPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5524F188B5BC100E798E4 /* MultiPoint.cpp */; };
 		33E5568B188B5BC300E798E4 /* MultiPolygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55250188B5BC100E798E4 /* MultiPolygon.cpp */; };
@@ -246,7 +241,6 @@
 		33E5568E188B5BC300E798E4 /* PrecisionModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55253188B5BC100E798E4 /* PrecisionModel.cpp */; };
 		33E5568F188B5BC300E798E4 /* AbstractPreparedPolygonContains.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55263188B5BC100E798E4 /* AbstractPreparedPolygonContains.cpp */; };
 		33E55690188B5BC300E798E4 /* BasicPreparedGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55264188B5BC100E798E4 /* BasicPreparedGeometry.cpp */; };
-		33E55691188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55265188B5BC100E798E4 /* Makefile */; };
 		33E55692188B5BC300E798E4 /* PreparedGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55268188B5BC100E798E4 /* PreparedGeometry.cpp */; };
 		33E55693188B5BC300E798E4 /* PreparedGeometryFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55269188B5BC100E798E4 /* PreparedGeometryFactory.cpp */; };
 		33E55694188B5BC300E798E4 /* PreparedLineString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5526A188B5BC100E798E4 /* PreparedLineString.cpp */; };
@@ -264,7 +258,6 @@
 		33E556A0188B5BC300E798E4 /* GeometryCombiner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5527F188B5BC100E798E4 /* GeometryCombiner.cpp */; };
 		33E556A1188B5BC300E798E4 /* GeometryEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55280188B5BC100E798E4 /* GeometryEditor.cpp */; };
 		33E556A2188B5BC300E798E4 /* GeometryTransformer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55281188B5BC100E798E4 /* GeometryTransformer.cpp */; };
-		33E556A3188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55282188B5BC100E798E4 /* Makefile */; };
 		33E556A4188B5BC300E798E4 /* ShortCircuitedGeometryVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55285188B5BC100E798E4 /* ShortCircuitedGeometryVisitor.cpp */; };
 		33E556A5188B5BC300E798E4 /* SineStarFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55286188B5BC100E798E4 /* SineStarFactory.cpp */; };
 		33E556A6188B5BC300E798E4 /* Depth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5529D188B5BC200E798E4 /* Depth.cpp */; };
@@ -279,7 +272,6 @@
 		33E556AF188B5BC300E798E4 /* EdgeRing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552A6188B5BC200E798E4 /* EdgeRing.cpp */; };
 		33E556B0188B5BC300E798E4 /* GeometryGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552A7188B5BC200E798E4 /* GeometryGraph.cpp */; };
 		33E556B1188B5BC300E798E4 /* GraphComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552A8188B5BC200E798E4 /* GraphComponent.cpp */; };
-		33E556B2188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E552B3188B5BC200E798E4 /* Makefile */; };
 		33E556B3188B5BC300E798E4 /* MonotoneChainEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552B6188B5BC200E798E4 /* MonotoneChainEdge.cpp */; };
 		33E556B4188B5BC300E798E4 /* MonotoneChainIndexer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552B7188B5BC200E798E4 /* MonotoneChainIndexer.cpp */; };
 		33E556B5188B5BC300E798E4 /* SegmentIntersector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552B8188B5BC200E798E4 /* SegmentIntersector.cpp */; };
@@ -289,7 +281,6 @@
 		33E556B9188B5BC300E798E4 /* SweepLineEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552BC188B5BC200E798E4 /* SweepLineEvent.cpp */; };
 		33E556BA188B5BC300E798E4 /* SweepLineSegment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552BD188B5BC200E798E4 /* SweepLineSegment.cpp */; };
 		33E556BB188B5BC300E798E4 /* Label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552BE188B5BC200E798E4 /* Label.cpp */; };
-		33E556BC188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E552BF188B5BC200E798E4 /* Makefile */; };
 		33E556BD188B5BC300E798E4 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552C2188B5BC200E798E4 /* Node.cpp */; };
 		33E556BE188B5BC300E798E4 /* NodeFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552C3188B5BC200E798E4 /* NodeFactory.cpp */; };
 		33E556BF188B5BC300E798E4 /* NodeMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552C4188B5BC200E798E4 /* NodeMap.cpp */; };
@@ -300,11 +291,9 @@
 		33E556C4188B5BC300E798E4 /* Bintree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552D2188B5BC200E798E4 /* Bintree.cpp */; };
 		33E556C5188B5BC300E798E4 /* Interval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552D3188B5BC200E798E4 /* Interval.cpp */; };
 		33E556C6188B5BC300E798E4 /* Key.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552D4188B5BC200E798E4 /* Key.cpp */; };
-		33E556C7188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E552D5188B5BC200E798E4 /* Makefile */; };
 		33E556C8188B5BC300E798E4 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552D8188B5BC200E798E4 /* Node.cpp */; };
 		33E556C9188B5BC300E798E4 /* NodeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552D9188B5BC200E798E4 /* NodeBase.cpp */; };
 		33E556CA188B5BC300E798E4 /* Root.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552DA188B5BC200E798E4 /* Root.cpp */; };
-		33E556CB188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E552E1188B5BC200E798E4 /* Makefile */; };
 		33E556CC188B5BC300E798E4 /* MonotoneChain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552E4188B5BC200E798E4 /* MonotoneChain.cpp */; };
 		33E556CD188B5BC300E798E4 /* MonotoneChainBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552E5188B5BC200E798E4 /* MonotoneChainBuilder.cpp */; };
 		33E556CE188B5BC300E798E4 /* MonotoneChainOverlapAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552E6188B5BC200E798E4 /* MonotoneChainOverlapAction.cpp */; };
@@ -312,13 +301,10 @@
 		33E556D0188B5BC300E798E4 /* IntervalRTreeBranchNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552EE188B5BC200E798E4 /* IntervalRTreeBranchNode.cpp */; };
 		33E556D1188B5BC300E798E4 /* IntervalRTreeLeafNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552EF188B5BC200E798E4 /* IntervalRTreeLeafNode.cpp */; };
 		33E556D2188B5BC300E798E4 /* IntervalRTreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552F0188B5BC200E798E4 /* IntervalRTreeNode.cpp */; };
-		33E556D3188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E552F1188B5BC200E798E4 /* Makefile */; };
 		33E556D4188B5BC300E798E4 /* SortedPackedIntervalRTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E552F4188B5BC200E798E4 /* SortedPackedIntervalRTree.cpp */; };
-		33E556D5188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E552F5188B5BC200E798E4 /* Makefile */; };
 		33E556D6188B5BC300E798E4 /* DoubleBits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55301188B5BC200E798E4 /* DoubleBits.cpp */; };
 		33E556D7188B5BC300E798E4 /* IntervalSize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55302188B5BC200E798E4 /* IntervalSize.cpp */; };
 		33E556D8188B5BC300E798E4 /* Key.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55303188B5BC200E798E4 /* Key.cpp */; };
-		33E556D9188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55304188B5BC200E798E4 /* Makefile */; };
 		33E556DA188B5BC300E798E4 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55307188B5BC200E798E4 /* Node.cpp */; };
 		33E556DB188B5BC300E798E4 /* NodeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55308188B5BC200E798E4 /* NodeBase.cpp */; };
 		33E556DC188B5BC300E798E4 /* Quadtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55309188B5BC200E798E4 /* Quadtree.cpp */; };
@@ -327,10 +313,8 @@
 		33E556DF188B5BC300E798E4 /* AbstractSTRtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55314188B5BC200E798E4 /* AbstractSTRtree.cpp */; };
 		33E556E0188B5BC300E798E4 /* Interval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55315188B5BC200E798E4 /* Interval.cpp */; };
 		33E556E1188B5BC300E798E4 /* ItemBoundable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55316188B5BC200E798E4 /* ItemBoundable.cpp */; };
-		33E556E2188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55317188B5BC200E798E4 /* Makefile */; };
 		33E556E3188B5BC300E798E4 /* SIRtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5531A188B5BC200E798E4 /* SIRtree.cpp */; };
 		33E556E4188B5BC300E798E4 /* STRtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5531B188B5BC200E798E4 /* STRtree.cpp */; };
-		33E556E5188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55321188B5BC200E798E4 /* Makefile */; };
 		33E556E6188B5BC300E798E4 /* SweepLineEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55324188B5BC200E798E4 /* SweepLineEvent.cpp */; };
 		33E556E7188B5BC300E798E4 /* SweepLineIndex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55325188B5BC200E798E4 /* SweepLineIndex.cpp */; };
 		33E556E8188B5BC300E798E4 /* SweepLineInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55326188B5BC200E798E4 /* SweepLineInterval.cpp */; };
@@ -338,7 +322,6 @@
 		33E556EA188B5BC300E798E4 /* ByteOrderDataInStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55336188B5BC200E798E4 /* ByteOrderDataInStream.cpp */; };
 		33E556EB188B5BC300E798E4 /* ByteOrderValues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55337188B5BC200E798E4 /* ByteOrderValues.cpp */; };
 		33E556EC188B5BC300E798E4 /* CLocalizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55338188B5BC200E798E4 /* CLocalizer.cpp */; };
-		33E556ED188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55339188B5BC200E798E4 /* Makefile */; };
 		33E556EE188B5BC300E798E4 /* ParseException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5533C188B5BC200E798E4 /* ParseException.cpp */; };
 		33E556EF188B5BC300E798E4 /* StringTokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5533D188B5BC200E798E4 /* StringTokenizer.cpp */; };
 		33E556F0188B5BC300E798E4 /* Unload.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5533E188B5BC200E798E4 /* Unload.cpp */; };
@@ -356,8 +339,6 @@
 		33E556FC188B5BC300E798E4 /* LinearLocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55355188B5BC200E798E4 /* LinearLocation.cpp */; };
 		33E556FD188B5BC300E798E4 /* LocationIndexOfLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55356188B5BC200E798E4 /* LocationIndexOfLine.cpp */; };
 		33E556FE188B5BC300E798E4 /* LocationIndexOfPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55357188B5BC200E798E4 /* LocationIndexOfPoint.cpp */; };
-		33E556FF188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55358188B5BC200E798E4 /* Makefile */; };
-		33E55700188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E5535B188B5BC200E798E4 /* Makefile */; };
 		33E55701188B5BC300E798E4 /* BasicSegmentString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55376188B5BC200E798E4 /* BasicSegmentString.cpp */; };
 		33E55702188B5BC300E798E4 /* FastNodingValidator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55377188B5BC200E798E4 /* FastNodingValidator.cpp */; };
 		33E55703188B5BC300E798E4 /* FastSegmentSetIntersectionFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55378188B5BC200E798E4 /* FastSegmentSetIntersectionFinder.cpp */; };
@@ -365,7 +346,6 @@
 		33E55705188B5BC300E798E4 /* IntersectionAdder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5537A188B5BC200E798E4 /* IntersectionAdder.cpp */; };
 		33E55706188B5BC300E798E4 /* IntersectionFinderAdder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5537B188B5BC200E798E4 /* IntersectionFinderAdder.cpp */; };
 		33E55707188B5BC300E798E4 /* IteratedNoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5537C188B5BC200E798E4 /* IteratedNoder.cpp */; };
-		33E55708188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E5537D188B5BC200E798E4 /* Makefile */; };
 		33E55709188B5BC300E798E4 /* MCIndexNoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55380188B5BC200E798E4 /* MCIndexNoder.cpp */; };
 		33E5570A188B5BC300E798E4 /* MCIndexSegmentSetMutualIntersector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55381188B5BC200E798E4 /* MCIndexSegmentSetMutualIntersector.cpp */; };
 		33E5570B188B5BC300E798E4 /* NodedSegmentString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55382188B5BC200E798E4 /* NodedSegmentString.cpp */; };
@@ -381,7 +361,6 @@
 		33E55715188B5BC300E798E4 /* SimpleNoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5538C188B5BC200E798E4 /* SimpleNoder.cpp */; };
 		33E55716188B5BC300E798E4 /* SingleInteriorIntersectionFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5538D188B5BC200E798E4 /* SingleInteriorIntersectionFinder.cpp */; };
 		33E55717188B5BC300E798E4 /* HotPixel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55394188B5BC200E798E4 /* HotPixel.cpp */; };
-		33E55718188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55395188B5BC200E798E4 /* Makefile */; };
 		33E55719188B5BC300E798E4 /* MCIndexPointSnapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55398188B5BC200E798E4 /* MCIndexPointSnapper.cpp */; };
 		33E5571A188B5BC300E798E4 /* MCIndexSnapRounder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55399188B5BC200E798E4 /* MCIndexSnapRounder.cpp */; };
 		33E5571B188B5BC300E798E4 /* SimpleSnapRounder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5539A188B5BC200E798E4 /* SimpleSnapRounder.cpp */; };
@@ -390,7 +369,6 @@
 		33E5571E188B5BC300E798E4 /* BufferOp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553AD188B5BC200E798E4 /* BufferOp.cpp */; };
 		33E5571F188B5BC300E798E4 /* BufferParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553AE188B5BC200E798E4 /* BufferParameters.cpp */; };
 		33E55720188B5BC300E798E4 /* BufferSubgraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553AF188B5BC200E798E4 /* BufferSubgraph.cpp */; };
-		33E55721188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E553B0188B5BC200E798E4 /* Makefile */; };
 		33E55722188B5BC300E798E4 /* OffsetCurveBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553B3188B5BC200E798E4 /* OffsetCurveBuilder.cpp */; };
 		33E55723188B5BC300E798E4 /* OffsetCurveSetBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553B4188B5BC200E798E4 /* OffsetCurveSetBuilder.cpp */; };
 		33E55724188B5BC300E798E4 /* OffsetSegmentGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553B5188B5BC200E798E4 /* OffsetSegmentGenerator.cpp */; };
@@ -400,7 +378,6 @@
 		33E55728188B5BC300E798E4 /* ConnectedElementPointFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553BF188B5BC200E798E4 /* ConnectedElementPointFilter.cpp */; };
 		33E55729188B5BC300E798E4 /* DistanceOp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553C0188B5BC200E798E4 /* DistanceOp.cpp */; };
 		33E5572A188B5BC300E798E4 /* GeometryLocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553C1188B5BC200E798E4 /* GeometryLocation.cpp */; };
-		33E5572B188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E553C2188B5BC200E798E4 /* Makefile */; };
 		33E5572C188B5BC300E798E4 /* GeometryGraphOperation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553C5188B5BC200E798E4 /* GeometryGraphOperation.cpp */; };
 		33E5572D188B5BC300E798E4 /* IsSimpleOp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553C6188B5BC200E798E4 /* IsSimpleOp.cpp */; };
 		33E5572E188B5BC300E798E4 /* EdgeString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553CF188B5BC200E798E4 /* EdgeString.cpp */; };
@@ -409,13 +386,10 @@
 		33E55731188B5BC300E798E4 /* LineMergeGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553D2188B5BC200E798E4 /* LineMergeGraph.cpp */; };
 		33E55732188B5BC300E798E4 /* LineMerger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553D3188B5BC200E798E4 /* LineMerger.cpp */; };
 		33E55733188B5BC300E798E4 /* LineSequencer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553D4188B5BC200E798E4 /* LineSequencer.cpp */; };
-		33E55734188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E553D5188B5BC200E798E4 /* Makefile */; };
-		33E55735188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E553D8188B5BC200E798E4 /* Makefile */; };
 		33E55736188B5BC300E798E4 /* EdgeSetNoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553EE188B5BC200E798E4 /* EdgeSetNoder.cpp */; };
 		33E55737188B5BC300E798E4 /* ElevationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553EF188B5BC200E798E4 /* ElevationMatrix.cpp */; };
 		33E55738188B5BC300E798E4 /* ElevationMatrixCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553F0188B5BC200E798E4 /* ElevationMatrixCell.cpp */; };
 		33E55739188B5BC300E798E4 /* LineBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553F1188B5BC200E798E4 /* LineBuilder.cpp */; };
-		33E5573A188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E553F2188B5BC200E798E4 /* Makefile */; };
 		33E5573B188B5BC300E798E4 /* MaximalEdgeRing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553F5188B5BC200E798E4 /* MaximalEdgeRing.cpp */; };
 		33E5573C188B5BC300E798E4 /* MinimalEdgeRing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553F6188B5BC200E798E4 /* MinimalEdgeRing.cpp */; };
 		33E5573D188B5BC300E798E4 /* OverlayNodeFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E553F7188B5BC200E798E4 /* OverlayNodeFactory.cpp */; };
@@ -430,29 +404,24 @@
 		33E55746188B5BC300E798E4 /* OffsetPointGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55402188B5BC200E798E4 /* OffsetPointGenerator.cpp */; };
 		33E55747188B5BC300E798E4 /* OverlayResultValidator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55403188B5BC200E798E4 /* OverlayResultValidator.cpp */; };
 		33E55748188B5BC300E798E4 /* EdgeRing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5540B188B5BC200E798E4 /* EdgeRing.cpp */; };
-		33E55749188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E5540C188B5BC200E798E4 /* Makefile */; };
 		33E5574A188B5BC300E798E4 /* PolygonizeDirectedEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5540F188B5BC200E798E4 /* PolygonizeDirectedEdge.cpp */; };
 		33E5574B188B5BC300E798E4 /* PolygonizeEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55410188B5BC200E798E4 /* PolygonizeEdge.cpp */; };
 		33E5574C188B5BC300E798E4 /* PolygonizeGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55411188B5BC200E798E4 /* PolygonizeGraph.cpp */; };
 		33E5574D188B5BC300E798E4 /* Polygonizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55412188B5BC200E798E4 /* Polygonizer.cpp */; };
-		33E5574E188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55418188B5BC200E798E4 /* Makefile */; };
 		33E5574F188B5BC300E798E4 /* RectangleContains.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5541B188B5BC200E798E4 /* RectangleContains.cpp */; };
 		33E55750188B5BC300E798E4 /* RectangleIntersects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5541C188B5BC200E798E4 /* RectangleIntersects.cpp */; };
 		33E55751188B5BC300E798E4 /* SegmentIntersectionTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5541D188B5BC200E798E4 /* SegmentIntersectionTester.cpp */; };
 		33E55752188B5BC300E798E4 /* EdgeEndBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55428188B5BC200E798E4 /* EdgeEndBuilder.cpp */; };
 		33E55753188B5BC300E798E4 /* EdgeEndBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55429188B5BC200E798E4 /* EdgeEndBundle.cpp */; };
 		33E55754188B5BC300E798E4 /* EdgeEndBundleStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5542A188B5BC200E798E4 /* EdgeEndBundleStar.cpp */; };
-		33E55755188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E5542B188B5BC200E798E4 /* Makefile */; };
 		33E55756188B5BC300E798E4 /* RelateComputer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5542E188B5BC200E798E4 /* RelateComputer.cpp */; };
 		33E55757188B5BC300E798E4 /* RelateNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5542F188B5BC200E798E4 /* RelateNode.cpp */; };
 		33E55758188B5BC300E798E4 /* RelateNodeFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55430188B5BC200E798E4 /* RelateNodeFactory.cpp */; };
 		33E55759188B5BC300E798E4 /* RelateNodeGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55431188B5BC200E798E4 /* RelateNodeGraph.cpp */; };
 		33E5575A188B5BC300E798E4 /* RelateOp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55432188B5BC200E798E4 /* RelateOp.cpp */; };
-		33E5575B188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55436188B5BC200E798E4 /* Makefile */; };
 		33E5575C188B5BC300E798E4 /* SharedPathsOp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55439188B5BC200E798E4 /* SharedPathsOp.cpp */; };
 		33E5575D188B5BC300E798E4 /* CascadedPolygonUnion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55440188B5BC200E798E4 /* CascadedPolygonUnion.cpp */; };
 		33E5575E188B5BC300E798E4 /* CascadedUnion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55441188B5BC200E798E4 /* CascadedUnion.cpp */; };
-		33E5575F188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55442188B5BC200E798E4 /* Makefile */; };
 		33E55760188B5BC300E798E4 /* PointGeometryUnion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55445188B5BC200E798E4 /* PointGeometryUnion.cpp */; };
 		33E55761188B5BC300E798E4 /* UnaryUnionOp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55446188B5BC200E798E4 /* UnaryUnionOp.cpp */; };
 		33E55762188B5BC300E798E4 /* ConnectedInteriorTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55452188B5BC200E798E4 /* ConnectedInteriorTester.cpp */; };
@@ -460,7 +429,6 @@
 		33E55764188B5BC300E798E4 /* IndexedNestedRingTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55454188B5BC200E798E4 /* IndexedNestedRingTester.cpp */; };
 		33E55765188B5BC300E798E4 /* IndexedNestedRingTester.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E55455188B5BC200E798E4 /* IndexedNestedRingTester.h */; };
 		33E55766188B5BC300E798E4 /* IsValidOp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55456188B5BC200E798E4 /* IsValidOp.cpp */; };
-		33E55767188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55457188B5BC200E798E4 /* Makefile */; };
 		33E55768188B5BC300E798E4 /* QuadtreeNestedRingTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5545A188B5BC200E798E4 /* QuadtreeNestedRingTester.cpp */; };
 		33E55769188B5BC300E798E4 /* RepeatedPointTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5545B188B5BC200E798E4 /* RepeatedPointTester.cpp */; };
 		33E5576A188B5BC300E798E4 /* SimpleNestedRingTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5545C188B5BC200E798E4 /* SimpleNestedRingTester.cpp */; };
@@ -470,7 +438,6 @@
 		33E5576E188B5BC300E798E4 /* DirectedEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5546B188B5BC300E798E4 /* DirectedEdge.cpp */; };
 		33E5576F188B5BC300E798E4 /* DirectedEdgeStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5546C188B5BC300E798E4 /* DirectedEdgeStar.cpp */; };
 		33E55770188B5BC300E798E4 /* Edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5546D188B5BC300E798E4 /* Edge.cpp */; };
-		33E55771188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E5546E188B5BC300E798E4 /* Makefile */; };
 		33E55772188B5BC300E798E4 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55471188B5BC300E798E4 /* Node.cpp */; };
 		33E55773188B5BC300E798E4 /* NodeMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55472188B5BC300E798E4 /* NodeMap.cpp */; };
 		33E55774188B5BC300E798E4 /* PlanarGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55473188B5BC300E798E4 /* PlanarGraph.cpp */; };
@@ -480,13 +447,11 @@
 		33E55778188B5BC300E798E4 /* CommonBitsRemover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55480188B5BC300E798E4 /* CommonBitsRemover.cpp */; };
 		33E55779188B5BC300E798E4 /* EnhancedPrecisionOp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55481188B5BC300E798E4 /* EnhancedPrecisionOp.cpp */; };
 		33E5577A188B5BC300E798E4 /* GeometryPrecisionReducer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55482188B5BC300E798E4 /* GeometryPrecisionReducer.cpp */; };
-		33E5577B188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55483188B5BC300E798E4 /* Makefile */; };
 		33E5577C188B5BC300E798E4 /* PrecisionReducerCoordinateOperation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55486188B5BC300E798E4 /* PrecisionReducerCoordinateOperation.cpp */; };
 		33E5577D188B5BC300E798E4 /* SimpleGeometryPrecisionReducer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55487188B5BC300E798E4 /* SimpleGeometryPrecisionReducer.cpp */; };
 		33E5577E188B5BC300E798E4 /* DouglasPeuckerLineSimplifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55492188B5BC300E798E4 /* DouglasPeuckerLineSimplifier.cpp */; };
 		33E5577F188B5BC300E798E4 /* DouglasPeuckerSimplifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55493188B5BC300E798E4 /* DouglasPeuckerSimplifier.cpp */; };
 		33E55780188B5BC300E798E4 /* LineSegmentIndex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55494188B5BC300E798E4 /* LineSegmentIndex.cpp */; };
-		33E55781188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E55495188B5BC300E798E4 /* Makefile */; };
 		33E55782188B5BC300E798E4 /* TaggedLineSegment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55498188B5BC300E798E4 /* TaggedLineSegment.cpp */; };
 		33E55783188B5BC300E798E4 /* TaggedLinesSimplifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E55499188B5BC300E798E4 /* TaggedLinesSimplifier.cpp */; };
 		33E55784188B5BC300E798E4 /* TaggedLineString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5549A188B5BC300E798E4 /* TaggedLineString.cpp */; };
@@ -494,10 +459,8 @@
 		33E55786188B5BC300E798E4 /* TopologyPreservingSimplifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E5549C188B5BC300E798E4 /* TopologyPreservingSimplifier.cpp */; };
 		33E55787188B5BC300E798E4 /* DelaunayTriangulationBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E554A1188B5BC300E798E4 /* DelaunayTriangulationBuilder.cpp */; };
 		33E55788188B5BC300E798E4 /* IncrementalDelaunayTriangulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E554A2188B5BC300E798E4 /* IncrementalDelaunayTriangulator.cpp */; };
-		33E55789188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E554A3188B5BC300E798E4 /* Makefile */; };
 		33E5578A188B5BC300E798E4 /* LastFoundQuadEdgeLocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E554B0188B5BC300E798E4 /* LastFoundQuadEdgeLocator.cpp */; };
 		33E5578B188B5BC300E798E4 /* LocateFailureException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E554B1188B5BC300E798E4 /* LocateFailureException.cpp */; };
-		33E5578C188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E554B2188B5BC300E798E4 /* Makefile */; };
 		33E5578D188B5BC300E798E4 /* QuadEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E554B5188B5BC300E798E4 /* QuadEdge.cpp */; };
 		33E5578E188B5BC300E798E4 /* QuadEdgeLocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E554B6188B5BC300E798E4 /* QuadEdgeLocator.cpp */; };
 		33E5578F188B5BC300E798E4 /* QuadEdgeSubdivision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E554B7188B5BC300E798E4 /* QuadEdgeSubdivision.cpp */; };
@@ -507,7 +470,6 @@
 		33E55793188B5BC300E798E4 /* Assert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E554C2188B5BC300E798E4 /* Assert.cpp */; };
 		33E55794188B5BC300E798E4 /* GeometricShapeFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E554C3188B5BC300E798E4 /* GeometricShapeFactory.cpp */; };
 		33E55795188B5BC300E798E4 /* Interrupt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E554C4188B5BC300E798E4 /* Interrupt.cpp */; };
-		33E55796188B5BC300E798E4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 33E554C5188B5BC300E798E4 /* Makefile */; };
 		33E55797188B5BC300E798E4 /* math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E554C8188B5BC300E798E4 /* math.cpp */; };
 		33E55798188B5BC300E798E4 /* Profiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E554C9188B5BC300E798E4 /* Profiler.cpp */; };
 		3F7305371566EF3D00408390 /* aasincos.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F73048C1566EF3D00408390 /* aasincos.c */; };
@@ -864,9 +826,6 @@
 		33E54FB3188B5BC000E798E4 /* geos_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geos_c.h; sourceTree = "<group>"; };
 		33E54FB4188B5BC000E798E4 /* geos_c.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = geos_c.h.in; sourceTree = "<group>"; };
 		33E54FB5188B5BC000E798E4 /* geos_ts_c.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = geos_ts_c.cpp; sourceTree = "<group>"; };
-		33E54FB6188B5BC000E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E54FB7188B5BC000E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E54FB8188B5BC000E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E551DA188B5BC100E798E4 /* inlines.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = inlines.Plo; sourceTree = "<group>"; };
 		33E551DD188B5BC100E798E4 /* Angle.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Angle.Plo; sourceTree = "<group>"; };
 		33E551DE188B5BC100E798E4 /* BoundaryNodeRule.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BoundaryNodeRule.Plo; sourceTree = "<group>"; };
@@ -901,9 +860,6 @@
 		33E551FD188B5BC100E798E4 /* DistanceToPoint.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DistanceToPoint.Plo; sourceTree = "<group>"; };
 		33E551FE188B5BC100E798E4 /* DiscreteHausdorffDistance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DiscreteHausdorffDistance.cpp; sourceTree = "<group>"; };
 		33E551FF188B5BC100E798E4 /* DistanceToPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DistanceToPoint.cpp; sourceTree = "<group>"; };
-		33E55200188B5BC100E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E55201188B5BC100E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E55202188B5BC100E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E55203188B5BC100E798E4 /* HCoordinate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HCoordinate.cpp; sourceTree = "<group>"; };
 		33E55204188B5BC100E798E4 /* InteriorPointArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InteriorPointArea.cpp; sourceTree = "<group>"; };
 		33E55205188B5BC100E798E4 /* InteriorPointLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InteriorPointLine.cpp; sourceTree = "<group>"; };
@@ -913,14 +869,8 @@
 		33E5520B188B5BC100E798E4 /* PointOnGeometryLocator.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PointOnGeometryLocator.Plo; sourceTree = "<group>"; };
 		33E5520C188B5BC100E798E4 /* SimplePointInAreaLocator.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimplePointInAreaLocator.Plo; sourceTree = "<group>"; };
 		33E5520D188B5BC100E798E4 /* IndexedPointInAreaLocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IndexedPointInAreaLocator.cpp; sourceTree = "<group>"; };
-		33E5520E188B5BC100E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E5520F188B5BC100E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E55210188B5BC100E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E55211188B5BC100E798E4 /* PointOnGeometryLocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointOnGeometryLocator.cpp; sourceTree = "<group>"; };
 		33E55212188B5BC100E798E4 /* SimplePointInAreaLocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimplePointInAreaLocator.cpp; sourceTree = "<group>"; };
-		33E55213188B5BC100E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E55214188B5BC100E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E55215188B5BC100E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E55216188B5BC100E798E4 /* MCPointInRing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCPointInRing.cpp; sourceTree = "<group>"; };
 		33E55217188B5BC100E798E4 /* MinimumDiameter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumDiameter.cpp; sourceTree = "<group>"; };
 		33E55218188B5BC100E798E4 /* NotRepresentableException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NotRepresentableException.cpp; sourceTree = "<group>"; };
@@ -972,9 +922,6 @@
 		33E55248188B5BC100E798E4 /* LineSegment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineSegment.cpp; sourceTree = "<group>"; };
 		33E55249188B5BC100E798E4 /* LineString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineString.cpp; sourceTree = "<group>"; };
 		33E5524A188B5BC100E798E4 /* Location.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Location.cpp; sourceTree = "<group>"; };
-		33E5524B188B5BC100E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E5524C188B5BC100E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E5524D188B5BC100E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E5524E188B5BC100E798E4 /* MultiLineString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiLineString.cpp; sourceTree = "<group>"; };
 		33E5524F188B5BC100E798E4 /* MultiPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiPoint.cpp; sourceTree = "<group>"; };
 		33E55250188B5BC100E798E4 /* MultiPolygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiPolygon.cpp; sourceTree = "<group>"; };
@@ -996,9 +943,6 @@
 		33E55262188B5BC100E798E4 /* PreparedPolygonPredicate.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PreparedPolygonPredicate.Plo; sourceTree = "<group>"; };
 		33E55263188B5BC100E798E4 /* AbstractPreparedPolygonContains.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractPreparedPolygonContains.cpp; sourceTree = "<group>"; };
 		33E55264188B5BC100E798E4 /* BasicPreparedGeometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicPreparedGeometry.cpp; sourceTree = "<group>"; };
-		33E55265188B5BC100E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E55266188B5BC100E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E55267188B5BC100E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E55268188B5BC100E798E4 /* PreparedGeometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PreparedGeometry.cpp; sourceTree = "<group>"; };
 		33E55269188B5BC100E798E4 /* PreparedGeometryFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PreparedGeometryFactory.cpp; sourceTree = "<group>"; };
 		33E5526A188B5BC100E798E4 /* PreparedLineString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PreparedLineString.cpp; sourceTree = "<group>"; };
@@ -1023,9 +967,6 @@
 		33E5527F188B5BC100E798E4 /* GeometryCombiner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryCombiner.cpp; sourceTree = "<group>"; };
 		33E55280188B5BC100E798E4 /* GeometryEditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryEditor.cpp; sourceTree = "<group>"; };
 		33E55281188B5BC100E798E4 /* GeometryTransformer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryTransformer.cpp; sourceTree = "<group>"; };
-		33E55282188B5BC100E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E55283188B5BC100E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E55284188B5BC100E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E55285188B5BC100E798E4 /* ShortCircuitedGeometryVisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShortCircuitedGeometryVisitor.cpp; sourceTree = "<group>"; };
 		33E55286188B5BC100E798E4 /* SineStarFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SineStarFactory.cpp; sourceTree = "<group>"; };
 		33E55289188B5BC100E798E4 /* Depth.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Depth.Plo; sourceTree = "<group>"; };
@@ -1068,9 +1009,6 @@
 		33E552B0188B5BC200E798E4 /* SimpleSweepLineIntersector.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleSweepLineIntersector.Plo; sourceTree = "<group>"; };
 		33E552B1188B5BC200E798E4 /* SweepLineEvent.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SweepLineEvent.Plo; sourceTree = "<group>"; };
 		33E552B2188B5BC200E798E4 /* SweepLineSegment.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SweepLineSegment.Plo; sourceTree = "<group>"; };
-		33E552B3188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E552B4188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E552B5188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E552B6188B5BC200E798E4 /* MonotoneChainEdge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonotoneChainEdge.cpp; sourceTree = "<group>"; };
 		33E552B7188B5BC200E798E4 /* MonotoneChainIndexer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonotoneChainIndexer.cpp; sourceTree = "<group>"; };
 		33E552B8188B5BC200E798E4 /* SegmentIntersector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SegmentIntersector.cpp; sourceTree = "<group>"; };
@@ -1080,9 +1018,6 @@
 		33E552BC188B5BC200E798E4 /* SweepLineEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SweepLineEvent.cpp; sourceTree = "<group>"; };
 		33E552BD188B5BC200E798E4 /* SweepLineSegment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SweepLineSegment.cpp; sourceTree = "<group>"; };
 		33E552BE188B5BC200E798E4 /* Label.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Label.cpp; sourceTree = "<group>"; };
-		33E552BF188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E552C0188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E552C1188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E552C2188B5BC200E798E4 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
 		33E552C3188B5BC200E798E4 /* NodeFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeFactory.cpp; sourceTree = "<group>"; };
 		33E552C4188B5BC200E798E4 /* NodeMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeMap.cpp; sourceTree = "<group>"; };
@@ -1099,9 +1034,6 @@
 		33E552D2188B5BC200E798E4 /* Bintree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bintree.cpp; sourceTree = "<group>"; };
 		33E552D3188B5BC200E798E4 /* Interval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Interval.cpp; sourceTree = "<group>"; };
 		33E552D4188B5BC200E798E4 /* Key.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Key.cpp; sourceTree = "<group>"; };
-		33E552D5188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E552D6188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E552D7188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E552D8188B5BC200E798E4 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
 		33E552D9188B5BC200E798E4 /* NodeBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeBase.cpp; sourceTree = "<group>"; };
 		33E552DA188B5BC200E798E4 /* Root.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Root.cpp; sourceTree = "<group>"; };
@@ -1109,9 +1041,6 @@
 		33E552DE188B5BC200E798E4 /* MonotoneChainBuilder.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MonotoneChainBuilder.Plo; sourceTree = "<group>"; };
 		33E552DF188B5BC200E798E4 /* MonotoneChainOverlapAction.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MonotoneChainOverlapAction.Plo; sourceTree = "<group>"; };
 		33E552E0188B5BC200E798E4 /* MonotoneChainSelectAction.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MonotoneChainSelectAction.Plo; sourceTree = "<group>"; };
-		33E552E1188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E552E2188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E552E3188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E552E4188B5BC200E798E4 /* MonotoneChain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonotoneChain.cpp; sourceTree = "<group>"; };
 		33E552E5188B5BC200E798E4 /* MonotoneChainBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonotoneChainBuilder.cpp; sourceTree = "<group>"; };
 		33E552E6188B5BC200E798E4 /* MonotoneChainOverlapAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonotoneChainOverlapAction.cpp; sourceTree = "<group>"; };
@@ -1123,13 +1052,7 @@
 		33E552EE188B5BC200E798E4 /* IntervalRTreeBranchNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntervalRTreeBranchNode.cpp; sourceTree = "<group>"; };
 		33E552EF188B5BC200E798E4 /* IntervalRTreeLeafNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntervalRTreeLeafNode.cpp; sourceTree = "<group>"; };
 		33E552F0188B5BC200E798E4 /* IntervalRTreeNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntervalRTreeNode.cpp; sourceTree = "<group>"; };
-		33E552F1188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E552F2188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E552F3188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E552F4188B5BC200E798E4 /* SortedPackedIntervalRTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortedPackedIntervalRTree.cpp; sourceTree = "<group>"; };
-		33E552F5188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E552F6188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E552F7188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E552FA188B5BC200E798E4 /* DoubleBits.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DoubleBits.Plo; sourceTree = "<group>"; };
 		33E552FB188B5BC200E798E4 /* IntervalSize.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IntervalSize.Plo; sourceTree = "<group>"; };
 		33E552FC188B5BC200E798E4 /* Key.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Key.Plo; sourceTree = "<group>"; };
@@ -1140,9 +1063,6 @@
 		33E55301188B5BC200E798E4 /* DoubleBits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleBits.cpp; sourceTree = "<group>"; };
 		33E55302188B5BC200E798E4 /* IntervalSize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntervalSize.cpp; sourceTree = "<group>"; };
 		33E55303188B5BC200E798E4 /* Key.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Key.cpp; sourceTree = "<group>"; };
-		33E55304188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E55305188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E55306188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E55307188B5BC200E798E4 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
 		33E55308188B5BC200E798E4 /* NodeBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeBase.cpp; sourceTree = "<group>"; };
 		33E55309188B5BC200E798E4 /* Quadtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quadtree.cpp; sourceTree = "<group>"; };
@@ -1157,17 +1077,11 @@
 		33E55314188B5BC200E798E4 /* AbstractSTRtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractSTRtree.cpp; sourceTree = "<group>"; };
 		33E55315188B5BC200E798E4 /* Interval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Interval.cpp; sourceTree = "<group>"; };
 		33E55316188B5BC200E798E4 /* ItemBoundable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ItemBoundable.cpp; sourceTree = "<group>"; };
-		33E55317188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E55318188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E55319188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E5531A188B5BC200E798E4 /* SIRtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SIRtree.cpp; sourceTree = "<group>"; };
 		33E5531B188B5BC200E798E4 /* STRtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = STRtree.cpp; sourceTree = "<group>"; };
 		33E5531E188B5BC200E798E4 /* SweepLineEvent.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SweepLineEvent.Plo; sourceTree = "<group>"; };
 		33E5531F188B5BC200E798E4 /* SweepLineIndex.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SweepLineIndex.Plo; sourceTree = "<group>"; };
 		33E55320188B5BC200E798E4 /* SweepLineInterval.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SweepLineInterval.Plo; sourceTree = "<group>"; };
-		33E55321188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E55322188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E55323188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E55324188B5BC200E798E4 /* SweepLineEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SweepLineEvent.cpp; sourceTree = "<group>"; };
 		33E55325188B5BC200E798E4 /* SweepLineIndex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SweepLineIndex.cpp; sourceTree = "<group>"; };
 		33E55326188B5BC200E798E4 /* SweepLineInterval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SweepLineInterval.cpp; sourceTree = "<group>"; };
@@ -1187,9 +1101,6 @@
 		33E55336188B5BC200E798E4 /* ByteOrderDataInStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ByteOrderDataInStream.cpp; sourceTree = "<group>"; };
 		33E55337188B5BC200E798E4 /* ByteOrderValues.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ByteOrderValues.cpp; sourceTree = "<group>"; };
 		33E55338188B5BC200E798E4 /* CLocalizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLocalizer.cpp; sourceTree = "<group>"; };
-		33E55339188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E5533A188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E5533B188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E5533C188B5BC200E798E4 /* ParseException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParseException.cpp; sourceTree = "<group>"; };
 		33E5533D188B5BC200E798E4 /* StringTokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringTokenizer.cpp; sourceTree = "<group>"; };
 		33E5533E188B5BC200E798E4 /* Unload.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Unload.cpp; sourceTree = "<group>"; };
@@ -1216,13 +1127,6 @@
 		33E55355188B5BC200E798E4 /* LinearLocation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinearLocation.cpp; sourceTree = "<group>"; };
 		33E55356188B5BC200E798E4 /* LocationIndexOfLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocationIndexOfLine.cpp; sourceTree = "<group>"; };
 		33E55357188B5BC200E798E4 /* LocationIndexOfPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocationIndexOfPoint.cpp; sourceTree = "<group>"; };
-		33E55358188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E55359188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E5535A188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
-		33E5535B188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E5535C188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E5535D188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
-		33E5535E188B5BC200E798E4 /* Makefile.vc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.vc; sourceTree = "<group>"; };
 		33E55361188B5BC200E798E4 /* BasicSegmentString.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BasicSegmentString.Plo; sourceTree = "<group>"; };
 		33E55362188B5BC200E798E4 /* FastNodingValidator.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FastNodingValidator.Plo; sourceTree = "<group>"; };
 		33E55363188B5BC200E798E4 /* FastSegmentSetIntersectionFinder.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FastSegmentSetIntersectionFinder.Plo; sourceTree = "<group>"; };
@@ -1251,9 +1155,6 @@
 		33E5537A188B5BC200E798E4 /* IntersectionAdder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntersectionAdder.cpp; sourceTree = "<group>"; };
 		33E5537B188B5BC200E798E4 /* IntersectionFinderAdder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntersectionFinderAdder.cpp; sourceTree = "<group>"; };
 		33E5537C188B5BC200E798E4 /* IteratedNoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IteratedNoder.cpp; sourceTree = "<group>"; };
-		33E5537D188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E5537E188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E5537F188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E55380188B5BC200E798E4 /* MCIndexNoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCIndexNoder.cpp; sourceTree = "<group>"; };
 		33E55381188B5BC200E798E4 /* MCIndexSegmentSetMutualIntersector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCIndexSegmentSetMutualIntersector.cpp; sourceTree = "<group>"; };
 		33E55382188B5BC200E798E4 /* NodedSegmentString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodedSegmentString.cpp; sourceTree = "<group>"; };
@@ -1273,9 +1174,6 @@
 		33E55392188B5BC200E798E4 /* MCIndexSnapRounder.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MCIndexSnapRounder.Plo; sourceTree = "<group>"; };
 		33E55393188B5BC200E798E4 /* SimpleSnapRounder.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleSnapRounder.Plo; sourceTree = "<group>"; };
 		33E55394188B5BC200E798E4 /* HotPixel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HotPixel.cpp; sourceTree = "<group>"; };
-		33E55395188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E55396188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E55397188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E55398188B5BC200E798E4 /* MCIndexPointSnapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCIndexPointSnapper.cpp; sourceTree = "<group>"; };
 		33E55399188B5BC200E798E4 /* MCIndexSnapRounder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCIndexSnapRounder.cpp; sourceTree = "<group>"; };
 		33E5539A188B5BC200E798E4 /* SimpleSnapRounder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleSnapRounder.cpp; sourceTree = "<group>"; };
@@ -1296,9 +1194,6 @@
 		33E553AD188B5BC200E798E4 /* BufferOp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BufferOp.cpp; sourceTree = "<group>"; };
 		33E553AE188B5BC200E798E4 /* BufferParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BufferParameters.cpp; sourceTree = "<group>"; };
 		33E553AF188B5BC200E798E4 /* BufferSubgraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BufferSubgraph.cpp; sourceTree = "<group>"; };
-		33E553B0188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E553B1188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E553B2188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E553B3188B5BC200E798E4 /* OffsetCurveBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OffsetCurveBuilder.cpp; sourceTree = "<group>"; };
 		33E553B4188B5BC200E798E4 /* OffsetCurveSetBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OffsetCurveSetBuilder.cpp; sourceTree = "<group>"; };
 		33E553B5188B5BC200E798E4 /* OffsetSegmentGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OffsetSegmentGenerator.cpp; sourceTree = "<group>"; };
@@ -1312,9 +1207,6 @@
 		33E553BF188B5BC200E798E4 /* ConnectedElementPointFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConnectedElementPointFilter.cpp; sourceTree = "<group>"; };
 		33E553C0188B5BC200E798E4 /* DistanceOp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DistanceOp.cpp; sourceTree = "<group>"; };
 		33E553C1188B5BC200E798E4 /* GeometryLocation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryLocation.cpp; sourceTree = "<group>"; };
-		33E553C2188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E553C3188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E553C4188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E553C5188B5BC200E798E4 /* GeometryGraphOperation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryGraphOperation.cpp; sourceTree = "<group>"; };
 		33E553C6188B5BC200E798E4 /* IsSimpleOp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsSimpleOp.cpp; sourceTree = "<group>"; };
 		33E553C9188B5BC200E798E4 /* EdgeString.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EdgeString.Plo; sourceTree = "<group>"; };
@@ -1329,12 +1221,6 @@
 		33E553D2188B5BC200E798E4 /* LineMergeGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineMergeGraph.cpp; sourceTree = "<group>"; };
 		33E553D3188B5BC200E798E4 /* LineMerger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineMerger.cpp; sourceTree = "<group>"; };
 		33E553D4188B5BC200E798E4 /* LineSequencer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineSequencer.cpp; sourceTree = "<group>"; };
-		33E553D5188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E553D6188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E553D7188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
-		33E553D8188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E553D9188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E553DA188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E553DD188B5BC200E798E4 /* EdgeSetNoder.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EdgeSetNoder.Plo; sourceTree = "<group>"; };
 		33E553DE188B5BC200E798E4 /* ElevationMatrix.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ElevationMatrix.Plo; sourceTree = "<group>"; };
 		33E553DF188B5BC200E798E4 /* ElevationMatrixCell.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ElevationMatrixCell.Plo; sourceTree = "<group>"; };
@@ -1356,9 +1242,6 @@
 		33E553EF188B5BC200E798E4 /* ElevationMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ElevationMatrix.cpp; sourceTree = "<group>"; };
 		33E553F0188B5BC200E798E4 /* ElevationMatrixCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ElevationMatrixCell.cpp; sourceTree = "<group>"; };
 		33E553F1188B5BC200E798E4 /* LineBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineBuilder.cpp; sourceTree = "<group>"; };
-		33E553F2188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E553F3188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E553F4188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E553F5188B5BC200E798E4 /* MaximalEdgeRing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximalEdgeRing.cpp; sourceTree = "<group>"; };
 		33E553F6188B5BC200E798E4 /* MinimalEdgeRing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimalEdgeRing.cpp; sourceTree = "<group>"; };
 		33E553F7188B5BC200E798E4 /* OverlayNodeFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OverlayNodeFactory.cpp; sourceTree = "<group>"; };
@@ -1378,9 +1261,6 @@
 		33E55409188B5BC200E798E4 /* PolygonizeGraph.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PolygonizeGraph.Plo; sourceTree = "<group>"; };
 		33E5540A188B5BC200E798E4 /* Polygonizer.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Polygonizer.Plo; sourceTree = "<group>"; };
 		33E5540B188B5BC200E798E4 /* EdgeRing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EdgeRing.cpp; sourceTree = "<group>"; };
-		33E5540C188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E5540D188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E5540E188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E5540F188B5BC200E798E4 /* PolygonizeDirectedEdge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PolygonizeDirectedEdge.cpp; sourceTree = "<group>"; };
 		33E55410188B5BC200E798E4 /* PolygonizeEdge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PolygonizeEdge.cpp; sourceTree = "<group>"; };
 		33E55411188B5BC200E798E4 /* PolygonizeGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PolygonizeGraph.cpp; sourceTree = "<group>"; };
@@ -1388,9 +1268,6 @@
 		33E55415188B5BC200E798E4 /* RectangleContains.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RectangleContains.Plo; sourceTree = "<group>"; };
 		33E55416188B5BC200E798E4 /* RectangleIntersects.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RectangleIntersects.Plo; sourceTree = "<group>"; };
 		33E55417188B5BC200E798E4 /* SegmentIntersectionTester.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SegmentIntersectionTester.Plo; sourceTree = "<group>"; };
-		33E55418188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E55419188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E5541A188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E5541B188B5BC200E798E4 /* RectangleContains.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RectangleContains.cpp; sourceTree = "<group>"; };
 		33E5541C188B5BC200E798E4 /* RectangleIntersects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RectangleIntersects.cpp; sourceTree = "<group>"; };
 		33E5541D188B5BC200E798E4 /* SegmentIntersectionTester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SegmentIntersectionTester.cpp; sourceTree = "<group>"; };
@@ -1405,18 +1282,12 @@
 		33E55428188B5BC200E798E4 /* EdgeEndBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EdgeEndBuilder.cpp; sourceTree = "<group>"; };
 		33E55429188B5BC200E798E4 /* EdgeEndBundle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EdgeEndBundle.cpp; sourceTree = "<group>"; };
 		33E5542A188B5BC200E798E4 /* EdgeEndBundleStar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EdgeEndBundleStar.cpp; sourceTree = "<group>"; };
-		33E5542B188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E5542C188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E5542D188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E5542E188B5BC200E798E4 /* RelateComputer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RelateComputer.cpp; sourceTree = "<group>"; };
 		33E5542F188B5BC200E798E4 /* RelateNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RelateNode.cpp; sourceTree = "<group>"; };
 		33E55430188B5BC200E798E4 /* RelateNodeFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RelateNodeFactory.cpp; sourceTree = "<group>"; };
 		33E55431188B5BC200E798E4 /* RelateNodeGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RelateNodeGraph.cpp; sourceTree = "<group>"; };
 		33E55432188B5BC200E798E4 /* RelateOp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RelateOp.cpp; sourceTree = "<group>"; };
 		33E55435188B5BC200E798E4 /* SharedPathsOp.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SharedPathsOp.Plo; sourceTree = "<group>"; };
-		33E55436188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E55437188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E55438188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E55439188B5BC200E798E4 /* SharedPathsOp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SharedPathsOp.cpp; sourceTree = "<group>"; };
 		33E5543C188B5BC200E798E4 /* CascadedPolygonUnion.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CascadedPolygonUnion.Plo; sourceTree = "<group>"; };
 		33E5543D188B5BC200E798E4 /* CascadedUnion.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CascadedUnion.Plo; sourceTree = "<group>"; };
@@ -1424,9 +1295,6 @@
 		33E5543F188B5BC200E798E4 /* UnaryUnionOp.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UnaryUnionOp.Plo; sourceTree = "<group>"; };
 		33E55440188B5BC200E798E4 /* CascadedPolygonUnion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CascadedPolygonUnion.cpp; sourceTree = "<group>"; };
 		33E55441188B5BC200E798E4 /* CascadedUnion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CascadedUnion.cpp; sourceTree = "<group>"; };
-		33E55442188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E55443188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E55444188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E55445188B5BC200E798E4 /* PointGeometryUnion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointGeometryUnion.cpp; sourceTree = "<group>"; };
 		33E55446188B5BC200E798E4 /* UnaryUnionOp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UnaryUnionOp.cpp; sourceTree = "<group>"; };
 		33E55449188B5BC200E798E4 /* ConnectedInteriorTester.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ConnectedInteriorTester.Plo; sourceTree = "<group>"; };
@@ -1443,9 +1311,6 @@
 		33E55454188B5BC200E798E4 /* IndexedNestedRingTester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IndexedNestedRingTester.cpp; sourceTree = "<group>"; };
 		33E55455188B5BC200E798E4 /* IndexedNestedRingTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexedNestedRingTester.h; sourceTree = "<group>"; };
 		33E55456188B5BC200E798E4 /* IsValidOp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsValidOp.cpp; sourceTree = "<group>"; };
-		33E55457188B5BC200E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E55458188B5BC200E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E55459188B5BC200E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E5545A188B5BC200E798E4 /* QuadtreeNestedRingTester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadtreeNestedRingTester.cpp; sourceTree = "<group>"; };
 		33E5545B188B5BC200E798E4 /* RepeatedPointTester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RepeatedPointTester.cpp; sourceTree = "<group>"; };
 		33E5545C188B5BC200E798E4 /* SimpleNestedRingTester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleNestedRingTester.cpp; sourceTree = "<group>"; };
@@ -1463,9 +1328,6 @@
 		33E5546B188B5BC300E798E4 /* DirectedEdge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectedEdge.cpp; sourceTree = "<group>"; };
 		33E5546C188B5BC300E798E4 /* DirectedEdgeStar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectedEdgeStar.cpp; sourceTree = "<group>"; };
 		33E5546D188B5BC300E798E4 /* Edge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Edge.cpp; sourceTree = "<group>"; };
-		33E5546E188B5BC300E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E5546F188B5BC300E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E55470188B5BC300E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E55471188B5BC300E798E4 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
 		33E55472188B5BC300E798E4 /* NodeMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeMap.cpp; sourceTree = "<group>"; };
 		33E55473188B5BC300E798E4 /* PlanarGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlanarGraph.cpp; sourceTree = "<group>"; };
@@ -1482,9 +1344,6 @@
 		33E55480188B5BC300E798E4 /* CommonBitsRemover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommonBitsRemover.cpp; sourceTree = "<group>"; };
 		33E55481188B5BC300E798E4 /* EnhancedPrecisionOp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EnhancedPrecisionOp.cpp; sourceTree = "<group>"; };
 		33E55482188B5BC300E798E4 /* GeometryPrecisionReducer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryPrecisionReducer.cpp; sourceTree = "<group>"; };
-		33E55483188B5BC300E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E55484188B5BC300E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E55485188B5BC300E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E55486188B5BC300E798E4 /* PrecisionReducerCoordinateOperation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrecisionReducerCoordinateOperation.cpp; sourceTree = "<group>"; };
 		33E55487188B5BC300E798E4 /* SimpleGeometryPrecisionReducer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleGeometryPrecisionReducer.cpp; sourceTree = "<group>"; };
 		33E5548A188B5BC300E798E4 /* DouglasPeuckerLineSimplifier.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DouglasPeuckerLineSimplifier.Plo; sourceTree = "<group>"; };
@@ -1498,9 +1357,6 @@
 		33E55492188B5BC300E798E4 /* DouglasPeuckerLineSimplifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DouglasPeuckerLineSimplifier.cpp; sourceTree = "<group>"; };
 		33E55493188B5BC300E798E4 /* DouglasPeuckerSimplifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DouglasPeuckerSimplifier.cpp; sourceTree = "<group>"; };
 		33E55494188B5BC300E798E4 /* LineSegmentIndex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineSegmentIndex.cpp; sourceTree = "<group>"; };
-		33E55495188B5BC300E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E55496188B5BC300E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E55497188B5BC300E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E55498188B5BC300E798E4 /* TaggedLineSegment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TaggedLineSegment.cpp; sourceTree = "<group>"; };
 		33E55499188B5BC300E798E4 /* TaggedLinesSimplifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TaggedLinesSimplifier.cpp; sourceTree = "<group>"; };
 		33E5549A188B5BC300E798E4 /* TaggedLineString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TaggedLineString.cpp; sourceTree = "<group>"; };
@@ -1510,9 +1366,6 @@
 		33E554A0188B5BC300E798E4 /* IncrementalDelaunayTriangulator.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IncrementalDelaunayTriangulator.Plo; sourceTree = "<group>"; };
 		33E554A1188B5BC300E798E4 /* DelaunayTriangulationBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DelaunayTriangulationBuilder.cpp; sourceTree = "<group>"; };
 		33E554A2188B5BC300E798E4 /* IncrementalDelaunayTriangulator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IncrementalDelaunayTriangulator.cpp; sourceTree = "<group>"; };
-		33E554A3188B5BC300E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E554A4188B5BC300E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E554A5188B5BC300E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E554A8188B5BC300E798E4 /* LastFoundQuadEdgeLocator.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LastFoundQuadEdgeLocator.Plo; sourceTree = "<group>"; };
 		33E554A9188B5BC300E798E4 /* LocateFailureException.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LocateFailureException.Plo; sourceTree = "<group>"; };
 		33E554AA188B5BC300E798E4 /* QuadEdge.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QuadEdge.Plo; sourceTree = "<group>"; };
@@ -1523,9 +1376,6 @@
 		33E554AF188B5BC300E798E4 /* Vertex.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vertex.Plo; sourceTree = "<group>"; };
 		33E554B0188B5BC300E798E4 /* LastFoundQuadEdgeLocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LastFoundQuadEdgeLocator.cpp; sourceTree = "<group>"; };
 		33E554B1188B5BC300E798E4 /* LocateFailureException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocateFailureException.cpp; sourceTree = "<group>"; };
-		33E554B2188B5BC300E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E554B3188B5BC300E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E554B4188B5BC300E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E554B5188B5BC300E798E4 /* QuadEdge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadEdge.cpp; sourceTree = "<group>"; };
 		33E554B6188B5BC300E798E4 /* QuadEdgeLocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadEdgeLocator.cpp; sourceTree = "<group>"; };
 		33E554B7188B5BC300E798E4 /* QuadEdgeSubdivision.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadEdgeSubdivision.cpp; sourceTree = "<group>"; };
@@ -1540,9 +1390,6 @@
 		33E554C2188B5BC300E798E4 /* Assert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Assert.cpp; sourceTree = "<group>"; };
 		33E554C3188B5BC300E798E4 /* GeometricShapeFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometricShapeFactory.cpp; sourceTree = "<group>"; };
 		33E554C4188B5BC300E798E4 /* Interrupt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Interrupt.cpp; sourceTree = "<group>"; };
-		33E554C5188B5BC300E798E4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		33E554C6188B5BC300E798E4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		33E554C7188B5BC300E798E4 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		33E554C8188B5BC300E798E4 /* math.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = math.cpp; sourceTree = "<group>"; };
 		33E554C9188B5BC300E798E4 /* Profiler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Profiler.cpp; sourceTree = "<group>"; };
 		3F7304811566EEEA00408390 /* libproj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libproj.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2079,9 +1926,6 @@
 				33E54FB3188B5BC000E798E4 /* geos_c.h */,
 				33E54FB4188B5BC000E798E4 /* geos_c.h.in */,
 				33E54FB5188B5BC000E798E4 /* geos_ts_c.cpp */,
-				33E54FB6188B5BC000E798E4 /* Makefile */,
-				33E54FB7188B5BC000E798E4 /* Makefile.am */,
-				33E54FB8188B5BC000E798E4 /* Makefile.in */,
 			);
 			path = capi;
 			sourceTree = "<group>";
@@ -2109,10 +1953,6 @@
 				33E55328188B5BC200E798E4 /* inlines.cpp */,
 				33E55329188B5BC200E798E4 /* io */,
 				33E55344188B5BC200E798E4 /* linearref */,
-				33E5535B188B5BC200E798E4 /* Makefile */,
-				33E5535C188B5BC200E798E4 /* Makefile.am */,
-				33E5535D188B5BC200E798E4 /* Makefile.in */,
-				33E5535E188B5BC200E798E4 /* Makefile.vc */,
 				33E5535F188B5BC200E798E4 /* noding */,
 				33E5539B188B5BC200E798E4 /* operation */,
 				33E5545F188B5BC200E798E4 /* planargraph */,
@@ -2151,9 +1991,6 @@
 				33E55206188B5BC100E798E4 /* InteriorPointPoint.cpp */,
 				33E55207188B5BC100E798E4 /* LineIntersector.cpp */,
 				33E55208188B5BC100E798E4 /* locate */,
-				33E55213188B5BC100E798E4 /* Makefile */,
-				33E55214188B5BC100E798E4 /* Makefile.am */,
-				33E55215188B5BC100E798E4 /* Makefile.in */,
 				33E55216188B5BC100E798E4 /* MCPointInRing.cpp */,
 				33E55217188B5BC100E798E4 /* MinimumDiameter.cpp */,
 				33E55218188B5BC100E798E4 /* NotRepresentableException.cpp */,
@@ -2200,9 +2037,6 @@
 				33E551FB188B5BC100E798E4 /* .deps */,
 				33E551FE188B5BC100E798E4 /* DiscreteHausdorffDistance.cpp */,
 				33E551FF188B5BC100E798E4 /* DistanceToPoint.cpp */,
-				33E55200188B5BC100E798E4 /* Makefile */,
-				33E55201188B5BC100E798E4 /* Makefile.am */,
-				33E55202188B5BC100E798E4 /* Makefile.in */,
 			);
 			path = distance;
 			sourceTree = "<group>";
@@ -2221,9 +2055,6 @@
 			children = (
 				33E55209188B5BC100E798E4 /* .deps */,
 				33E5520D188B5BC100E798E4 /* IndexedPointInAreaLocator.cpp */,
-				33E5520E188B5BC100E798E4 /* Makefile */,
-				33E5520F188B5BC100E798E4 /* Makefile.am */,
-				33E55210188B5BC100E798E4 /* Makefile.in */,
 				33E55211188B5BC100E798E4 /* PointOnGeometryLocator.cpp */,
 				33E55212188B5BC100E798E4 /* SimplePointInAreaLocator.cpp */,
 			);
@@ -2261,9 +2092,6 @@
 				33E55248188B5BC100E798E4 /* LineSegment.cpp */,
 				33E55249188B5BC100E798E4 /* LineString.cpp */,
 				33E5524A188B5BC100E798E4 /* Location.cpp */,
-				33E5524B188B5BC100E798E4 /* Makefile */,
-				33E5524C188B5BC100E798E4 /* Makefile.am */,
-				33E5524D188B5BC100E798E4 /* Makefile.in */,
 				33E5524E188B5BC100E798E4 /* MultiLineString.cpp */,
 				33E5524F188B5BC100E798E4 /* MultiPoint.cpp */,
 				33E55250188B5BC100E798E4 /* MultiPolygon.cpp */,
@@ -2314,9 +2142,6 @@
 				33E55255188B5BC100E798E4 /* .deps */,
 				33E55263188B5BC100E798E4 /* AbstractPreparedPolygonContains.cpp */,
 				33E55264188B5BC100E798E4 /* BasicPreparedGeometry.cpp */,
-				33E55265188B5BC100E798E4 /* Makefile */,
-				33E55266188B5BC100E798E4 /* Makefile.am */,
-				33E55267188B5BC100E798E4 /* Makefile.in */,
 				33E55268188B5BC100E798E4 /* PreparedGeometry.cpp */,
 				33E55269188B5BC100E798E4 /* PreparedGeometryFactory.cpp */,
 				33E5526A188B5BC100E798E4 /* PreparedLineString.cpp */,
@@ -2361,9 +2186,6 @@
 				33E5527F188B5BC100E798E4 /* GeometryCombiner.cpp */,
 				33E55280188B5BC100E798E4 /* GeometryEditor.cpp */,
 				33E55281188B5BC100E798E4 /* GeometryTransformer.cpp */,
-				33E55282188B5BC100E798E4 /* Makefile */,
-				33E55283188B5BC100E798E4 /* Makefile.am */,
-				33E55284188B5BC100E798E4 /* Makefile.in */,
 				33E55285188B5BC100E798E4 /* ShortCircuitedGeometryVisitor.cpp */,
 				33E55286188B5BC100E798E4 /* SineStarFactory.cpp */,
 			);
@@ -2402,9 +2224,6 @@
 				33E552A8188B5BC200E798E4 /* GraphComponent.cpp */,
 				33E552A9188B5BC200E798E4 /* index */,
 				33E552BE188B5BC200E798E4 /* Label.cpp */,
-				33E552BF188B5BC200E798E4 /* Makefile */,
-				33E552C0188B5BC200E798E4 /* Makefile.am */,
-				33E552C1188B5BC200E798E4 /* Makefile.in */,
 				33E552C2188B5BC200E798E4 /* Node.cpp */,
 				33E552C3188B5BC200E798E4 /* NodeFactory.cpp */,
 				33E552C4188B5BC200E798E4 /* NodeMap.cpp */,
@@ -2447,9 +2266,6 @@
 			isa = PBXGroup;
 			children = (
 				33E552AA188B5BC200E798E4 /* .deps */,
-				33E552B3188B5BC200E798E4 /* Makefile */,
-				33E552B4188B5BC200E798E4 /* Makefile.am */,
-				33E552B5188B5BC200E798E4 /* Makefile.in */,
 				33E552B6188B5BC200E798E4 /* MonotoneChainEdge.cpp */,
 				33E552B7188B5BC200E798E4 /* MonotoneChainIndexer.cpp */,
 				33E552B8188B5BC200E798E4 /* SegmentIntersector.cpp */,
@@ -2483,9 +2299,6 @@
 				33E552CA188B5BC200E798E4 /* bintree */,
 				33E552DB188B5BC200E798E4 /* chain */,
 				33E552E8188B5BC200E798E4 /* intervalrtree */,
-				33E552F5188B5BC200E798E4 /* Makefile */,
-				33E552F6188B5BC200E798E4 /* Makefile.am */,
-				33E552F7188B5BC200E798E4 /* Makefile.in */,
 				33E552F8188B5BC200E798E4 /* quadtree */,
 				33E5530B188B5BC200E798E4 /* strtree */,
 				33E5531C188B5BC200E798E4 /* sweepline */,
@@ -2500,9 +2313,6 @@
 				33E552D2188B5BC200E798E4 /* Bintree.cpp */,
 				33E552D3188B5BC200E798E4 /* Interval.cpp */,
 				33E552D4188B5BC200E798E4 /* Key.cpp */,
-				33E552D5188B5BC200E798E4 /* Makefile */,
-				33E552D6188B5BC200E798E4 /* Makefile.am */,
-				33E552D7188B5BC200E798E4 /* Makefile.in */,
 				33E552D8188B5BC200E798E4 /* Node.cpp */,
 				33E552D9188B5BC200E798E4 /* NodeBase.cpp */,
 				33E552DA188B5BC200E798E4 /* Root.cpp */,
@@ -2527,9 +2337,6 @@
 			isa = PBXGroup;
 			children = (
 				33E552DC188B5BC200E798E4 /* .deps */,
-				33E552E1188B5BC200E798E4 /* Makefile */,
-				33E552E2188B5BC200E798E4 /* Makefile.am */,
-				33E552E3188B5BC200E798E4 /* Makefile.in */,
 				33E552E4188B5BC200E798E4 /* MonotoneChain.cpp */,
 				33E552E5188B5BC200E798E4 /* MonotoneChainBuilder.cpp */,
 				33E552E6188B5BC200E798E4 /* MonotoneChainOverlapAction.cpp */,
@@ -2556,9 +2363,6 @@
 				33E552EE188B5BC200E798E4 /* IntervalRTreeBranchNode.cpp */,
 				33E552EF188B5BC200E798E4 /* IntervalRTreeLeafNode.cpp */,
 				33E552F0188B5BC200E798E4 /* IntervalRTreeNode.cpp */,
-				33E552F1188B5BC200E798E4 /* Makefile */,
-				33E552F2188B5BC200E798E4 /* Makefile.am */,
-				33E552F3188B5BC200E798E4 /* Makefile.in */,
 				33E552F4188B5BC200E798E4 /* SortedPackedIntervalRTree.cpp */,
 			);
 			path = intervalrtree;
@@ -2582,9 +2386,6 @@
 				33E55301188B5BC200E798E4 /* DoubleBits.cpp */,
 				33E55302188B5BC200E798E4 /* IntervalSize.cpp */,
 				33E55303188B5BC200E798E4 /* Key.cpp */,
-				33E55304188B5BC200E798E4 /* Makefile */,
-				33E55305188B5BC200E798E4 /* Makefile.am */,
-				33E55306188B5BC200E798E4 /* Makefile.in */,
 				33E55307188B5BC200E798E4 /* Node.cpp */,
 				33E55308188B5BC200E798E4 /* NodeBase.cpp */,
 				33E55309188B5BC200E798E4 /* Quadtree.cpp */,
@@ -2615,9 +2416,6 @@
 				33E55314188B5BC200E798E4 /* AbstractSTRtree.cpp */,
 				33E55315188B5BC200E798E4 /* Interval.cpp */,
 				33E55316188B5BC200E798E4 /* ItemBoundable.cpp */,
-				33E55317188B5BC200E798E4 /* Makefile */,
-				33E55318188B5BC200E798E4 /* Makefile.am */,
-				33E55319188B5BC200E798E4 /* Makefile.in */,
 				33E5531A188B5BC200E798E4 /* SIRtree.cpp */,
 				33E5531B188B5BC200E798E4 /* STRtree.cpp */,
 			);
@@ -2641,9 +2439,6 @@
 			isa = PBXGroup;
 			children = (
 				33E5531D188B5BC200E798E4 /* .deps */,
-				33E55321188B5BC200E798E4 /* Makefile */,
-				33E55322188B5BC200E798E4 /* Makefile.am */,
-				33E55323188B5BC200E798E4 /* Makefile.in */,
 				33E55324188B5BC200E798E4 /* SweepLineEvent.cpp */,
 				33E55325188B5BC200E798E4 /* SweepLineIndex.cpp */,
 				33E55326188B5BC200E798E4 /* SweepLineInterval.cpp */,
@@ -2668,9 +2463,6 @@
 				33E55336188B5BC200E798E4 /* ByteOrderDataInStream.cpp */,
 				33E55337188B5BC200E798E4 /* ByteOrderValues.cpp */,
 				33E55338188B5BC200E798E4 /* CLocalizer.cpp */,
-				33E55339188B5BC200E798E4 /* Makefile */,
-				33E5533A188B5BC200E798E4 /* Makefile.am */,
-				33E5533B188B5BC200E798E4 /* Makefile.in */,
 				33E5533C188B5BC200E798E4 /* ParseException.cpp */,
 				33E5533D188B5BC200E798E4 /* StringTokenizer.cpp */,
 				33E5533E188B5BC200E798E4 /* Unload.cpp */,
@@ -2714,9 +2506,6 @@
 				33E55355188B5BC200E798E4 /* LinearLocation.cpp */,
 				33E55356188B5BC200E798E4 /* LocationIndexOfLine.cpp */,
 				33E55357188B5BC200E798E4 /* LocationIndexOfPoint.cpp */,
-				33E55358188B5BC200E798E4 /* Makefile */,
-				33E55359188B5BC200E798E4 /* Makefile.am */,
-				33E5535A188B5BC200E798E4 /* Makefile.in */,
 			);
 			path = linearref;
 			sourceTree = "<group>";
@@ -2748,9 +2537,6 @@
 				33E5537A188B5BC200E798E4 /* IntersectionAdder.cpp */,
 				33E5537B188B5BC200E798E4 /* IntersectionFinderAdder.cpp */,
 				33E5537C188B5BC200E798E4 /* IteratedNoder.cpp */,
-				33E5537D188B5BC200E798E4 /* Makefile */,
-				33E5537E188B5BC200E798E4 /* Makefile.am */,
-				33E5537F188B5BC200E798E4 /* Makefile.in */,
 				33E55380188B5BC200E798E4 /* MCIndexNoder.cpp */,
 				33E55381188B5BC200E798E4 /* MCIndexSegmentSetMutualIntersector.cpp */,
 				33E55382188B5BC200E798E4 /* NodedSegmentString.cpp */,
@@ -2803,9 +2589,6 @@
 			children = (
 				33E5538F188B5BC200E798E4 /* .deps */,
 				33E55394188B5BC200E798E4 /* HotPixel.cpp */,
-				33E55395188B5BC200E798E4 /* Makefile */,
-				33E55396188B5BC200E798E4 /* Makefile.am */,
-				33E55397188B5BC200E798E4 /* Makefile.in */,
 				33E55398188B5BC200E798E4 /* MCIndexPointSnapper.cpp */,
 				33E55399188B5BC200E798E4 /* MCIndexSnapRounder.cpp */,
 				33E5539A188B5BC200E798E4 /* SimpleSnapRounder.cpp */,
@@ -2833,9 +2616,6 @@
 				33E553C5188B5BC200E798E4 /* GeometryGraphOperation.cpp */,
 				33E553C6188B5BC200E798E4 /* IsSimpleOp.cpp */,
 				33E553C7188B5BC200E798E4 /* linemerge */,
-				33E553D8188B5BC200E798E4 /* Makefile */,
-				33E553D9188B5BC200E798E4 /* Makefile.am */,
-				33E553DA188B5BC200E798E4 /* Makefile.in */,
 				33E553DB188B5BC200E798E4 /* overlay */,
 				33E55404188B5BC200E798E4 /* polygonize */,
 				33E55413188B5BC200E798E4 /* predicate */,
@@ -2865,9 +2645,6 @@
 				33E553AD188B5BC200E798E4 /* BufferOp.cpp */,
 				33E553AE188B5BC200E798E4 /* BufferParameters.cpp */,
 				33E553AF188B5BC200E798E4 /* BufferSubgraph.cpp */,
-				33E553B0188B5BC200E798E4 /* Makefile */,
-				33E553B1188B5BC200E798E4 /* Makefile.am */,
-				33E553B2188B5BC200E798E4 /* Makefile.in */,
 				33E553B3188B5BC200E798E4 /* OffsetCurveBuilder.cpp */,
 				33E553B4188B5BC200E798E4 /* OffsetCurveSetBuilder.cpp */,
 				33E553B5188B5BC200E798E4 /* OffsetSegmentGenerator.cpp */,
@@ -2902,9 +2679,6 @@
 				33E553BF188B5BC200E798E4 /* ConnectedElementPointFilter.cpp */,
 				33E553C0188B5BC200E798E4 /* DistanceOp.cpp */,
 				33E553C1188B5BC200E798E4 /* GeometryLocation.cpp */,
-				33E553C2188B5BC200E798E4 /* Makefile */,
-				33E553C3188B5BC200E798E4 /* Makefile.am */,
-				33E553C4188B5BC200E798E4 /* Makefile.in */,
 			);
 			path = distance;
 			sourceTree = "<group>";
@@ -2930,9 +2704,6 @@
 				33E553D2188B5BC200E798E4 /* LineMergeGraph.cpp */,
 				33E553D3188B5BC200E798E4 /* LineMerger.cpp */,
 				33E553D4188B5BC200E798E4 /* LineSequencer.cpp */,
-				33E553D5188B5BC200E798E4 /* Makefile */,
-				33E553D6188B5BC200E798E4 /* Makefile.am */,
-				33E553D7188B5BC200E798E4 /* Makefile.in */,
 			);
 			path = linemerge;
 			sourceTree = "<group>";
@@ -2958,9 +2729,6 @@
 				33E553EF188B5BC200E798E4 /* ElevationMatrix.cpp */,
 				33E553F0188B5BC200E798E4 /* ElevationMatrixCell.cpp */,
 				33E553F1188B5BC200E798E4 /* LineBuilder.cpp */,
-				33E553F2188B5BC200E798E4 /* Makefile */,
-				33E553F3188B5BC200E798E4 /* Makefile.am */,
-				33E553F4188B5BC200E798E4 /* Makefile.in */,
 				33E553F5188B5BC200E798E4 /* MaximalEdgeRing.cpp */,
 				33E553F6188B5BC200E798E4 /* MinimalEdgeRing.cpp */,
 				33E553F7188B5BC200E798E4 /* OverlayNodeFactory.cpp */,
@@ -3023,9 +2791,6 @@
 			children = (
 				33E55405188B5BC200E798E4 /* .deps */,
 				33E5540B188B5BC200E798E4 /* EdgeRing.cpp */,
-				33E5540C188B5BC200E798E4 /* Makefile */,
-				33E5540D188B5BC200E798E4 /* Makefile.am */,
-				33E5540E188B5BC200E798E4 /* Makefile.in */,
 				33E5540F188B5BC200E798E4 /* PolygonizeDirectedEdge.cpp */,
 				33E55410188B5BC200E798E4 /* PolygonizeEdge.cpp */,
 				33E55411188B5BC200E798E4 /* PolygonizeGraph.cpp */,
@@ -3050,9 +2815,6 @@
 			isa = PBXGroup;
 			children = (
 				33E55414188B5BC200E798E4 /* .deps */,
-				33E55418188B5BC200E798E4 /* Makefile */,
-				33E55419188B5BC200E798E4 /* Makefile.am */,
-				33E5541A188B5BC200E798E4 /* Makefile.in */,
 				33E5541B188B5BC200E798E4 /* RectangleContains.cpp */,
 				33E5541C188B5BC200E798E4 /* RectangleIntersects.cpp */,
 				33E5541D188B5BC200E798E4 /* SegmentIntersectionTester.cpp */,
@@ -3077,9 +2839,6 @@
 				33E55428188B5BC200E798E4 /* EdgeEndBuilder.cpp */,
 				33E55429188B5BC200E798E4 /* EdgeEndBundle.cpp */,
 				33E5542A188B5BC200E798E4 /* EdgeEndBundleStar.cpp */,
-				33E5542B188B5BC200E798E4 /* Makefile */,
-				33E5542C188B5BC200E798E4 /* Makefile.am */,
-				33E5542D188B5BC200E798E4 /* Makefile.in */,
 				33E5542E188B5BC200E798E4 /* RelateComputer.cpp */,
 				33E5542F188B5BC200E798E4 /* RelateNode.cpp */,
 				33E55430188B5BC200E798E4 /* RelateNodeFactory.cpp */,
@@ -3108,9 +2867,6 @@
 			isa = PBXGroup;
 			children = (
 				33E55434188B5BC200E798E4 /* .deps */,
-				33E55436188B5BC200E798E4 /* Makefile */,
-				33E55437188B5BC200E798E4 /* Makefile.am */,
-				33E55438188B5BC200E798E4 /* Makefile.in */,
 				33E55439188B5BC200E798E4 /* SharedPathsOp.cpp */,
 			);
 			path = sharedpaths;
@@ -3130,9 +2886,6 @@
 				33E5543B188B5BC200E798E4 /* .deps */,
 				33E55440188B5BC200E798E4 /* CascadedPolygonUnion.cpp */,
 				33E55441188B5BC200E798E4 /* CascadedUnion.cpp */,
-				33E55442188B5BC200E798E4 /* Makefile */,
-				33E55443188B5BC200E798E4 /* Makefile.am */,
-				33E55444188B5BC200E798E4 /* Makefile.in */,
 				33E55445188B5BC200E798E4 /* PointGeometryUnion.cpp */,
 				33E55446188B5BC200E798E4 /* UnaryUnionOp.cpp */,
 			);
@@ -3159,9 +2912,6 @@
 				33E55454188B5BC200E798E4 /* IndexedNestedRingTester.cpp */,
 				33E55455188B5BC200E798E4 /* IndexedNestedRingTester.h */,
 				33E55456188B5BC200E798E4 /* IsValidOp.cpp */,
-				33E55457188B5BC200E798E4 /* Makefile */,
-				33E55458188B5BC200E798E4 /* Makefile.am */,
-				33E55459188B5BC200E798E4 /* Makefile.in */,
 				33E5545A188B5BC200E798E4 /* QuadtreeNestedRingTester.cpp */,
 				33E5545B188B5BC200E798E4 /* RepeatedPointTester.cpp */,
 				33E5545C188B5BC200E798E4 /* SimpleNestedRingTester.cpp */,
@@ -3195,9 +2945,6 @@
 				33E5546B188B5BC300E798E4 /* DirectedEdge.cpp */,
 				33E5546C188B5BC300E798E4 /* DirectedEdgeStar.cpp */,
 				33E5546D188B5BC300E798E4 /* Edge.cpp */,
-				33E5546E188B5BC300E798E4 /* Makefile */,
-				33E5546F188B5BC300E798E4 /* Makefile.am */,
-				33E55470188B5BC300E798E4 /* Makefile.in */,
 				33E55471188B5BC300E798E4 /* Node.cpp */,
 				33E55472188B5BC300E798E4 /* NodeMap.cpp */,
 				33E55473188B5BC300E798E4 /* PlanarGraph.cpp */,
@@ -3238,9 +2985,6 @@
 				33E55480188B5BC300E798E4 /* CommonBitsRemover.cpp */,
 				33E55481188B5BC300E798E4 /* EnhancedPrecisionOp.cpp */,
 				33E55482188B5BC300E798E4 /* GeometryPrecisionReducer.cpp */,
-				33E55483188B5BC300E798E4 /* Makefile */,
-				33E55484188B5BC300E798E4 /* Makefile.am */,
-				33E55485188B5BC300E798E4 /* Makefile.in */,
 				33E55486188B5BC300E798E4 /* PrecisionReducerCoordinateOperation.cpp */,
 				33E55487188B5BC300E798E4 /* SimpleGeometryPrecisionReducer.cpp */,
 			);
@@ -3268,9 +3012,6 @@
 				33E55492188B5BC300E798E4 /* DouglasPeuckerLineSimplifier.cpp */,
 				33E55493188B5BC300E798E4 /* DouglasPeuckerSimplifier.cpp */,
 				33E55494188B5BC300E798E4 /* LineSegmentIndex.cpp */,
-				33E55495188B5BC300E798E4 /* Makefile */,
-				33E55496188B5BC300E798E4 /* Makefile.am */,
-				33E55497188B5BC300E798E4 /* Makefile.in */,
 				33E55498188B5BC300E798E4 /* TaggedLineSegment.cpp */,
 				33E55499188B5BC300E798E4 /* TaggedLinesSimplifier.cpp */,
 				33E5549A188B5BC300E798E4 /* TaggedLineString.cpp */,
@@ -3301,9 +3042,6 @@
 				33E5549E188B5BC300E798E4 /* .deps */,
 				33E554A1188B5BC300E798E4 /* DelaunayTriangulationBuilder.cpp */,
 				33E554A2188B5BC300E798E4 /* IncrementalDelaunayTriangulator.cpp */,
-				33E554A3188B5BC300E798E4 /* Makefile */,
-				33E554A4188B5BC300E798E4 /* Makefile.am */,
-				33E554A5188B5BC300E798E4 /* Makefile.in */,
 				33E554A6188B5BC300E798E4 /* quadedge */,
 			);
 			path = triangulate;
@@ -3324,9 +3062,6 @@
 				33E554A7188B5BC300E798E4 /* .deps */,
 				33E554B0188B5BC300E798E4 /* LastFoundQuadEdgeLocator.cpp */,
 				33E554B1188B5BC300E798E4 /* LocateFailureException.cpp */,
-				33E554B2188B5BC300E798E4 /* Makefile */,
-				33E554B3188B5BC300E798E4 /* Makefile.am */,
-				33E554B4188B5BC300E798E4 /* Makefile.in */,
 				33E554B5188B5BC300E798E4 /* QuadEdge.cpp */,
 				33E554B6188B5BC300E798E4 /* QuadEdgeLocator.cpp */,
 				33E554B7188B5BC300E798E4 /* QuadEdgeSubdivision.cpp */,
@@ -3359,9 +3094,6 @@
 				33E554C2188B5BC300E798E4 /* Assert.cpp */,
 				33E554C3188B5BC300E798E4 /* GeometricShapeFactory.cpp */,
 				33E554C4188B5BC300E798E4 /* Interrupt.cpp */,
-				33E554C5188B5BC300E798E4 /* Makefile */,
-				33E554C6188B5BC300E798E4 /* Makefile.am */,
-				33E554C7188B5BC300E798E4 /* Makefile.in */,
 				33E554C8188B5BC300E798E4 /* math.cpp */,
 				33E554C9188B5BC300E798E4 /* Profiler.cpp */,
 			);
@@ -4119,15 +3851,12 @@
 				33E556C3188B5BC300E798E4 /* TopologyLocation.cpp in Sources */,
 				33E5575A188B5BC300E798E4 /* RelateOp.cpp in Sources */,
 				33E5571B188B5BC300E798E4 /* SimpleSnapRounder.cpp in Sources */,
-				33E55688188B5BC300E798E4 /* Makefile in Sources */,
 				33E55671188B5BC300E798E4 /* NotRepresentableException.cpp in Sources */,
 				33E55788188B5BC300E798E4 /* IncrementalDelaunayTriangulator.cpp in Sources */,
 				33E556AE188B5BC300E798E4 /* EdgeNodingValidator.cpp in Sources */,
 				33E556B5188B5BC300E798E4 /* SegmentIntersector.cpp in Sources */,
 				33E55704188B5BC300E798E4 /* GeometryNoder.cpp in Sources */,
-				33E556E5188B5BC300E798E4 /* Makefile in Sources */,
 				33E556A1188B5BC300E798E4 /* GeometryEditor.cpp in Sources */,
-				33E556CB188B5BC300E798E4 /* Makefile in Sources */,
 				33E55770188B5BC300E798E4 /* Edge.cpp in Sources */,
 				33E5575D188B5BC300E798E4 /* CascadedPolygonUnion.cpp in Sources */,
 				33E5577F188B5BC300E798E4 /* DouglasPeuckerSimplifier.cpp in Sources */,
@@ -4135,7 +3864,6 @@
 				33E55778188B5BC300E798E4 /* CommonBitsRemover.cpp in Sources */,
 				33E5578A188B5BC300E798E4 /* LastFoundQuadEdgeLocator.cpp in Sources */,
 				33E55766188B5BC300E798E4 /* IsValidOp.cpp in Sources */,
-				33E5577B188B5BC300E798E4 /* Makefile in Sources */,
 				33E5569F188B5BC300E798E4 /* CoordinateOperation.cpp in Sources */,
 				33E55675188B5BC300E798E4 /* SimplePointInRing.cpp in Sources */,
 				33E556FA188B5BC300E798E4 /* LinearGeometryBuilder.cpp in Sources */,
@@ -4149,17 +3877,14 @@
 				33E556C8188B5BC300E798E4 /* Node.cpp in Sources */,
 				33E5573B188B5BC300E798E4 /* MaximalEdgeRing.cpp in Sources */,
 				33E55746188B5BC300E798E4 /* OffsetPointGenerator.cpp in Sources */,
-				33E55708188B5BC300E798E4 /* Makefile in Sources */,
 				33E55720188B5BC300E798E4 /* BufferSubgraph.cpp in Sources */,
 				33E5565A188B5BC300E798E4 /* Angle.cpp in Sources */,
 				33E556C6188B5BC300E798E4 /* Key.cpp in Sources */,
 				33E55751188B5BC300E798E4 /* SegmentIntersectionTester.cpp in Sources */,
-				33E556C7188B5BC300E798E4 /* Makefile in Sources */,
 				33E55728188B5BC300E798E4 /* ConnectedElementPointFilter.cpp in Sources */,
 				33E556D7188B5BC300E798E4 /* IntervalSize.cpp in Sources */,
 				33E55699188B5BC300E798E4 /* PreparedPolygonContainsProperly.cpp in Sources */,
 				33E556AD188B5BC300E798E4 /* EdgeList.cpp in Sources */,
-				33E5566B188B5BC300E798E4 /* Makefile in Sources */,
 				33E55709188B5BC300E798E4 /* MCIndexNoder.cpp in Sources */,
 				33E55786188B5BC300E798E4 /* TopologyPreservingSimplifier.cpp in Sources */,
 				33E556FD188B5BC300E798E4 /* LocationIndexOfLine.cpp in Sources */,
@@ -4168,14 +3893,10 @@
 				33E556EF188B5BC300E798E4 /* StringTokenizer.cpp in Sources */,
 				33E556DB188B5BC300E798E4 /* NodeBase.cpp in Sources */,
 				33E55692188B5BC300E798E4 /* PreparedGeometry.cpp in Sources */,
-				33E55749188B5BC300E798E4 /* Makefile in Sources */,
-				33E55718188B5BC300E798E4 /* Makefile in Sources */,
 				33E5574A188B5BC300E798E4 /* PolygonizeDirectedEdge.cpp in Sources */,
-				33E556BC188B5BC300E798E4 /* Makefile in Sources */,
 				33E55693188B5BC300E798E4 /* PreparedGeometryFactory.cpp in Sources */,
 				33E5576B188B5BC300E798E4 /* SweeplineNestedRingTester.cpp in Sources */,
 				33E5567C188B5BC300E798E4 /* Dimension.cpp in Sources */,
-				33E55721188B5BC300E798E4 /* Makefile in Sources */,
 				33E556AC188B5BC300E798E4 /* EdgeIntersectionList.cpp in Sources */,
 				33E556DA188B5BC300E798E4 /* Node.cpp in Sources */,
 				33E55679188B5BC300E798E4 /* CoordinateArraySequenceFactory.cpp in Sources */,
@@ -4189,26 +3910,20 @@
 				33E55672188B5BC300E798E4 /* PointLocator.cpp in Sources */,
 				33E55797188B5BC300E798E4 /* math.cpp in Sources */,
 				33E556C9188B5BC300E798E4 /* NodeBase.cpp in Sources */,
-				33E556D5188B5BC300E798E4 /* Makefile in Sources */,
 				33E5570A188B5BC300E798E4 /* MCIndexSegmentSetMutualIntersector.cpp in Sources */,
 				33E55684188B5BC300E798E4 /* LinearRing.cpp in Sources */,
 				33E55669188B5BC300E798E4 /* LineIntersector.cpp in Sources */,
 				33E55697188B5BC300E798E4 /* PreparedPolygon.cpp in Sources */,
 				33E5568A188B5BC300E798E4 /* MultiPoint.cpp in Sources */,
 				33E5565D188B5BC300E798E4 /* CentroidArea.cpp in Sources */,
-				33E5572B188B5BC300E798E4 /* Makefile in Sources */,
-				33E55781188B5BC300E798E4 /* Makefile in Sources */,
-				33E556A3188B5BC300E798E4 /* Makefile in Sources */,
 				33E556AF188B5BC300E798E4 /* EdgeRing.cpp in Sources */,
 				33E55727188B5BC300E798E4 /* ConnectedElementLocationFilter.cpp in Sources */,
 				33E5572A188B5BC300E798E4 /* GeometryLocation.cpp in Sources */,
 				33E5577C188B5BC300E798E4 /* PrecisionReducerCoordinateOperation.cpp in Sources */,
 				33E5565E188B5BC300E798E4 /* CentroidLine.cpp in Sources */,
-				33E5573A188B5BC300E798E4 /* Makefile in Sources */,
 				33E55729188B5BC300E798E4 /* DistanceOp.cpp in Sources */,
 				33E55722188B5BC300E798E4 /* OffsetCurveBuilder.cpp in Sources */,
 				33E556E9188B5BC300E798E4 /* inlines.cpp in Sources */,
-				33E55664188B5BC300E798E4 /* Makefile in Sources */,
 				33E55665188B5BC300E798E4 /* HCoordinate.cpp in Sources */,
 				33E55741188B5BC300E798E4 /* GeometrySnapper.cpp in Sources */,
 				33E5571A188B5BC300E798E4 /* MCIndexSnapRounder.cpp in Sources */,
@@ -4225,13 +3940,11 @@
 				33E5573F188B5BC300E798E4 /* PointBuilder.cpp in Sources */,
 				33E55724188B5BC300E798E4 /* OffsetSegmentGenerator.cpp in Sources */,
 				33E55717188B5BC300E798E4 /* HotPixel.cpp in Sources */,
-				33E55691188B5BC300E798E4 /* Makefile in Sources */,
 				33E556FE188B5BC300E798E4 /* LocationIndexOfPoint.cpp in Sources */,
 				33E55798188B5BC300E798E4 /* Profiler.cpp in Sources */,
 				33E5577E188B5BC300E798E4 /* DouglasPeuckerLineSimplifier.cpp in Sources */,
 				33E556A9188B5BC300E798E4 /* Edge.cpp in Sources */,
 				33E55744188B5BC300E798E4 /* SnapOverlayOp.cpp in Sources */,
-				33E55796188B5BC300E798E4 /* Makefile in Sources */,
 				33E556EC188B5BC300E798E4 /* CLocalizer.cpp in Sources */,
 				33E556F2188B5BC300E798E4 /* WKBWriter.cpp in Sources */,
 				33E5577D188B5BC300E798E4 /* SimpleGeometryPrecisionReducer.cpp in Sources */,
@@ -4242,7 +3955,6 @@
 				33E55733188B5BC300E798E4 /* LineSequencer.cpp in Sources */,
 				33E5570F188B5BC300E798E4 /* ScaledNoder.cpp in Sources */,
 				33E5566F188B5BC300E798E4 /* MCPointInRing.cpp in Sources */,
-				33E556FF188B5BC300E798E4 /* Makefile in Sources */,
 				33E55712188B5BC300E798E4 /* SegmentNodeList.cpp in Sources */,
 				33E55690188B5BC300E798E4 /* BasicPreparedGeometry.cpp in Sources */,
 				33E5572D188B5BC300E798E4 /* IsSimpleOp.cpp in Sources */,
@@ -4254,7 +3966,6 @@
 				33E5574F188B5BC300E798E4 /* RectangleContains.cpp in Sources */,
 				33E5565F188B5BC300E798E4 /* CentroidPoint.cpp in Sources */,
 				33E55698188B5BC300E798E4 /* PreparedPolygonContains.cpp in Sources */,
-				33E55771188B5BC300E798E4 /* Makefile in Sources */,
 				33E55663188B5BC300E798E4 /* DistanceToPoint.cpp in Sources */,
 				33E556EB188B5BC300E798E4 /* ByteOrderValues.cpp in Sources */,
 				33E556B4188B5BC300E798E4 /* MonotoneChainIndexer.cpp in Sources */,
@@ -4263,7 +3974,6 @@
 				33E55757188B5BC300E798E4 /* RelateNode.cpp in Sources */,
 				33E5578B188B5BC300E798E4 /* LocateFailureException.cpp in Sources */,
 				33E55730188B5BC300E798E4 /* LineMergeEdge.cpp in Sources */,
-				33E55755188B5BC300E798E4 /* Makefile in Sources */,
 				33E55696188B5BC300E798E4 /* PreparedPoint.cpp in Sources */,
 				33E55780188B5BC300E798E4 /* LineSegmentIndex.cpp in Sources */,
 				33E55731188B5BC300E798E4 /* LineMergeGraph.cpp in Sources */,
@@ -4284,7 +3994,6 @@
 				33E55779188B5BC300E798E4 /* EnhancedPrecisionOp.cpp in Sources */,
 				33E55791188B5BC300E798E4 /* TriangleVisitor.cpp in Sources */,
 				33E55682188B5BC300E798E4 /* GeometryList.cpp in Sources */,
-				33E556E2188B5BC300E798E4 /* Makefile in Sources */,
 				33E556CA188B5BC300E798E4 /* Root.cpp in Sources */,
 				33E55776188B5BC300E798E4 /* CommonBits.cpp in Sources */,
 				33E5569E188B5BC300E798E4 /* ComponentCoordinateExtracter.cpp in Sources */,
@@ -4295,17 +4004,14 @@
 				33E556A5188B5BC300E798E4 /* SineStarFactory.cpp in Sources */,
 				33E55715188B5BC300E798E4 /* SimpleNoder.cpp in Sources */,
 				33E556A7188B5BC300E798E4 /* DirectedEdge.cpp in Sources */,
-				33E554CD188B5BC300E798E4 /* Makefile in Sources */,
 				33E5578D188B5BC300E798E4 /* QuadEdge.cpp in Sources */,
 				33E556D8188B5BC300E798E4 /* Key.cpp in Sources */,
 				33E556D1188B5BC300E798E4 /* IntervalRTreeLeafNode.cpp in Sources */,
 				33E55745188B5BC300E798E4 /* FuzzyPointLocator.cpp in Sources */,
-				33E556D9188B5BC300E798E4 /* Makefile in Sources */,
 				33E5573E188B5BC300E798E4 /* OverlayOp.cpp in Sources */,
 				33E55687188B5BC300E798E4 /* Location.cpp in Sources */,
 				33E556A0188B5BC300E798E4 /* GeometryCombiner.cpp in Sources */,
 				33E556E0188B5BC300E798E4 /* Interval.cpp in Sources */,
-				33E5566E188B5BC300E798E4 /* Makefile in Sources */,
 				33E556C5188B5BC300E798E4 /* Interval.cpp in Sources */,
 				33E556C1188B5BC300E798E4 /* Position.cpp in Sources */,
 				33E5567D188B5BC300E798E4 /* Envelope.cpp in Sources */,
@@ -4327,17 +4033,14 @@
 				33E556E8188B5BC300E798E4 /* SweepLineInterval.cpp in Sources */,
 				33E55756188B5BC300E798E4 /* RelateComputer.cpp in Sources */,
 				33E55761188B5BC300E798E4 /* UnaryUnionOp.cpp in Sources */,
-				33E556ED188B5BC300E798E4 /* Makefile in Sources */,
 				33E5568E188B5BC300E798E4 /* PrecisionModel.cpp in Sources */,
 				33E55714188B5BC300E798E4 /* SegmentStringUtil.cpp in Sources */,
 				33E55716188B5BC300E798E4 /* SingleInteriorIntersectionFinder.cpp in Sources */,
 				33E556B0188B5BC300E798E4 /* GeometryGraph.cpp in Sources */,
-				33E5574E188B5BC300E798E4 /* Makefile in Sources */,
 				33E556BB188B5BC300E798E4 /* Label.cpp in Sources */,
 				33E55773188B5BC300E798E4 /* NodeMap.cpp in Sources */,
 				33E5566A188B5BC300E798E4 /* IndexedPointInAreaLocator.cpp in Sources */,
 				33E55739188B5BC300E798E4 /* LineBuilder.cpp in Sources */,
-				33E55789188B5BC300E798E4 /* Makefile in Sources */,
 				33E556F1188B5BC300E798E4 /* WKBReader.cpp in Sources */,
 				33E5576A188B5BC300E798E4 /* SimpleNestedRingTester.cpp in Sources */,
 				33E556EA188B5BC300E798E4 /* ByteOrderDataInStream.cpp in Sources */,
@@ -4348,24 +4051,19 @@
 				33E55680188B5BC300E798E4 /* GeometryComponentFilter.cpp in Sources */,
 				33E556C4188B5BC300E798E4 /* Bintree.cpp in Sources */,
 				33E5574D188B5BC300E798E4 /* Polygonizer.cpp in Sources */,
-				33E5575B188B5BC300E798E4 /* Makefile in Sources */,
 				33E55667188B5BC300E798E4 /* InteriorPointLine.cpp in Sources */,
 				33E5567A188B5BC300E798E4 /* CoordinateSequence.cpp in Sources */,
 				33E556F8188B5BC300E798E4 /* LengthIndexOfPoint.cpp in Sources */,
-				33E5578C188B5BC300E798E4 /* Makefile in Sources */,
 				33E55793188B5BC300E798E4 /* Assert.cpp in Sources */,
 				33E556FB188B5BC300E798E4 /* LinearIterator.cpp in Sources */,
-				33E556B2188B5BC300E798E4 /* Makefile in Sources */,
 				33E55754188B5BC300E798E4 /* EdgeEndBundleStar.cpp in Sources */,
 				33E5565C188B5BC300E798E4 /* Centroid.cpp in Sources */,
 				33E5574C188B5BC300E798E4 /* PolygonizeGraph.cpp in Sources */,
 				33E5571D188B5BC300E798E4 /* BufferInputLineSimplifier.cpp in Sources */,
-				33E55735188B5BC300E798E4 /* Makefile in Sources */,
 				33E55743188B5BC300E798E4 /* SnapIfNeededOverlayOp.cpp in Sources */,
 				33E556B3188B5BC300E798E4 /* MonotoneChainEdge.cpp in Sources */,
 				33E55763188B5BC300E798E4 /* ConsistentAreaTester.cpp in Sources */,
 				33E55707188B5BC300E798E4 /* IteratedNoder.cpp in Sources */,
-				33E55734188B5BC300E798E4 /* Makefile in Sources */,
 				33E556F0188B5BC300E798E4 /* Unload.cpp in Sources */,
 				33E55775188B5BC300E798E4 /* Subgraph.cpp in Sources */,
 				33E556F3188B5BC300E798E4 /* WKTReader.cpp in Sources */,
@@ -4374,7 +4072,6 @@
 				33E55670188B5BC300E798E4 /* MinimumDiameter.cpp in Sources */,
 				33E556DD188B5BC300E798E4 /* Root.cpp in Sources */,
 				33E55760188B5BC300E798E4 /* PointGeometryUnion.cpp in Sources */,
-				33E5575F188B5BC300E798E4 /* Makefile in Sources */,
 				33E55711188B5BC300E798E4 /* SegmentNode.cpp in Sources */,
 				33E556B8188B5BC300E798E4 /* SimpleSweepLineIntersector.cpp in Sources */,
 				33E55710188B5BC300E798E4 /* SegmentIntersectionDetector.cpp in Sources */,
@@ -4383,7 +4080,6 @@
 				33E5570B188B5BC300E798E4 /* NodedSegmentString.cpp in Sources */,
 				33E556CC188B5BC300E798E4 /* MonotoneChain.cpp in Sources */,
 				33E55785188B5BC300E798E4 /* TaggedLineStringSimplifier.cpp in Sources */,
-				33E556D3188B5BC300E798E4 /* Makefile in Sources */,
 				33E556AB188B5BC300E798E4 /* EdgeEndStar.cpp in Sources */,
 				33E55784188B5BC300E798E4 /* TaggedLineString.cpp in Sources */,
 				33E55782188B5BC300E798E4 /* TaggedLineSegment.cpp in Sources */,
@@ -4392,12 +4088,10 @@
 				33E55795188B5BC300E798E4 /* Interrupt.cpp in Sources */,
 				33E556AA188B5BC300E798E4 /* EdgeEnd.cpp in Sources */,
 				33E556E6188B5BC300E798E4 /* SweepLineEvent.cpp in Sources */,
-				33E55767188B5BC300E798E4 /* Makefile in Sources */,
 				33E55695188B5BC300E798E4 /* PreparedLineStringIntersects.cpp in Sources */,
 				33E5570D188B5BC300E798E4 /* Octant.cpp in Sources */,
 				33E55674188B5BC300E798E4 /* RobustDeterminant.cpp in Sources */,
 				33E5568D188B5BC300E798E4 /* Polygon.cpp in Sources */,
-				33E55700188B5BC300E798E4 /* Makefile in Sources */,
 				33E5565B188B5BC300E798E4 /* BoundaryNodeRule.cpp in Sources */,
 				33E5578F188B5BC300E798E4 /* QuadEdgeSubdivision.cpp in Sources */,
 				33E556DC188B5BC300E798E4 /* Quadtree.cpp in Sources */,
