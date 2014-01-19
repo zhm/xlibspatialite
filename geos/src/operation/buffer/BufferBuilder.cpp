@@ -50,6 +50,7 @@
 #include <geos/io/WKTWriter.h> // for debugging
 #include <geos/util/IllegalArgumentException.h>
 #include <geos/profiler.h>
+#include <geos/util/Interrupt.h>
 
 #include <cassert>
 #include <vector>
@@ -149,6 +150,7 @@ BufferBuilder::bufferLineSingleSided( const Geometry* g, double distance,
    // First, generate the two-sided buffer using a butt-cap.
    BufferParameters modParams = bufParams;
    modParams.setEndCapStyle(BufferParameters::CAP_FLAT); 
+   modParams.setSingleSided(false); // ignore parameter for areal-only geometries
    Geometry* buf = 0;
 
    // This is a (temp?) hack to workaround the fact that
@@ -380,6 +382,8 @@ BufferBuilder::buffer(const Geometry *g, double distance)
 	OffsetCurveBuilder curveBuilder(precisionModel, bufParams);
 	OffsetCurveSetBuilder curveSetBuilder(*g, distance, curveBuilder);
 
+  GEOS_CHECK_FOR_INTERRUPTS();
+
 	std::vector<SegmentString*>& bufferSegStrList=curveSetBuilder.getCurves();
 
 #if GEOS_DEBUG
@@ -397,6 +401,8 @@ BufferBuilder::buffer(const Geometry *g, double distance)
 
 	computeNodedEdges(bufferSegStrList, precisionModel);
 
+  GEOS_CHECK_FOR_INTERRUPTS();
+
   } // bufferSegStrList and contents are released here
 
 #if GEOS_DEBUG > 1
@@ -411,6 +417,8 @@ BufferBuilder::buffer(const Geometry *g, double distance)
 		PlanarGraph graph(OverlayNodeFactory::instance());
 		graph.addEdges(edgeList.getEdges());
 
+    GEOS_CHECK_FOR_INTERRUPTS();
+
 		createSubgraphs(&graph, subgraphList);
 
 #if GEOS_DEBUG
@@ -420,6 +428,8 @@ BufferBuilder::buffer(const Geometry *g, double distance)
 		std::cerr << std::setprecision(10) << *(subgraphList[i]) << std::endl;
 #endif
 #endif
+
+    GEOS_CHECK_FOR_INTERRUPTS();
 
 		{ // scope for earlier PolygonBuilder cleanupt
 		  PolygonBuilder polyBuilder(geomFact);

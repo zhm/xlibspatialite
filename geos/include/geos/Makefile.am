@@ -13,9 +13,10 @@ SUBDIRS = \
     planargraph \
     precision \
     simplify \
+    triangulate \
     util
 
-EXTRA_DIST = version.h version.h.vc platform.h.vc platform.h.cmake
+EXTRA_DIST = version.h.vc platform.h.vc platform.h.cmake
 
 geosdir = $(includedir)/geos
 
@@ -45,11 +46,13 @@ geos_HEADERS = \
     opRelate.h \
     opValid.h \
     planargraph.h \
-    platform.h \
     precision.h \
     profiler.h \
     spatialIndex.h \
     timeval.h \
     unload.h \
-    util.h \
-    version.h
+    util.h
+
+nodist_geos_HEADERS = \
+ version.h \
+ platform.h

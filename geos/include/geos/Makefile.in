@@ -85,8 +85,8 @@ am__nobase_list = $(am__nobase_strip_setup); \
 am__base_list = \
   sed '$$!N;$$!N;$$!N;$$!N;$$!N;$$!N;$$!N;s/\n/ /g' | \
   sed '$$!N;$$!N;$$!N;$$!N;s/\n/ /g'
-am__installdirs = "$(DESTDIR)$(geosdir)"
-HEADERS = $(geos_HEADERS)
+am__installdirs = "$(DESTDIR)$(geosdir)" "$(DESTDIR)$(geosdir)"
+HEADERS = $(geos_HEADERS) $(nodist_geos_HEADERS)
 RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\
   distclean-recursive maintainer-clean-recursive
 AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \
@@ -307,9 +307,10 @@ SUBDIRS = \
     planargraph \
     precision \
     simplify \
+    triangulate \
     util
 
-EXTRA_DIST = version.h version.h.vc platform.h.vc platform.h.cmake
+EXTRA_DIST = version.h.vc platform.h.vc platform.h.cmake
 geosdir = $(includedir)/geos
 geos_HEADERS = \
     export.h \
@@ -337,14 +338,16 @@ geos_HEADERS = \
     opRelate.h \
     opValid.h \
     planargraph.h \
-    platform.h \
     precision.h \
     profiler.h \
     spatialIndex.h \
     timeval.h \
     unload.h \
-    util.h \
-    version.h
+    util.h
+
+nodist_geos_HEADERS = \
+ version.h \
+ platform.h
 
 all: platform.h
 	$(MAKE) $(AM_MAKEFLAGS) all-recursive
@@ -421,6 +424,26 @@ install-geosHEADERS: $(geos_HEADERS)
 uninstall-geosHEADERS:
 	@$(NORMAL_UNINSTALL)
 	@list='$(geos_HEADERS)'; test -n "$(geosdir)" || list=; \
+	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
+	test -n "$$files" || exit 0; \
+	echo " ( cd '$(DESTDIR)$(geosdir)' && rm -f" $$files ")"; \
+	cd "$(DESTDIR)$(geosdir)" && rm -f $$files
+install-nodist_geosHEADERS: $(nodist_geos_HEADERS)
+	@$(NORMAL_INSTALL)
+	test -z "$(geosdir)" || $(MKDIR_P) "$(DESTDIR)$(geosdir)"
+	@list='$(nodist_geos_HEADERS)'; test -n "$(geosdir)" || list=; \
+	for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  echo "$$d$$p"; \
+	done | $(am__base_list) | \
+	while read files; do \
+	  echo " $(INSTALL_HEADER) $$files '$(DESTDIR)$(geosdir)'"; \
+	  $(INSTALL_HEADER) $$files "$(DESTDIR)$(geosdir)" || exit $$?; \
+	done
+
+uninstall-nodist_geosHEADERS:
+	@$(NORMAL_UNINSTALL)
+	@list='$(nodist_geos_HEADERS)'; test -n "$(geosdir)" || list=; \
 	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
 	test -n "$$files" || exit 0; \
 	echo " ( cd '$(DESTDIR)$(geosdir)' && rm -f" $$files ")"; \
@@ -624,7 +647,7 @@ check: check-recursive
 all-am: Makefile $(HEADERS) platform.h
 installdirs: installdirs-recursive
 installdirs-am:
-	for dir in "$(DESTDIR)$(geosdir)"; do \
+	for dir in "$(DESTDIR)$(geosdir)" "$(DESTDIR)$(geosdir)"; do \
 	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
 	done
 install: install-recursive
@@ -672,7 +695,7 @@ info: info-recursive
 
 info-am:
 
-install-data-am: install-geosHEADERS
+install-data-am: install-geosHEADERS install-nodist_geosHEADERS
 
 install-dvi: install-dvi-recursive
 
@@ -716,7 +739,7 @@ ps: ps-recursive
 
 ps-am:
 
-uninstall-am: uninstall-geosHEADERS
+uninstall-am: uninstall-geosHEADERS uninstall-nodist_geosHEADERS
 
 .MAKE: $(RECURSIVE_CLEAN_TARGETS) $(RECURSIVE_TARGETS) all \
 	ctags-recursive install-am install-strip tags-recursive
@@ -729,12 +752,13 @@ uninstall-am: uninstall-geosHEADERS
 	install-data install-data-am install-dvi install-dvi-am \
 	install-exec install-exec-am install-geosHEADERS install-html \
 	install-html-am install-info install-info-am install-man \
-	install-pdf install-pdf-am install-ps install-ps-am \
-	install-strip installcheck installcheck-am installdirs \
-	installdirs-am maintainer-clean maintainer-clean-generic \
-	mostlyclean mostlyclean-generic mostlyclean-libtool pdf pdf-am \
-	ps ps-am tags tags-recursive uninstall uninstall-am \
-	uninstall-geosHEADERS
+	install-nodist_geosHEADERS install-pdf install-pdf-am \
+	install-ps install-ps-am install-strip installcheck \
+	installcheck-am installdirs installdirs-am maintainer-clean \
+	maintainer-clean-generic mostlyclean mostlyclean-generic \
+	mostlyclean-libtool pdf pdf-am ps ps-am tags tags-recursive \
+	uninstall uninstall-am uninstall-geosHEADERS \
+	uninstall-nodist_geosHEADERS
 
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.

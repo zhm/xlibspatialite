@@ -57,7 +57,7 @@ CONFIG_CLEAN_VPATH_FILES =
 LTLIBRARIES = $(noinst_LTLIBRARIES)
 libalgorithm_la_DEPENDENCIES = locate/liblocation.la \
 	distance/libdistance.la
-am_libalgorithm_la_OBJECTS = Angle.lo BoundaryNodeRule.lo \
+am_libalgorithm_la_OBJECTS = Angle.lo BoundaryNodeRule.lo Centroid.lo \
 	CentroidArea.lo CentroidLine.lo CentroidPoint.lo \
 	CGAlgorithms.lo ConvexHull.lo HCoordinate.lo \
 	InteriorPointArea.lo InteriorPointLine.lo \
@@ -305,6 +305,7 @@ INCLUDES = -I$(top_srcdir)/include
 libalgorithm_la_SOURCES = \
     Angle.cpp \
     BoundaryNodeRule.cpp \
+    Centroid.cpp \
     CentroidArea.cpp \
     CentroidLine.cpp \
     CentroidPoint.cpp \
@@ -388,6 +389,7 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/Angle.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/BoundaryNodeRule.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/CGAlgorithms.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/Centroid.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/CentroidArea.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/CentroidLine.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/CentroidPoint.Plo@am__quote@

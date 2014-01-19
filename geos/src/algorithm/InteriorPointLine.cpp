@@ -47,8 +47,8 @@ InteriorPointLine::InteriorPointLine(const Geometry *g)
 		std::cerr << "Centroid: " << centroid << std::endl;
 #endif
 		addInterior(g);
-		if (!hasInterior) addEndpoints(g);
 	}
+	if (!hasInterior) addEndpoints(g);
 }
 
 InteriorPointLine::~InteriorPointLine()
@@ -118,8 +118,11 @@ InteriorPointLine::addEndpoints(const Geometry *geom)
 void
 InteriorPointLine::addEndpoints(const CoordinateSequence *pts)
 {
-	add(pts->getAt(0));
-	add(pts->getAt(pts->getSize()-1));
+  size_t npts = pts->size();
+  if ( npts ) {
+    add(pts->getAt(0));
+    if ( npts > 1 ) add(pts->getAt(npts-1));
+  }
 }
 
 /*private*/
@@ -151,13 +154,4 @@ InteriorPointLine::getInteriorPoint(Coordinate& ret) const
 
 } // namespace geos.algorithm
 } // namespace geos
-
-/**********************************************************************
- * $Log$
- * Revision 1.18  2006/03/21 11:12:23  strk
- * Cleanups: headers inclusion and Log section
- *
- * Revision 1.17  2006/03/09 16:46:45  strk
- * geos::geom namespace definition, first pass at headers split
- **********************************************************************/
 

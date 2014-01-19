@@ -21,8 +21,6 @@
 #include <cassert>
 #include <cmath>
 
-using namespace std;
-
 namespace geos {
 namespace geom { // geos::geom
 
@@ -38,11 +36,6 @@ INLINE bool
 Coordinate::isNull() const
 {
 	return (ISNAN(x) && ISNAN(y) && ISNAN(z));
-}
-
-INLINE
-Coordinate::~Coordinate()
-{
 }
 
 INLINE

@@ -9,7 +9,7 @@
  *
  * This is free software; you can redistribute and/or modify it under
  * the terms of the GNU Lesser General Public Licence as published
- * by the Free Software Foundation. 
+ * by the Free Software Foundation.
  * See the COPYING file for more information.
  *
  **********************************************************************
@@ -25,6 +25,7 @@
 #include <geos/algorithm/CGAlgorithms.h>
 #include <geos/algorithm/Angle.h>
 #include <geos/operation/buffer/OffsetCurveBuilder.h>
+#include <geos/operation/buffer/BufferInputLineSimplifier.h>
 #include <geos/operation/buffer/BufferOp.h>
 #include <geos/operation/buffer/BufferParameters.h>
 #include <geos/geomgraph/Position.h>
@@ -35,8 +36,7 @@
 #include <geos/algorithm/NotRepresentableException.h>
 #include <geos/algorithm/HCoordinate.h>
 #include <geos/util.h>
-
-#include "BufferInputLineSimplifier.h"
+#include <geos/util/IllegalArgumentException.h>
 
 #ifndef GEOS_DEBUG
 #define GEOS_DEBUG 0
@@ -103,7 +103,7 @@ OffsetCurveBuilder::computePointCurve(const Coordinate& pt,
 
 /*public*/
 void
-OffsetCurveBuilder::getSingleSidedLineCurve(const CoordinateSequence* inputPts, 
+OffsetCurveBuilder::getSingleSidedLineCurve(const CoordinateSequence* inputPts,
    double distance, vector<CoordinateSequence*>& lineList, bool leftSide,
    bool rightSide)
 {
@@ -123,12 +123,14 @@ OffsetCurveBuilder::getSingleSidedLineCurve(const CoordinateSequence* inputPts,
   if ( leftSide ) {
 	  //--------- compute points for left side of line
     // Simplify the appropriate side of the line before generating
-    std::auto_ptr<CoordinateSequence> simp1_ = 
+    std::auto_ptr<CoordinateSequence> simp1_ =
       BufferInputLineSimplifier::simplify( *inputPts, distTol );
     const CoordinateSequence& simp1 = *simp1_;
 
 
     int n1 = simp1.size() - 1;
+    if ( ! n1 ) 
+      throw util::IllegalArgumentException("Cannot get offset of single-vertex line");
     segGen->initSideSegments(simp1[0], simp1[1], Position::LEFT);
     segGen->addFirstSegment();
     for (int i = 2; i <= n1; ++i) {
@@ -141,11 +143,13 @@ OffsetCurveBuilder::getSingleSidedLineCurve(const CoordinateSequence* inputPts,
 
     //---------- compute points for right side of line
     // Simplify the appropriate side of the line before generating
-    std::auto_ptr<CoordinateSequence> simp2_ = 
+    std::auto_ptr<CoordinateSequence> simp2_ =
       BufferInputLineSimplifier::simplify( *inputPts, -distTol );
     const CoordinateSequence& simp2 = *simp2_;
 
     int n2 = simp2.size() - 1;
+    if ( ! n2 ) 
+      throw util::IllegalArgumentException("Cannot get offset of single-vertex line");
     segGen->initSideSegments(simp2[n2], simp2[n2-1], Position::LEFT);
     segGen->addFirstSegment();
     for (int i = n2-2; i >= 0; --i) {
@@ -198,7 +202,7 @@ OffsetCurveBuilder::computeLineBufferCurve(const CoordinateSequence& inputPts,
 
 	//--------- compute points for left side of line
 	// Simplify the appropriate side of the line before generating
-	std::auto_ptr<CoordinateSequence> simp1_ = 
+	std::auto_ptr<CoordinateSequence> simp1_ =
 		BufferInputLineSimplifier::simplify(inputPts, distTol);
 	const CoordinateSequence& simp1 = *simp1_;
 
@@ -214,7 +218,7 @@ OffsetCurveBuilder::computeLineBufferCurve(const CoordinateSequence& inputPts,
 
 	//---------- compute points for right side of line
 	// Simplify the appropriate side of the line before generating
-	std::auto_ptr<CoordinateSequence> simp2_ = 
+	std::auto_ptr<CoordinateSequence> simp2_ =
 		BufferInputLineSimplifier::simplify(inputPts, -distTol);
 	const CoordinateSequence& simp2 = *simp2_;
 
@@ -239,8 +243,8 @@ OffsetCurveBuilder::computeRingBufferCurve(const CoordinateSequence& inputPts,
   double distTol = simplifyTolerance(distance);
 	// ensure that correct side is simplified
 	if (side == Position::RIGHT)
-		distTol = -distTol;      
-	std::auto_ptr<CoordinateSequence> simp_ = 
+		distTol = -distTol;
+	std::auto_ptr<CoordinateSequence> simp_ =
 		BufferInputLineSimplifier::simplify(inputPts, distTol);
 	const CoordinateSequence& simp = *simp_;
 
@@ -268,7 +272,7 @@ OffsetCurveBuilder::computeSingleSidedBufferCurve(
 
     //---------- compute points for right side of line
     // Simplify the appropriate side of the line before generating
-    std::auto_ptr<CoordinateSequence> simp2_ = 
+    std::auto_ptr<CoordinateSequence> simp2_ =
       BufferInputLineSimplifier::simplify(inputPts, -distTol);
     const CoordinateSequence& simp2 = *simp2_;
 
@@ -286,7 +290,7 @@ OffsetCurveBuilder::computeSingleSidedBufferCurve(
 
     //--------- compute points for left side of line
     // Simplify the appropriate side of the line before generating
-    std::auto_ptr<CoordinateSequence> simp1_ = 
+    std::auto_ptr<CoordinateSequence> simp1_ =
       BufferInputLineSimplifier::simplify(inputPts, distTol);
     const CoordinateSequence& simp1 = *simp1_;
 

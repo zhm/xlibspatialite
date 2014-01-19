@@ -35,9 +35,10 @@ namespace io {
 class GEOS_DLL Writer {
 public:
 	Writer();
+	void reserve(std::size_t capacity);
 	~Writer();
-	void write(std::string txt);
-	std::string toString();
+	void write(const std::string& txt);
+	const std::string& toString();
 private:
 	std::string str;
 };
@@ -50,10 +51,3 @@ private:
 #endif
 
 #endif // #ifndef GEOS_IO_WRITER_H
-
-/**********************************************************************
- * $Log$
- * Revision 1.1  2006/03/20 18:18:15  strk
- * io.h header split
- *
- **********************************************************************/

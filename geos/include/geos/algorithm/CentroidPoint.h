@@ -30,6 +30,7 @@ namespace geos {
 namespace geos {
 namespace algorithm { // geos::algorithm
 
+/// @deprecated use Centroid instead
 class GEOS_DLL CentroidPoint {
 
 private:
@@ -69,11 +70,3 @@ public:
 } // namespace geos
 
 #endif // GEOS_ALGORITHM_CENTROIDPOINT_H
-
-/**********************************************************************
- * $Log$
- * Revision 1.1  2006/03/09 16:46:48  strk
- * geos::geom namespace definition, first pass at headers split
- *
- **********************************************************************/
-

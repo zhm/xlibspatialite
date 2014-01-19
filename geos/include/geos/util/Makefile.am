@@ -10,12 +10,12 @@ geosdir = $(includedir)/geos/util
 geos_HEADERS = \
     Assert.h \
     AssertionFailedException.h \
-    CustomAllocators.h \
     CoordinateArrayFilter.h \
     GeometricShapeFactory.h \
     GEOSException.h \
     IllegalArgumentException.h \
     IllegalStateException.h \
+    Interrupt.h \
     math.h \
     Machine.h \
     TopologyException.h \

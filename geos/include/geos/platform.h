@@ -21,7 +21,7 @@
 #define HAVE_ISFINITE 1
 
 /* Has isnan */
-#define HAVE_ISNAN 1
+//#define HAVE_ISNAN 1
 
 #ifdef HAVE_IEEEFP_H
 extern "C"
@@ -39,7 +39,7 @@ extern "C"
 
 #if defined(__GNUC__) && defined(_WIN32)
 /* For MingW the appropriate definitions are included in
- math.h and float.h but the definitions in 
+ math.h and float.h but the definitions in
  math.h are only included if __STRICT_ANSI__
  is not defined.  Since GEOS is compiled with -ansi that
  means those definitions are not available. */
@@ -60,12 +60,12 @@ extern "C"
 #define DoubleMax std::numeric_limits<double>::max()
 
 #ifdef HAVE_INT64_T_64
-  typedef int64_t int64;
+typedef int64_t int64;
 #else
 # ifdef HAVE_LONG_LONG_INT_64
-   typedef long long int int64;
+typedef long long int int64;
 # else
-   typedef long int int64;
+typedef long int int64;
 #  ifndef HAVE_LONG_INT_64
 #   define INT64_IS_REALLY32 1
 #   warning "Could not find 64bit integer definition!"
@@ -78,7 +78,7 @@ extern "C"
 # define FINITE(x) (finite(x))
 #else
 # if defined(_MSC_VER)
-#  define FINITE(x) _finite(static_cast<double>(x))    
+#  define FINITE(x) _finite(static_cast<double>(x))
 # else
 #  define FINITE(x) (isfinite(x))
 # endif
@@ -93,8 +93,8 @@ extern "C"
 // sandro furieri: sanitizing MinGW32
 #  define ISNAN(x) (std::isnan(x))
 # elif defined(__OSX__) || defined(__APPLE__)
-   // Hack for OS/X <cmath> incorrectly re-defining isnan() into oblivion.
-   // It does leave a version in std.
+// Hack for OS/X <cmath> incorrectly re-defining isnan() into oblivion.
+// It does leave a version in std.
 #  define ISNAN(x) (std::isnan(x))
 # elif defined(__sun) || defined(__sun__)
 #  include <math.h>

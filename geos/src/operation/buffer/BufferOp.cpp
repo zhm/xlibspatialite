@@ -22,6 +22,7 @@
 #include <cmath>
 
 #include <geos/profiler.h>
+#include <geos/precision/GeometryPrecisionReducer.h>
 #include <geos/operation/buffer/BufferOp.h>
 #include <geos/operation/buffer/BufferBuilder.h>
 #include <geos/geom/Geometry.h>
@@ -151,8 +152,11 @@ void
 BufferOp::bufferReducedPrecision()
 {
 
-	// try and compute with decreasing precision
-	for (int precDigits=MAX_PRECISION_DIGITS; precDigits >= 0; precDigits--)
+	// try and compute with decreasing precision,
+	// up to a min, to avoid gross results
+	// (not in JTS, see http://trac.osgeo.org/geos/ticket/605)
+#define MIN_PRECISION_DIGITS 6
+	for (int precDigits=MAX_PRECISION_DIGITS; precDigits >= MIN_PRECISION_DIGITS; precDigits--)
 	{
 #if GEOS_DEBUG
 		std::cerr<<"BufferOp::computeGeometry: trying with precDigits "<<precDigits<<std::endl;
@@ -235,8 +239,32 @@ BufferOp::bufferFixedPrecision(const PrecisionModel& fixedPM)
 
 	bufBuilder.setNoder(&noder);
 
+	// Reduce precision of the input geometry
+	//
+	// NOTE: this reduction is not in JTS and should supposedly 
+	//       not be needed because the PrecisionModel we pass
+	//       to the BufferBuilder above (with setWorkingPrecisionModel)
+	//       should be used to round coordinates emitted by the
+	//       OffsetCurveBuilder, thus effectively producing a fully
+	//       rounded input to the noder.
+	//       Nonetheless the amount of scrambling done by rounding here
+	//       is known to fix at least one case in which MCIndexNoder
+	//       would fail: http://trac.osgeo.org/geos/ticket/605
+	//
+	// TODO: follow JTS in MCIndexSnapRounder usage
+	//
+	const Geometry *workGeom = argGeom;
+	const PrecisionModel& argPM = *(argGeom->getFactory()->getPrecisionModel());
+	std::auto_ptr<Geometry> fixedGeom;
+	if ( argPM.getType() != PrecisionModel::FIXED || argPM.getScale() != fixedPM.getScale() )
+	{
+		using precision::GeometryPrecisionReducer;
+		fixedGeom = GeometryPrecisionReducer::reduce(*argGeom, fixedPM);
+		workGeom = fixedGeom.get();
+	}
+
 	// this may throw an exception, if robustness errors are encountered
-	resultGeometry=bufBuilder.buffer(argGeom, distance);
+	resultGeometry = bufBuilder.buffer(workGeom, distance);
 }
 
 } // namespace geos.operation.buffer

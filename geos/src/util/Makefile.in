@@ -56,8 +56,8 @@ CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
 LTLIBRARIES = $(noinst_LTLIBRARIES)
 libutil_la_DEPENDENCIES =
-am_libutil_la_OBJECTS = Assert.lo CustomAllocators.lo \
-	GeometricShapeFactory.lo math.lo Profiler.lo
+am_libutil_la_OBJECTS = Assert.lo GeometricShapeFactory.lo \
+	Interrupt.lo math.lo Profiler.lo
 libutil_la_OBJECTS = $(am_libutil_la_OBJECTS)
 DEFAULT_INCLUDES = -I.@am__isrc@ -I$(top_builddir)/include -I$(top_builddir)/include/geos
 depcomp = $(SHELL) $(top_srcdir)/depcomp
@@ -294,8 +294,8 @@ noinst_LTLIBRARIES = libutil.la
 INCLUDES = -I$(top_srcdir)/include 
 libutil_la_SOURCES = \
 	Assert.cpp \
-	CustomAllocators.cpp \
 	GeometricShapeFactory.cpp \
+	Interrupt.cpp \
 	math.cpp \
 	Profiler.cpp 
 
@@ -353,8 +353,8 @@ distclean-compile:
 	-rm -f *.tab.c
 
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/Assert.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/CustomAllocators.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/GeometricShapeFactory.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/Interrupt.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/Profiler.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/math.Plo@am__quote@
 

@@ -236,8 +236,8 @@ bool
 LineString::isCoordinate(Coordinate& pt) const
 {
 	assert(points.get());
-	int npts=points->getSize();
-	for (int i = 0; i<npts; i++) {
+	std::size_t npts=points->getSize();
+	for (std::size_t i = 0; i<npts; i++) {
 		if (points->getAt(i)==pt) {
 			return true;
 		}
@@ -263,8 +263,8 @@ LineString::computeEnvelopeInternal() const
 	double miny = c.y;
 	double maxx = c.x;
 	double maxy = c.y;
-	int npts=points->getSize();
-	for (int i=1; i<npts; i++) {
+	std::size_t npts=points->getSize();
+	for (std::size_t i=1; i<npts; i++) {
 		const Coordinate &c=points->getAt(i);
 		minx = minx < c.x ? minx : c.x;
 		maxx = maxx > c.x ? maxx : c.x;
@@ -330,10 +330,10 @@ void
 LineString::normalize()
 {
 	assert(points.get());
-	int npts=points->getSize();
-	int n=npts/2;
-	for (int i=0; i<n; i++) {
-		int j = npts - 1 - i;
+	std::size_t npts=points->getSize();
+	std::size_t n=npts/2;
+	for (std::size_t i=0; i<n; i++) {
+		std::size_t j = npts - 1 - i;
 		if (!(points->getAt(i)==points->getAt(j))) {
 			if (points->getAt(i).compareTo(points->getAt(j)) > 0) {
 				CoordinateSequence::reverse(points.get());
@@ -349,11 +349,11 @@ LineString::compareToSameClass(const Geometry *ls) const
 	const LineString *line=dynamic_cast<const LineString*>(ls);
 	assert(line);
 	// MD - optimized implementation
-	int mynpts=points->getSize();
-	int othnpts=line->points->getSize();
+	std::size_t mynpts=points->getSize();
+	std::size_t othnpts=line->points->getSize();
 	if ( mynpts > othnpts ) return 1;
 	if ( mynpts < othnpts ) return -1;
-	for (int i=0; i<mynpts; i++)
+	for (std::size_t i=0; i<mynpts; i++)
 	{
 		int cmp=points->getAt(i).compareTo(line->points->getAt(i));
 		if (cmp) return cmp;
@@ -422,42 +422,3 @@ LineString::getGeometryTypeId() const
 
 } // namespace geos::geom
 } // namespace geos
-
-/**********************************************************************
- * $Log$
- * Revision 1.71  2006/06/12 10:49:43  strk
- * unsigned int => size_t
- *
- * Revision 1.70  2006/06/12 10:10:39  strk
- * Fixed getGeometryN() to take size_t rather then int, changed unsigned int parameters to size_t.
- *
- * Revision 1.69  2006/05/04 15:49:39  strk
- * updated all Geometry::getDimension() methods to return Dimension::DimensionType (closes bug#93)
- *
- * Revision 1.68  2006/04/28 10:55:39  strk
- * Geometry constructors made protected, to ensure all constructions use GeometryFactory,
- * which has been made friend of all Geometry derivates. getNumPoints() changed to return
- * size_t.
- *
- * Revision 1.67  2006/04/11 11:16:25  strk
- * Added LineString and LinearRing constructors by auto_ptr
- *
- * Revision 1.66  2006/04/10 18:15:09  strk
- * Changed Geometry::envelope member to be of type auto_ptr<Envelope>.
- * Changed computeEnvelopeInternal() signater to return auto_ptr<Envelope>
- *
- * Revision 1.65  2006/04/10 17:35:44  strk
- * Changed LineString::points and Point::coordinates to be wrapped
- * in an auto_ptr<>. This should close bugs #86 and #89
- *
- * Revision 1.64  2006/04/05 10:25:20  strk
- * Fixed LineString constructor to ensure deletion of CoordinateSequence
- * argument on exception throw
- *
- * Revision 1.63  2006/03/31 16:55:17  strk
- * Added many assertions checking in LineString implementation.
- * Changed ::getCoordinate() to return NULL on empty geom.
- * Changed ::get{Start,End}Point() to return NULL on empty geom.
- *
- **********************************************************************/
-

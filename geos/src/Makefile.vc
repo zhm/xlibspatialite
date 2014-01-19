@@ -32,6 +32,7 @@ EXT = $(OBJ_EXT)
 OBJ = \
     algorithm\Angle.$(EXT) \
     algorithm\BoundaryNodeRule.$(EXT) \
+    algorithm\Centroid.$(EXT) \
 	algorithm\CentroidArea.$(EXT) \
 	algorithm\CentroidLine.$(EXT) \
 	algorithm\CentroidPoint.$(EXT) \
@@ -171,6 +172,7 @@ OBJ = \
 	noding\BasicSegmentString.$(EXT) \
 	noding\FastNodingValidator.$(EXT) \
 	noding\FastSegmentSetIntersectionFinder.$(EXT) \
+    noding\GeometryNoder.$(EXT) \
 	noding\IntersectionAdder.$(EXT) \
 	noding\IntersectionFinderAdder.$(EXT) \
 	noding\IteratedNoder.$(EXT) \
@@ -273,6 +275,8 @@ OBJ = \
 	precision\CommonBitsOp.$(EXT) \
 	precision\CommonBitsRemover.$(EXT) \
 	precision\EnhancedPrecisionOp.$(EXT) \
+	precision\GeometryPrecisionReducer.$(EXT) \
+	precision\PrecisionReducerCoordinateOperation.$(EXT) \
 	precision\SimpleGeometryPrecisionReducer.$(EXT) \
 	simplify\DouglasPeuckerLineSimplifier.$(EXT) \
 	simplify\DouglasPeuckerSimplifier.$(EXT) \
@@ -282,8 +286,19 @@ OBJ = \
 	simplify\TaggedLineString.$(EXT) \
 	simplify\TaggedLineStringSimplifier.$(EXT) \
 	simplify\TopologyPreservingSimplifier.$(EXT) \
+	triangulate\DelaunayTriangulationBuilder.$(EXT) \
+	triangulate\IncrementalDelaunayTriangulator.$(EXT) \
+	triangulate\quadedge\LastFoundQuadEdgeLocator.$(EXT) \
+	triangulate\quadedge\LocateFailureException.$(EXT) \
+	triangulate\quadedge\QuadEdge.$(EXT) \
+	triangulate\quadedge\QuadEdgeLocator.$(EXT) \
+	triangulate\quadedge\QuadEdgeSubdivision.$(EXT) \
+	triangulate\quadedge\TrianglePredicate.$(EXT) \
+	triangulate\quadedge\TriangleVisitor.$(EXT) \
+	triangulate\quadedge\Vertex.$(EXT) \
 	util\Assert.$(EXT) \
 	util\GeometricShapeFactory.$(EXT) \
+    util\Interrupt.$(EXT) \
 	util\math.$(EXT) \
 	util\Profiler.$(EXT) \
 	linearref\ExtractLineByLocation.$(EXT) \
@@ -317,11 +332,11 @@ $(LIBNAME):	$(GEOS_ROOT)\include\geos\platform.h $(GEOS_ROOT)\include\geos\versi
 	$(LINK) /lib /out:$(LIBNAME) $(OBJ)
 
 $(DLLNAME):	$(OBJ)
-	$(LINK) /dll /debug $(OBJ) /out:$(DLLNAME) /implib:$(SLIBNAME)
+	$(LINK) /dll /debug $(LINKER_FLAGS) $(OBJ) /out:$(DLLNAME) /implib:$(SLIBNAME)
 	if exist $(DLLNAME).manifest mt -manifest $(DLLNAME).manifest -outputresource:$(DLLNAME);2
 
 $(CDLLNAME): ..\capi\geos_c.obj ..\capi\geos_ts_c.obj $(DLLNAME)
-	$(LINK) /dll /debug ..\capi\geos_c.obj ..\capi\geos_ts_c.obj $(LIBNAME) /out:$(CDLLNAME) /implib:$(CLIBNAME)
+	$(LINK) /dll /debug $(LINKER_FLAGS) ..\capi\geos_c.obj ..\capi\geos_ts_c.obj $(LIBNAME) /out:$(CDLLNAME) /implib:$(CLIBNAME)
 	if exist $(CDLLNAME).manifest mt -manifest $(CDLLNAME).manifest -outputresource:$(CDLLNAME);2
   
 $(GEOS_ROOT)\include\geos\platform.h: $(GEOS_ROOT)\include\geos\platform.h.vc
@@ -352,14 +367,12 @@ clean:
 	@IF EXIST $(SLIBNAME) $(RM) $(SLIBNAME)
 	@IF EXIST $(CLIBNAME) $(RM) $(CLIBNAME)
 	@IF EXIST $(CDLLNAME) $(RM) $(CDLLNAME)
-	-@del ..\capi\*.obj
-	-@del *.exe
-	-@del *.exp
-	-@del *.ilk
-	-@del *.manifest
-	-@del *.obj
-	-@del *.pdb
-	-@FOR %d IN ( $(GEOS_DIRLIST) ) DO del %d\*.obj
+	-@del /s *.exe
+	-@del /s *.exp
+	-@del /s *.ilk
+	-@del /s *.manifest
+	-@del /s *.obj
+	-@del /s *.pdb
 
 TestSweepLineSpeed.exe:	$(LIBNAME) \
 		..\tests\bigtest\GeometryTestFactory.obj \

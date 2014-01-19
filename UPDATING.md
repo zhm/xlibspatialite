@@ -9,6 +9,26 @@
 * Remove geoJSON, Ewkt, Gml, Kml, vanatuWkt .c/.h files from src/gaiageo
 * Remove all .h files
 * Remove all Makefile.am and Makefile.in files from Xcode
+* There seems to be issues with iconv on iOS and how SpatiaLite uses it.
+  If you get errors in gg_utf8.c, just return NULL from gaiaGetLocaleCharset()
+  Nothing in SpatiaLite uses this function, it's there for consumers
+  of the SpatiaLite API.
+
+```
+gaiaGetLocaleCharset ()
+{
+/* identifies the locale charset */
+#if defined(__MINGW32__) || defined(_WIN32)
+    return locale_charset ();
+#else /* not MINGW32 - WIN32 */
+#if defined(__APPLE__) || defined(__ANDROID__)
+    return NULL; //locale_charset ();
+#else /* neither Mac OsX nor Android */
+    return nl_langinfo (CODESET);
+#endif
+#endif
+}
+```
 
 # Updating lwgeom
 
@@ -34,3 +54,12 @@ with
 
 * To get a newer version of liblwgeom.h, run ./configure from the postgis source directory and copy it into this project
 * You can also copy postgis_config.h from the newer source directory into the project
+
+# Updating GEOS
+
+* Download latest source
+* ./configure
+* Replace the entire contents of src, include, and capi with the new versions
+* Make sure to remove include from the Xcode project
+* You might have to hack GEOSversion because we don't have the SVN revision
+* Comment out HAVE_ISNAN in platform.h if you get errors about ISNAN macro
