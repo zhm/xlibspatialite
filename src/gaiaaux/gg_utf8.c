@@ -2,7 +2,7 @@
 
  gg_utf8.c -- locale charset handling
   
- version 4.0, 2012 August 6
+ version 4.1, 2013 May 8
 
  Author: Sandro Furieri a.furieri@lqt.it
 
@@ -24,7 +24,7 @@ The Original Code is the SpatiaLite library
 
 The Initial Developer of the Original Code is Alessandro Furieri
  
-Portions created by the Initial Developer are Copyright (C) 2008-2012
+Portions created by the Initial Developer are Copyright (C) 2008-2013
 the Initial Developer. All Rights Reserved.
 
 Contributor(s):
@@ -71,8 +71,7 @@ extern const char *locale_charset (void);
 #else /* not MINGW32 - WIN32 */
 #if defined(__APPLE__) || defined(__ANDROID__)
 #include <iconv.h>
-#include <locale.h>
-//#include "localcharset.h"
+#include <localcharset.h>
 #else /* neither Mac OsX nor Android */
 #include <iconv.h>
 #include <langinfo.h>
@@ -90,7 +89,7 @@ gaiaGetLocaleCharset ()
     return locale_charset ();
 #else /* not MINGW32 - WIN32 */
 #if defined(__APPLE__) || defined(__ANDROID__)
-    return NULL; //locale_charset ();
+    return locale_charset ();
 #else /* neither Mac OsX nor Android */
     return nl_langinfo (CODESET);
 #endif
