@@ -1,3 +1,9 @@
+# Updating SQLite
+
+* Download amalgamation
+* Replace all of the files, leaving redefines.h
+* Add #include "redefines.h" at the top of sqlite.h and sqlite.c
+
 # Updating SpatiaLite
 
 * Delete old src/ directory
