@@ -239,3 +239,8 @@
 #define sqlite3_uri_int64 spatialite4_sqlite3_uri_int64
 
 #define sqlite3_stmt spatialite4_sqlite3_stmt
+
+// new in SQLite 3.8
+#define sqlite3_cancel_auto_extension spatialite4_sqlite3_cancel_auto_extension
+#define sqlite3_strglob spatialite4_sqlite3_strglob
+#define sqlite3_extension_init spatialite4_sqlite3_extension_init
